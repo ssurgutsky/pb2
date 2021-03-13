@@ -4,7 +4,7 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/e01bg0003.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -55,7 +55,9 @@
 
 		{
 			"name": "sensorGround",
-			"template": "sensor_ground"
+			"template": "sensor_ground",
+			"x": 960,
+			"y": 1050
 		},
 
 		{
@@ -106,15 +108,15 @@
 		{
 			"name": "pharao1",
 			"template": "pharao_light",
-			"x": 239,
-			"y": 277,
+			"x": 312,
+			"y": 200,
 			"layer": 2
 		},
 		{
 			"name": "pharao2",
 			"template": "pharao_light",
-			"x": 668,
-			"y": 311,
+			"x": 736,
+			"y": 222,
 			"layer": 2
 		},
 
@@ -122,9 +124,9 @@
 			"name": "drone1",
 			"template": "drone1",
 			"x": 1500,
-			"y": 411,
-			"attackX": 668,
-			"attackY": 311,
+			"y": 222,
+			"attackX": 736,
+			"attackY": 222,
 			"AI": {
 				"distance": 300,
 				"produceProbability": 0.1

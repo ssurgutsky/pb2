@@ -4,7 +4,7 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/e01bg0002.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -57,7 +57,9 @@
 
 		{
 			"name": "sensorGround",
-			"template": "sensor_ground"
+			"template": "sensor_ground",
+			"x": 960,
+			"y": 1050
 		},
 
 		{
@@ -108,23 +110,15 @@
 		{
 			"name": "pharao1",
 			"template": "pharao_light",
-			"x": 360,
-			"y": 457,
+			"x": 355,
+			"y": 506,
 			"layer": 2
 		},
 		{
 			"name": "pharao2",
 			"template": "pharao_light",
-			"x": 668,
-			"y": 311,
-			"layer": 2
-		},
-
-		{
-			"name": "jewel_test",
-			"template": "jewel_test",
-			"x": 1500,
-			"y": 800,
+			"x": 603,
+			"y": 411,
 			"layer": 2
 		},
 
@@ -132,11 +126,12 @@
 			"name": "drone1",
 			"template": "drone1",
 			"x": 1500,
-			"y": 211,
-			"attackX": 668,
-			"attackY": 311,
+			"y": 250,
+			"attackX": 603,
+			"attackY": 411,
+			"livesEmitters": null,
 			"AI": {
-				"distance": 300,
+				"distance": 250,
 				"produceProbability": 0.1
 			},
 			"layer": 2

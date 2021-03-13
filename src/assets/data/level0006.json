@@ -4,7 +4,7 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/e01bg0005.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -142,14 +142,21 @@
 			"name": "brick1sdd1",
 			"template": "brick1_3_sdd",
 			"x": 1000,
-			"y": 200,
+			"y": 50,
 			"layer": 2
 		},
 		{
 			"name": "brick1sdd2",
 			"template": "brick1_3_sdd",
 			"x": 830,
-			"y": 215,
+			"y": 65,
+			"layer": 2
+		},
+		{
+			"name": "brick1sdd3",
+			"template": "brick1_3_sdd",
+			"x": 660,
+			"y": 80,
 			"layer": 2
 		},
 
