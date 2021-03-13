@@ -1,0 +1,34 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "debris_chest12shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_chest12",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hitSound": "hit_block",
+	"hasDust": true,
+	"debrises": [
+		{
+			"name": "d1",
+			"template": "debris_chest1_atom",
+			"lx": -30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d1",
+			"template": "debris_chest1_atom",
+			"lx": 30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

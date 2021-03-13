@@ -1,0 +1,12 @@
+{
+	"shape": "CIRCLE",
+	"shapeName": "",
+	"atlas": "assets0001",
+	"frame": "ball_big",
+	"bodyMass": 1,
+	"lives": -1,
+	"impulseMultiplier": 3,
+	"isBall": true,
+	"isRespawnable": true,
+	"respawnSound": "respawn"
+}

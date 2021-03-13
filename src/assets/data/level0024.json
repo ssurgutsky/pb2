@@ -1,0 +1,199 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
+		],
+		"IMAGES": [
+			{ "key": "bg", "url": "src/assets/images/bg/bg0001.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
+		],
+		"JSON": [
+			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+
+			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
+			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
+			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
+			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
+			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+
+
+
+			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
+
+			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
+			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
+
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "spider_web_light", "url": "src/assets/data/assets0001/spider_web_light.json" },
+			{ "key": "spider_web_medium", "url": "src/assets/data/assets0001/spider_web_medium.json" },
+			{ "key": "spider_web_debris1", "url": "src/assets/data/assets0001/spider_web_debris1.json" },
+			{ "key": "spider_web_debris2", "url": "src/assets/data/assets0001/spider_web_debris2.json" },
+			{ "key": "spider_web_debris3", "url": "src/assets/data/assets0001/spider_web_debris3.json" },
+
+			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
+			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
+			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
+			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
+			{ "key": "brick1_3_2", "url": "src/assets/data/assets0001/brick1_3_2.json" },
+			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
+			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
+			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
+		]
+	}, 
+	"bg": "bg",
+	"balls": 20,
+	"tasks": 7,
+	"objects": [
+		{
+			"name": "bf1",
+			"template": "board_frame1",
+			"x": 0,
+			"y": 0,
+			"layer": 0
+		},
+
+		{
+			"name": "sensorGround",
+			"template": "sensor_ground",
+			"x": 960,
+			"y": 1050
+		},
+
+		{
+			"name": "brick13",
+			"template": "brick1_3",
+			"x": 1000,
+			"y": 951,
+			"angle": 90,
+			"layer": 2
+		},
+		{
+			"name": "brick12",
+			"template": "brick1_3",
+			"x": 990,
+			"y": 784,
+			"angle": 90,
+			"layer": 2
+		},
+		{
+			"name": "brick11",
+			"template": "brick1_3",
+			"x": 980,
+			"y": 617,
+			"angle": 90,
+			"layer": 2
+		},
+
+
+		{
+			"name": "swl1",
+			"template": "spider_web_light",
+			"x": 647,
+			"y": 650,
+			"layer": 2
+		},
+		{
+			"name": "swl2",
+			"template": "spider_web_medium",
+			"x": 360,
+			"y": 790,
+			"layer": 2
+		},
+		{
+			"name": "swl3",
+			"template": "spider_web_medium",
+			"x": 1035,
+			"y": 350,
+			"layer": 2
+		},
+		{
+			"name": "swl4",
+			"template": "spider_web_light",
+			"x": 866,
+			"y": 875,
+			"layer": 2
+		},
+		{
+			"name": "swl5",
+			"template": "spider_web_light",
+			"x": 497,
+			"y": 300,
+			"layer": 2
+		},
+		{
+			"name": "swl6",
+			"template": "spider_web_light",
+			"x": 1236,
+			"y": 866,
+			"layer": 2
+		},
+		{
+			"name": "swl7",
+			"template": "spider_web_light",
+			"x": 1316,
+			"y": 594,
+			"layer": 2
+		},
+
+		{
+			"name": "Pusher",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 800
+		},
+		{
+			"name": "pusher1_lb",
+			"template": "pusher1_lb",
+			"x": 1626,
+			"y": 890
+		},
+		{
+			"name": "pusher1_rb",
+			"template": "pusher1_rb",
+			"x": 1809,
+			"y": 890
+		},
+		{
+			"name": "pusher1_lt",
+			"template": "pusher1_lt",
+			"x": 1642,
+			"y": 655
+		},
+		{
+			"name": "pusher1_rt",
+			"template": "pusher1_rt",
+			"x": 1797,
+			"y": 655
+		},
+
+
+		{
+			"name": "Beam1",
+			"template": "beam1",
+			"lives": 19,
+			"layer": 3
+		},
+		{
+			"name": "Ball1",
+			"template": "ball_big1",
+			"x": 1720,
+			"y": 710,
+			"layer": 2
+		}
+	]
+}

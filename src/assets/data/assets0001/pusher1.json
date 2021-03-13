@@ -1,0 +1,16 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "pusher1shape",
+	"atlas": "assets0001",
+	"frame": "pusher1",
+	"pBodyMass": 500,
+	"pScaleGravity": -30,
+	"pPrismaticConstraintAnchorB": 60,
+	"pOffsetY": 45,
+	"pMinY": 28,
+	"pMaxY": 230,
+	"isBallIgnore": true,
+	"isPusher": true,
+	"effectSound": "spring",
+	"layer": 2
+}

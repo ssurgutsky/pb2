@@ -1,0 +1,134 @@
+{
+	"name": "spider",
+	"shape": "POLYGON",
+	"shapeName": "spider001shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"lives": 5,
+	"frame": "spider01",
+	"livesEffect": true,
+	"bodyMass": 5,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_spider",
+	"animations": {
+		"idle": {
+			"frameName": "spider0", 
+			"framesCount": 1, 
+			"frameRate": 12,
+			"isStart": true,
+			"isLoop": false
+		},
+		"move": {
+			"frameName": "spider0", 
+			"framesCount": 11, 
+			"frameRate": 12,
+			"isStart": false,
+			"isLoop": true
+		}
+	},
+
+	"tweens": {
+		"idle": {
+			"firstDelay": 1,
+			"timeline": [
+				{"to": {"alpha": 1}, "duration": 1000, "initAlpha": 0, "delay": 2000}
+			]
+		},
+		"blink": {
+			"delay": 10,
+			"randomDelay": [5,8],
+			"firstDelay": 2,
+			"timeline": [
+				{"to": {"alpha": 1}, "duration": 500},
+				{"to": {}, "duration": 3000},
+				{"to": {"alpha": 0}, "duration": 500}
+			]
+		}
+	},
+
+	"AI": {
+		"type": "spider",
+
+		"firstIdleDuration": 3000,
+		"idleDuration": 1000,
+		"idleSound": "idle_spider",
+
+		"firstMoveDuration": 2000,
+		"XY": [[450,250], [900,250], [1600,650], [900, 650], [300,800]],
+		"moveDuration": 2000,
+		"moveProbability": 0.6,
+		"rotationDuration": 100,
+		"rotationDelta": -180,
+		"moveSound": "move_spider",
+
+		"produceProbability": 0.2,
+		"produceSound": "hit_spider_web",
+		"produce": [
+			{
+				"name": "swb",
+				"template": "spider_web_big",
+				"isBallSensor": true,
+				"timeToLive": 20,
+				"lx": 0,
+				"ly": -30,
+				"vx": 0,
+				"vy": 0,
+				"sx": 1.5,
+				"sy": 1.5
+			}
+		]
+	},
+
+	"hitDebrises": [
+		{
+			"name": "sd1",
+			"template": "spider_debris1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "sd2",
+			"template": "spider_debris2",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "sd3",
+			"template": "spider_debris3",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "d1",
+			"isTask": true,
+			"template": "coin_golden",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.5,
+			"sy": 0.5
+		},
+
+		{
+			"name": "d1",
+			"template": "spider_dead",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 2,
+			"sy": 2
+		}
+	]
+}

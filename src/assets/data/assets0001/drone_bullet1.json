@@ -1,0 +1,14 @@
+{
+	"shape": "CIRCLE",
+	"shapeRadius": "30",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "emitter_red",
+	"bodyMass": 1,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hitSound": "hit_block",
+	"hasDust": true,
+	"debrises": [
+	]
+}

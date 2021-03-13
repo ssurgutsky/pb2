@@ -1,0 +1,498 @@
+{
+	"preload": {
+			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
+			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
+			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
+			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
+			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+
+
+
+			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
+
+			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
+
+			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
+			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
+			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
+			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
+			{ "key": "brick1_3_2", "url": "src/assets/data/assets0001/brick1_3_2.json" },
+			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
+			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
+			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+	}, 
+	"bg": "bg",
+	"balls": 100,
+	"objects": [
+		{
+			"name": "BoardFrame1",
+			"bodyType": "STATIC",
+			"shape": "POLYGON",
+			"shapeName": "board1Frame",
+			"x": 0,
+			"y": 0
+		},
+		{
+			"name": "sensorSuccessAvatar",
+			"bodyType": "STATIC",
+			"atlas": "common",
+			"frame": "avatar1",
+			"isSensor": true,
+			"respawnOnHit": false,
+			"coins": 500,
+			"x": 400,
+			"y": 150
+		},
+		{
+			"name": "Ball",
+			"isBall": true,
+			"shape": "CIRCLE",
+			"shapeName": "",
+			"atlas": "common",
+			"frame": "ball",
+			"isRespawnable": true,
+			"bodyMass": 1,
+			"x": 1700,
+			"y": 830
+		},
+		{
+			"name": "Ball1",
+			"isBall": true,
+			"shape": "CIRCLE",
+			"shapeName": "",
+			"atlas": "common",
+			"frame": "ball2",
+			"isRespawnable": true,
+			"bodyMass": 1,
+			"x": 1750,
+			"y": 830
+		},
+		{
+			"name": "Ball2",
+			"isBall": true,
+			"shape": "CIRCLE",
+			"shapeName": "",
+			"atlas": "common",
+			"frame": "ball2",
+			"isRespawnable": true,
+			"bodyMass": 1,
+			"x": 1720,
+			"y": 800
+		},
+		{
+			"name": "Ball3",
+			"isBall": true,
+			"shape": "CIRCLE",
+			"shapeName": "",
+			"atlas": "common",
+			"frame": "ball2",
+			"isRespawnable": true,
+			"bodyMass": 1,
+			"x": 1680,
+			"y": 800
+		},
+		{
+			"name": "Ball4",
+			"isBall": true,
+			"shape": "CIRCLE",
+			"shapeName": "",
+			"atlas": "common",
+			"frame": "ball2",
+			"isRespawnable": true,
+			"bodyMass": 1,
+			"x": 1700,
+			"y": 770
+		},
+		{
+			"name": "Ball5",
+			"isBall": true,
+			"shape": "CIRCLE",
+			"shapeName": "",
+			"atlas": "common",
+			"frame": "ball2",
+			"isRespawnable": true,
+			"bodyMass": 1,
+			"x": 1740,
+			"y": 770
+		},
+		{
+			"name": "Pusher",
+			"shape": "POLYGON",
+			"shapeName": "pusher1shape",
+			"atlas": "common",
+			"frame": "pusher",
+			"x": 1720,
+			"y": 900,
+			"pBodyMass": 500,
+			"pScaleGravity": -50,
+			"pPrismaticConstraintAnchorB": 60,
+			"pMinY": 28,
+			"pMaxY": 200
+		},
+		{
+			"name": "sideBlock",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block50x200",
+			"x": 1640,
+			"y": 830
+		},
+		{
+			"name": "sideBlock2",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block50x200",
+			"x": 1800,
+			"y": 830
+		},
+		{
+			"name": "sideBlock3",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block50x200",
+			"bodyRotation": 50,
+			"x": 1800,
+			"y": 530
+		},
+		{
+			"name": "sensorGround",
+			"template": "sensor_ground"
+		},
+		{
+			"name": "sideBlock1",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block25x100",
+			"x": 288,
+			"y": 915
+		},
+		{
+			"name": "sensorSuccess1",
+			"bodyType": "STATIC",
+			"atlas": "common",
+			"frame": "sensorSuccess200x50",
+			"isSensor": true,
+			"respawnOnHit": true,
+			"coins": 150,
+			"x": 400,
+			"y": 930
+		},
+		{
+			"name": "sideBlock2",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block25x100",
+			"x": 512,
+			"y": 915
+		},
+		{
+			"name": "sideBlock3",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block25x100",
+			"x": 688,
+			"y": 915
+		},
+		{
+			"name": "sensorSuccess2",
+			"bodyType": "STATIC",
+			"atlas": "common",
+			"frame": "sensorSuccess200x50",
+			"isSensor": true,
+			"respawnOnHit": true,
+			"coins": 200,
+			"x": 800,
+			"y": 930
+		},
+		{
+			"name": "sideBlock4",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block25x100",
+			"x": 912,
+			"y": 915
+		},
+		{
+			"name": "sideBlock5",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block25x100",
+			"x": 1088,
+			"y": 915
+		},
+		{
+			"name": "sensorSuccess3",
+			"atlas": "common",
+			"frame": "sensorSuccess200x50",
+			"bodyType": "STATIC",
+			"isSensor": true,
+			"respawnOnHit": true,
+			"coins": 100,
+			"x": 1200,
+			"y": 930
+		},
+		{
+			"name": "sideBlock6",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block25x100",
+			"x": 1312,
+			"y": 915
+		},
+		{
+			"name": "block1",
+			"bodyType": "KINEMATIC",
+			"atlas": "common",
+			"frame": "block200x100",
+			"bodyRotation": -50,
+			"lives": 3,
+			"bodyMass": 200,
+			"x": 600,
+			"y": 380
+		},
+		{
+			"name": "block2",
+			"bodyType": "STATIC",
+			"atlas": "common",
+			"frame": "block200x50",
+			"lives": 3,
+			"bodyMass": 200,
+			"x": 850,
+			"y": 250
+		},
+		{
+			"name": "block3",
+			"bodyType": "STATIC",
+			"shape": "POLYGON",
+			"shapeName": "block400x50oval",
+			"atlas": "common",
+			"frame": "block400x50oval",
+			"lives": 3,
+			"bodyMass": 300,
+			"x": 850,
+			"y": 700
+		},
+		{
+			"name": "cross200x200",
+			"bodyType": "KINEMATIC",
+			"shape": "POLYGON",
+			"shapeName": "cross200x200",
+			"atlas": "common",
+			"frame": "cross200x200",
+			"bodyRotation": 50,
+			"lives": 3,
+			"bodyMass": 200,
+			"x": 850,
+			"y": 380
+		},
+		{
+			"name": "cross200x200",
+			"shape": "POLYGON",
+			"shapeName": "cross200x200",
+			"atlas": "common",
+			"frame": "cross200x200",
+			"bodyLocked": true,
+			"lives": 3,
+			"bodyMass": 200,
+			"x": 1100,
+			"y": 380
+		},
+		{
+			"name": "pharao216x200",
+			"template": "pharao",
+			"x": 850,
+			"y": 130,
+		},
+		{
+			"name": "circle1",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 400,
+			"y": 500
+		},
+		{
+			"name": "circle2",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 500,
+			"y": 500
+		},
+		{
+			"name": "circle3",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 600,
+			"y": 500
+		},
+		{
+			"name": "circle4",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 700,
+			"y": 500
+		},
+		{
+			"name": "circle5",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 800,
+			"y": 500
+		},
+		{
+			"name": "circle6",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 900,
+			"y": 500
+		},
+		{
+			"name": "circle7",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1000,
+			"y": 500
+		},
+		{
+			"name": "circle8",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1100,
+			"y": 500
+		},
+		{
+			"name": "circle9",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1200,
+			"y": 500
+		},
+		{
+			"name": "circle10",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1300,
+			"y": 500
+		},
+		{
+			"name": "circle11",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 350,
+			"y": 600
+		},
+		{
+			"name": "circle12",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 450,
+			"y": 600
+		},
+		{
+			"name": "circle13",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 550,
+			"y": 600
+		},
+		{
+			"name": "circle14",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 650,
+			"y": 600
+		},
+		{
+			"name": "circle15",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 750,
+			"y": 600
+		},
+		{
+			"name": "circle16",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 850,
+			"y": 600
+		},
+		{
+			"name": "circle17",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 950,
+			"y": 600
+		},
+		{
+			"name": "circle18",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1050,
+			"y": 600
+		},
+		{
+			"name": "circle19",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1150,
+			"y": 600
+		},
+		{
+			"name": "circle20",
+			"shape": "CIRCLE",
+			"atlas": "common",
+			"frame": "circle",
+			"bodyType": "KINEMATIC",
+			"x": 1250,
+			"y": 600
+		}
+	]
+}

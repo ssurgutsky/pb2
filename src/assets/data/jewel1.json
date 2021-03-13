@@ -1,0 +1,43 @@
+{
+	"name": "jewel1",
+	"shape": "POLYGON",
+	"shapeName": "jewel1shape",
+	"atlas": "animations",
+	"frame": "Jewel01_000",
+	"impulseMultiplier": 3,
+	"bodyMass": 1,
+	"animations": {
+		"idle": {"frameName": "Jewel01_00", "framesCount": 1, "frameRate": 1, "isStart": true},
+		"blink": {"frameName": "Jewel01_00", "framesCount": 4, "frameRate": 24, "isLoop": false, "randomDelay": [5,10]}
+	},
+	"isBall": true,
+	"isRespawnable": true,
+	"respawnSound": "respawn",
+	"lives": 19,
+	"livesEffect": true,
+	"minHitImpulse": 1000,
+	"ox": 1720,
+	"oy": 740,
+	"debrises": [
+		{
+			"name": "debris_atom",
+			"template": "debris_atom1",
+			"lx": -30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "debris_atom",
+			"template": "debris_atom1",
+			"lx": 30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

@@ -1,0 +1,13 @@
+{
+	"name": "soul1",
+	"atlas": "assets0001",
+	"frame": "soul1",
+	"bodyMass": 1,
+	"lives": 1,
+	"timeToLive": 0.5,
+	"isDecor": true,
+	"alpha": 0.5,
+
+	"debrises": [
+	]
+}

@@ -1,0 +1,52 @@
+{
+	"name": "spider_web_big",
+	"shape": "POLYGON",
+	"shapeName": "spider_web001shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"frame": "spider_web",
+	"bodyMass": 0.1,
+
+	"isSensor": true,
+
+
+	"lives": 1,
+	"hitSound": "hit_spider_web",
+	"sx": 1.5,
+	"sy": 1.5,
+
+	"debrises": [
+		{
+			"name": "swbd1",
+			"template": "spider_web_debris1",
+			"lx": -80,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "swbd2",
+			"template": "spider_web_debris2",
+			"lx": 50,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "swbd3",
+			"template": "spider_web_debris3",
+			"lx": 0,
+			"ly": 80,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		}
+	],
+	"respawnOnHit": true,
+	"hasDust": true
+}

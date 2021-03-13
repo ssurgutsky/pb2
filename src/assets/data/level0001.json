@@ -1,0 +1,132 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "intro", "url": "src/assets/images/intro" }
+		],
+		"IMAGES": [
+			{ "key": "intro01", "url": "src/assets/images/bg/intro01.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+		],
+		"JSON": [
+			{ "key": "intro_bg", "url": "src/assets/data/intro/intro_bg.json" },
+			{ "key": "spaceship1", "url": "src/assets/data/intro/spaceship1.json" },
+			{ "key": "rocket1", "url": "src/assets/data/intro/rocket1.json" },
+			{ "key": "fire", "url": "src/assets/data/intro/fire.json" }
+
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/intro/physicsData.json" }
+		]
+	}, 
+	"bg": "",
+	"balls": 1,
+	"tasks": 1,
+	"isHideUI": true,
+	"isHideWinLose": false,
+	"objects": [
+		{
+			"name": "intro_bg",
+			"template": "intro_bg",
+			"x": 960,
+			"y": 540,
+			"layer": 1,
+			"tweens": {
+				"idle": {
+					"timeline": [
+						{"toBody": {"x": "-500", "y": "+100"}, "duration": 40000},
+						{"toScale": {"x": 2, "y": 2}, "duration": 40000, "isParallel": true}
+					]
+				}
+			}
+		},
+
+		{
+			"name": "spaceship1",
+			"template": "spaceship1",
+			"x": 3000,
+			"y": 400,
+			"sx": 3,
+			"sy": 3,
+			"layer": 1,
+			"tweens": {
+				"idle": {
+					"timeline": [
+						{"toBody": {"x": 900, "y": 250}, "duration": 5000},
+						{"toScale": {"x": 0.75, "y": 0.75}, "duration": 5000, "isParallel": true},
+						{"toBody": {"y": 280}, "duration": 2000},
+						{"toBody": {"y": 250}, "duration": 2000},
+						{"toScale": {"x": 1.5, "y": 1.5}, "duration": 2000, "isParallel": true},
+						{"toBody": {"y": 280}, "duration": 2000},
+						{"toScale": {"x": 0.75, "y": 0.75}, "duration": 5000, "isParallel": true},
+						{"toBody": {"y": 250}, "duration": 2000},
+						{"toBody": {"y": 280}, "duration": 2000},
+						{"toBody": {"y": 750}, "duration": 2000},
+						{"toBody": {"x": 800}, "duration": 2000},
+						{"toScale": {"x": 1.5, "y": 1.5}, "duration": 2000, "isParallel": true},
+						{"toBody": {"x": 900, "y": -1500, "rotation": 1.7}, "duration": 2000},
+						{"toScale": {"x": 3, "y": 3}, "duration": 2000, "isParallel": true}
+					]
+				}
+			},
+		
+			"produceDelays": [9],
+			"produceRandom": false,
+			"produce": [
+				{
+					"name": "rocket1",
+					"template": "rocket1",
+					"alpha": 0,
+					"addTasks": 0,
+					"addFails": 0,
+					"layer": 1,
+					"timeToLive": 15,
+					"tweens": {
+						"idle": {
+							"timeline": [
+								{"to": {"alpha": 1}, "duration": 300},
+								{"toBody": {"y": "+300"}, "duration": 2000},
+								{"toBody": {"x": "-600", "rotation": -1}, "duration": 12000},
+								{"toScale": {"x": 0.01, "y": 0.01}, "duration": 12000, "isParallel": true}
+							]
+						}
+					},
+					"debrises": [
+						{
+							"name": "dummy",
+							"isTask": true
+						}
+					]
+				},
+				{
+					"name": "rocket_fire1",
+					"template": "fire",
+					"lockToObject": 
+						{
+							"name": "rocket1",
+							"offset": {"x": 0, "y": 200},
+							"angle": 0,
+							"isDestroyWithLockedObject": true
+						},
+					"layer": 1
+				}
+			]
+		},
+
+		{
+			"name": "spaceship_fire1",
+			"template": "fire",
+			"lockToObject": 
+				{
+					"name": "spaceship1",
+					"offset": {"x": 400, "y": 50},
+					"angle": 90
+				},
+			"x": 1900,
+			"y": 200,
+			"layer": 1
+		}
+
+	]
+}

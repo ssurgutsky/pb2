@@ -1,0 +1,17 @@
+{
+	"name": "fire",
+	"bodyType": "DYNAMIC",
+	"atlas": "intro",
+	"frame": "fire00",
+	"isDecor": true,
+
+	"animations": {
+		"idle": {
+			"frameName": "fire0",
+			"framesCount": 7, 
+			"frameRate": 24, 
+			"isStart": true,
+			"isLoop": true
+		}
+	}
+}

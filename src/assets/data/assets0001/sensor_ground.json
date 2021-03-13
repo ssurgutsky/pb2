@@ -1,0 +1,17 @@
+{
+	"name": "sensorGround",
+	"atlas": "assets0001",
+	"frame": "sensorFail200x50",
+	"bodyType": "STATIC",
+	"isSensor": true,
+	"lives": -1,
+	"respawnOnHit": true,
+	"coins": 0,
+	"x": 960,
+	"y": 1000,
+	"layer": 3,
+	"w": 1920,
+	"alpha": 0.3,
+	"layer": 2,
+	"isSensorGround": true
+}

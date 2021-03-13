@@ -1,0 +1,46 @@
+{
+	"name": "jewel1",
+	"shape": "POLYGON",
+	"shapeName": "jewel1shape",
+	"atlas": "animations",
+	"livesFrames": ["Jewel01_000","Jewel01_000"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC"],
+	"bodyMass": 1,
+	"lives": 2,
+
+	"livesAnimations": [
+		{
+			"idle": {"frameName": "Jewel02_00", "framesCount": 1, "frameRate": 1, "isStart": true},
+			"blink": {"frameName": "Jewel02_00", "framesCount": 4, "frameRate": 24, "isLoop": false, "delay": 5}
+		},
+		{
+			"idle": {"frameName": "Jewel01_00", "framesCount": 1, "frameRate": 1, "isStart": true},
+			"blink": {"frameName": "Jewel01_00", "framesCount": 4, "frameRate": 24, "isLoop": false, "delay": 5}
+		}
+	],
+
+	"livesEffect": true,
+	"minHitImpulse": 1000,
+	"debrises": [
+		{
+			"name": "debris_atom",
+			"template": "debris_atom1",
+			"lx": -30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "debris_atom",
+			"template": "debris_atom1",
+			"lx": 30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

@@ -1,0 +1,14 @@
+{
+	"spaceship1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [240,230, 240,100, 700,100, 700,230]
+		}
+	],
+	"rocket1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [40,180, 40,46, 80,46, 80,180]
+		}
+	]
+}

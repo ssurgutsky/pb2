@@ -1,0 +1,15 @@
+{
+	"bodyType": "STATIC",
+	"atlas": "assets0001",
+	"frame": "sensorSuccess200x50",
+	"isSensor": true,
+	"lives": -1,
+	"livesEffect": true,
+	"saveLivesOnHit": true,
+	"destroyOnHit": true,
+	"respawnOnHit": true,
+	"coins": 200,
+	"hasElectro": true,
+	"isCoinsForBall": true,
+	"layer": 2
+}

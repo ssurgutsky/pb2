@@ -1,0 +1,20 @@
+{
+	"name": "coin_silver",
+	"shape": "CIRCLE",
+	"shapeName": "",
+	"atlas": "animations",
+	"frame": "Jewel021_000",
+	"bodyMass": 1,
+	"animations": {
+		"idle": {"frameName": "Jewel021_00", "framesCount": 1, "frameRate": 1, "isStart": true},
+		"blink": {"frameName": "Jewel021_00", "framesCount": 4, "frameRate": 12, "isLoop": false, "delay": 1}
+	},
+	"lives": 1,
+	"timeToLive": 3,
+	"coins": 100,
+	"minHitImpulse": 1000,
+	"sx": 0.5,
+	"sy": 0.5,
+	"debrises": [
+	]
+}

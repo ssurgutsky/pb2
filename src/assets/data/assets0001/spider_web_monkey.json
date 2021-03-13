@@ -1,0 +1,100 @@
+{
+	"name": "spider_web_medium",
+	"shape": "POLYGON",
+	"shapeName": "spider_web001shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"frame": "spider_web",
+	"bodyMass": 0.1,
+
+	"isSensor": true,
+
+
+	"lives": 3,
+	"hitSound": "hit_spider_web",
+
+	"sx": 1.5,
+	"sy": 1.5,
+
+	"hitDebrises": [
+		{
+			"name": "swd1",
+			"template": "spider_web_debris1",
+			"lx": -80,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "swd2",
+			"template": "spider_web_debris2",
+			"lx": 60,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "swd3",
+			"template": "spider_web_debris3",
+			"lx": 0,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		}
+	],
+	"debrises": [
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"lx": 0,
+			"ly": -100,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
+		},
+
+		{
+			"name": "swd1",
+			"template": "spider_web_debris1",
+			"isTask": true,
+			"lx": -80,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "swd2",
+			"template": "spider_web_debris2",
+			"lx": 80,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "swd3",
+			"template": "spider_web_debris3",
+			"lx": 0,
+			"ly": 50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		}
+	],
+	"livesEffect": true,
+	"saveLivesOnHit": true,
+	"respawnOnHit": true,
+	"hasDust": true
+}

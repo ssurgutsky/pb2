@@ -1,0 +1,26 @@
+{
+	"name": "hint1",
+	"bodyType": "STATIC",
+	"atlas": "tutorials",
+	"frame": "hint00",
+	"animations": {
+		"idle": {
+			"frameName": "hint0", 
+			"framesCount": 1, 
+			"frameRate": 1, 
+			"isStart": true
+		},
+		"blink": {
+			"delay": 10,
+			"randomDelay": [3,5],
+			"firstDelay": 1,
+
+			"frameName": "hint0", 
+			"framesCount": 8, 
+			"frameRate": 24, 
+			"isLoop": false
+		}
+	},
+	"isDecor": true,
+	"layer": 3
+}

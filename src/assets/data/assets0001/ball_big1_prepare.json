@@ -1,0 +1,24 @@
+{
+	"shape": "CIRCLE",
+	"shapeName": "",
+	"atlas": "assets0001",
+	"frame": "ball_big",
+	"bodyMass": 1,
+	"impulseMultiplier": 3,
+	"lives": 1,
+	"timeToLive": 5,
+	"debrises": [
+		{
+			"name": "b1",
+			"template": "ball_big1",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"ox": 1760,
+			"oy": 740
+		}
+	]
+}

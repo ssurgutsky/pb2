@@ -1,0 +1,60 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "brick1_3shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"lives": 3,
+	"livesFrames": ["brick1_1","brick1_2","brick1_3"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0],
+	"livesHitSound": ["hit_block2","hit_block","hit_block"],
+	"livesEffect": true,
+	"hasDust": true,
+	"bodyMass": 3,
+	"minHitImpulse": 500,
+	"sleepSpeedLimit": 0.2,
+	"isVictim": true,
+	"victimPriority": 1,
+
+	"hitDebrises": [
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "brick1_3_2",
+			"template": "brick1_3_2",
+			"lx": 80,
+			"ly": -20,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "brick1_3_1",
+			"template": "brick1_3_1",
+			"lx": -30,
+			"ly": -20,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

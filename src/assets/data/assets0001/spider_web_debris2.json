@@ -1,0 +1,13 @@
+{
+	"shape": "CIRCLE",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "spider_web_debris2",
+	"bodyMass": 0.1,
+	"minHitImpulse": 100,
+	"lives": 1,
+	"timeToLive": 0.5,
+	"isDecor": true,
+	"debrises": [
+	]
+}

@@ -1,0 +1,22 @@
+{
+	"name": "tutorialHandPusher1",
+	"bodyType": "STATIC",
+	"atlas": "tutorials",
+	"frame": "tutorial-hand",
+	"tweens": {
+		"blink": {
+			"delay": 10,
+			"randomDelay": [5,8],
+			"firstDelay": 0.1,
+			"timeline": [
+				{"to": {"alpha": 1}, "initY": 850, "duration": 1000},
+				{"toBody": {"y": 1000}, "duration": 500},
+				{"to": {"alpha": 0}, "duration": 1000, "delay":500}
+			]
+		}
+	},
+	"isDecor": true,
+	"alpha": 0,
+	"layer": 4,
+	"isDestroyOnPusherDragStart": true
+}

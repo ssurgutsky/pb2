@@ -1,0 +1,33 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "dude_debris2shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0002",
+	"frame": "dude_debris2",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hasDust": true,
+	"debrises": [
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"lx": -30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"lx": 30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

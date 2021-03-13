@@ -1,0 +1,14 @@
+{
+	"name": "key_golden",
+	"shape": "POLYGON",
+	"shapeName": "key_goldenshape",
+	"atlas": "assets0001",
+	"frame": "key_golden",
+	"bodyMass": 1,
+	"timeToLive": 99,
+	"minHitImpulse": 1000,
+	"sx": 1,
+	"sy": 1,
+	"debrises": [
+	]
+}

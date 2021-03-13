@@ -1,0 +1,123 @@
+{
+	"shape": "CIRCLE",
+	"shapeRadius": "80",
+	"atlas": "assets0001",
+	"lives": 3,
+	"livesFrames": ["drone2","drone2","drone2"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0],
+	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao"],
+	"livesTimeToLive": [99999,99999,99999],
+	"livesEffect": true,
+	"bodyMass": 1.5,
+	"minHitImpulse": 2000,
+	"impulseMultiplier": 10,
+	"fixedRotation": true,
+	"gravityScale": 0,
+
+	"AI": {
+		"type": "drone",
+		"moveDuration": 500,
+		"vf": 0.5,
+		"maxV": 500,
+		"distance": 500,
+
+		"produceProbability": 0.5,
+		"produce0Lxy": 150,
+		"produce1Lxy": 150,
+		"produce1Vxy": 1500,
+		"produceOverParent": false,
+		"produce": [
+			{
+				"name": "fire",
+				"template": "fire",
+				"timeToLive": 0.05,
+				"gravityScale": 0,
+				"sx": 0.5,
+				"sy": 0.5
+			},
+			{
+				"name": "drone_bullet1",
+				"template": "drone_bullet1",
+				"timeToLive": 0.5,
+				"impulseMultiplier": 3
+			}
+		]
+	},
+
+
+	"hitDebrises": [
+		{
+			"name": "dd1",
+			"template": "debris_drone4",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "dd2",
+			"template": "debris_drone4",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "cs1",
+			"template": "coin_silver",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.5,
+			"sy": 0.5
+		},
+		{
+			"name": "d1",
+			"template": "debris_drone1",
+			"isTask": true,
+			"timeToLive": 2,
+			"lx": -50,
+			"ly": 20,
+			"vx": -100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
+		},
+		{
+			"name": "d2",
+			"template": "debris_drone2",
+			"lx": 50,
+			"ly": 20,
+			"vx": 100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
+		},
+		{
+			"name": "d3",
+			"template": "debris_drone3",
+			"lx": 0,
+			"ly": -50,
+			"vx": 0,
+			"vy": -300,
+			"sx": 1,
+			"sy": 1
+		},
+		{
+			"name": "d4",
+			"template": "debris_drone4",
+			"lx": 0,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
+		}
+	]
+}

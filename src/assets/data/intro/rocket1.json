@@ -1,0 +1,10 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "rocket1shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "intro",
+	"lives": 1,
+	"frame": "rocket01",
+	"bodyMass": 10,
+	"debrises": []
+}

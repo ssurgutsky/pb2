@@ -1,0 +1,67 @@
+{
+	"name": "Beam1",
+	"atlas": "assets0001",
+	"bodyType": "STATIC",
+	"frame": "beam1",
+	"shape": "POLYGON",
+	"shapeName": "beam1shape",
+	"lives": 99999,
+	"hitSound": "hit_block",
+	"hasDust": true,
+	"x": 1650,
+	"y": 150,
+	"layer": 3,
+	"angle": 0,
+	"debrises": [
+		{
+			"name": "db1",
+			"template": "debris_beam3",
+			"lx": -47,
+			"ly": -103,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "db2",
+			"template": "debris_beam1",
+			"lx": 0,
+			"ly": -90,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "db3",
+			"template": "debris_beam2",
+			"lx": 85,
+			"ly": -32,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "db4",
+			"template": "debris_beam2",
+			"lx": 161,
+			"ly": -112,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "db5",
+			"template": "debris_beam1",
+			"lx": 184,
+			"ly": 24,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

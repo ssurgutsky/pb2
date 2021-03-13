@@ -1,0 +1,54 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "brick1_3_2shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "brick1_3_2",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hitSound": "hit_block2",
+	"hasDust": true,
+
+	"hitDebrises": [
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "d1",
+			"template": "debris_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "brick1_3_2_2",
+			"template": "brick1_3_2_2",
+			"lx": 0,
+			"ly": 40,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "brick1_3_2_1",
+			"template": "brick1_3_2_1",
+			"lx": 0,
+			"ly": -40,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

@@ -1,0 +1,71 @@
+{
+	"name": "monkey002",
+	"shape": "POLYGON",
+	"shapeName": "monkey002shape",
+	"atlas": "assets0001",
+	"lives": 3,
+	"livesFrames": ["monkey002","monkey002","monkey002"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0],
+	"livesHitSound": ["hit_block2","hit_block","hit_block"],
+	"livesTimeToLive": [99999,99999,99999],
+	"livesEffect": true,
+	"hasDust": true,
+	"bodyMass": 5,
+	"minHitImpulse": 1000,
+	"debrises": [
+		{
+			"name": "d1",
+			"isFail": true,
+			"template": "debris_atom1",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.5,
+			"sy": 0.5
+		},
+		{
+			"name": "d2",
+			"template": "debris_pharao2",
+			"lx": 30,
+			"ly": 30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d3",
+			"template": "debris_pharao3",
+			"lx": -30,
+			"ly": 30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d4",
+			"template": "debris_pharao3",
+			"lx": 30,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d5",
+			"template": "debris_pharao2",
+			"lx": -30,
+			"ly": -30,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+
+	]
+}

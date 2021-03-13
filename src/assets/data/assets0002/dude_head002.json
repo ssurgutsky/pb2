@@ -1,0 +1,36 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "dude_head002shape",
+	"atlas": "assets0002",
+	"lives": 3,
+	"livesFrames": ["dude_head002_1","dude_head002_2","dude_head002_3"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [100,100,100],
+	"livesEffect": true,
+	"hasDust": true,
+	"bodyMass": 5,
+	"minHitImpulse": 1000,
+	"debrises": [
+		{
+			"isTask": true,
+			"name": "h2",
+			"template": "dude_head002_2",
+			"lx": 0,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "h1",
+			"template": "dude_head002_1",
+			"lx": 0,
+			"ly": -70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

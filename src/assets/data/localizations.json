@@ -1,0 +1,344 @@
+{
+	"APOLACHO": [
+		"APOLACHO",
+		"АПОЛАЧО"
+	],
+	"Apolacho!": [
+		"Apolacho!",
+		"Аполачо!"
+	],
+	"Ochalopa...": [
+		"Ochalopa...",
+		"Очалопа..."
+	],
+	"Language": [
+		"Русский",
+		"English"
+	],
+	"Level": [
+		"Level",
+		"Уровень"
+	],
+	"Locked": [
+		"Locked",
+		"Закрыт"
+	],
+	"PLAY": [
+		"PLAY",
+		"ИГРАТЬ"
+	],
+	"STORY": [
+		"STORY",
+		"ИСТОРИЯ"
+	],
+	"Next": [
+		"Next",
+		"Дальше"
+	],
+	"Menu": [
+		"Menu",
+		"Меню"
+	],
+	"MenuOn": [
+		"Menu",
+		"Меню"
+	],
+	"MenuOff": [
+		"Close",
+		"Скрыть"
+	],
+	"Restart": [
+		"Restart",
+		"Заново"
+	],
+	"Back": [
+		"Back",
+		"Выйти"
+	],
+	"MusicOn": [
+		"Music:On",
+		"Муз:Вкл"
+	],
+	"MusicOff": [
+		"Music:Off",
+		"Муз:Выкл"
+	],
+	"SoundOn": [
+		"Sound:On",
+		"Звук:Вкл"
+	],
+	"SoundOff": [
+		"Sound:Off",
+		"Звук:Выкл"
+	],
+	"STORE": [
+		"STORE",
+		"МАГАЗИН"
+	],
+	"Extra_balls": [
+		"Extra balls",
+		"Дополнительные шары"
+	],
+	"Pass_this_level": [
+		"Pass this level",
+		"Пройти этот уровень"
+	],
+	"Buy_it_for_{x}_coins?": [
+		"Buy it for {x} coins?",
+		"Купить за {x} монет?"
+	],
+	"You_have_no_{x}_coins...": [
+		"You have no {x} coins...",
+		"У вас нет {x} монет..."
+	],
+	"BUY": [
+		"BUY",
+		"Купить"
+	],
+	"NO": [
+		"NO",
+		"Нет"
+	],
+
+	"story1text1": [
+		"On the edge of nowhere...",
+		"На краю света..."
+	],
+	"story2text1": [
+		"... in the old Fortress lived people of Apolacho.",
+		"... в старой Крепости, жил народ Аполачо."
+	],
+	"story3text2": [
+		"They were very smart and skilled and advanced of their time.",
+		"Они были очень умны и развиты, и опережали свое время."
+	],
+	"story4text1": [
+		"Heads of other nations arrived to them\nto ask their wisdom.",
+		"Главы других наций прибывали к ним,\nчтобы спросить их мудрости."
+	],
+	"story4text2": [
+		"And share their knowledges.",
+		"И поделиться их знаниями."
+	],
+	"story5text1": [
+		"But one day...",
+		"Но однажды..."
+	],
+	"story6text1": [
+		"... they all... all people of Apolacho... just...",
+		"... все они... весь народ Аполачо... просто..."
+	],
+	"story7text1": [
+		"... just disappeared somewhere!",
+		"... просто исчез куда-то!"
+	],
+	"story8text1": [
+		"We must investigate what happened with Apolacho people!\nLet's launch a rocket-drone to there.",
+		"Мы должны выяснить, что произошло с народом Аполачо!\nДавай отправим туда ракету-дрон."
+	],
+	"story9text1": [
+		"Landing... Hey, look - strange heads appeared on walls.\nWe've never seen them here before!",
+		"Приземляемся... Эй, смотри - странные головы появились на стенах.\nМы никогда не видели их раньше!"
+	],
+	"story9text2": [
+		"Hit them all to clear the walls.\nThey hurt the Fortress!",
+		"Сбей их, чтобы очистить стены.\nОни вредят Крепости!"
+	],
+	"story10text1": [
+		"Awesome! You have found your first artefact!",
+		"Классно! Ты нашел свой первый артефакт!"
+	],
+	"story10text2": [
+		"It's a Silver Lion coin.\nLet's hit other heads too!",
+		"Это же Серебрянная Монета Льва.\nДавай собьем другие головы тоже!"
+	],
+	"story11text1": [
+		"Amazing! You have got silver coins!",
+		"Удивительно! Ты набрал серебрянных монет!"
+	],
+	"story11text2": [
+		"But look - what's next? Oh wow!\nThis head is bigger and stronger than all before!",
+		"Но смотри - что дальше? Оу, вау!\nЭта голова больше и крепче, чем все остальные!"
+	],
+	"story12text1": [
+		"That was definitely harder...",
+		"Это было определенно труднее..."
+	],
+	"story12text2": [
+		"But now you have got an extra ball!",
+		"Зато теперь у тебя есть дополнительный шар!"
+	],
+	"story13text1": [
+		"Ohh... nothing was inside. Sometimes it happens.",
+		"Оу... внутри ничего не было. Иногда такое случается."
+	],
+	"story13text2": [
+		"Let's look ahead! I see some bricks...",
+		"Гляди вперед! Я вижу какие-то кирпичи..."
+	],
+	"story14text1": [
+		"Wow! It's a Golden Lion coin!",
+		"Вау! Это же Золотая Монета Льва!"
+	],
+	"story14text2": [
+		"Seems somebody will be rich today!",
+		"Похоже, кто-то сегодня станет богатым!"
+	],
+	"story15text1": [
+		"Wonderful! You are the best!",
+		"Замечательно! Ты лучший!"
+	],
+	"story15text2": [
+		"But look further - is it a ghost of Apolacho? Let's check!",
+		"Но смотри дальше - это что, призрак Аполачо? Ну-ка проверим!"
+	],
+	"story16text1": [
+		"Awesome! You beaten him! Ghost dropped something...",
+		"Классно! Ты побил его! Призрак что-то выронил..."
+	],
+	"story16text2": [
+		"It's a secret key! And what door it could open?",
+		"Какой-то секретный ключ! И какую же дверь он может открыть?"
+	],
+	"story17text1": [
+		"Hey, here is that door to the inner Fortress yard.",
+		"Эй, здесь та дверь во внутренний двор Крепости."
+	],
+	"story17text2": [
+		"Okay, please open the door by the key!",
+		"Давай, открывай ключом эту дверь!"
+	],
+	"story18text1": [
+		"We have entered. It's Monkey's yard.",
+		"Мы зашли внутрь. Это двор Обезьян."
+	],
+	"story18text2": [
+		"And seems these monkeys are scared!\nPlease do not hurt them!",
+		"И, кажется, обезьяны чем-то напуганы!\nПожалуйста, не причиняй им вреда!"
+	],
+	"story19text1": [
+		"Awesome!\nBut did you see what happens once a monkey is broken?",
+		"Классно!\nНо, ты видел, что происходит, как только обезьяна ломается?"
+	],
+	"story19text2": [
+		"Monkeys are just containers with souls of humans!\nThat's why we should not break them...",
+		"Обезьяны - это вроде контейнеры с душами людей!\nВот почему нам не следует ломать их..."
+	],
+	"story20text1": [
+		"Good job!\nBut please be more careful next time!",
+		"Хорошая работа!\nНо, пожалуйста, будь аккуратнее в следующий раз!"
+	],
+	"story20text2": [
+		"Do not let souls out of monkeys.",
+		"Не позволяй душам вылетать из обезьян."
+	],
+	"story21text1": [
+		"Hey, look! Monkeys are falling!",
+		"Эй, смотри! Обезьяны падают!"
+	],
+	"story21text2": [
+		"We can't do anything with that so just hit that head!",
+		"Мы ничего не можем с этим поделать, поэтому просто сбей ту голову!"
+	],
+	"story22text1": [
+		"The door again! We are on the correct path.",
+		"Опять дверь! Мы на верном пути."
+	],
+	"story22text2": [
+		"Let's open the door by the key!",
+		"Давай откроем дверь ключом!"
+	],
+	"story23text1": [
+		"Oh god! It's a spider web!",
+		"О, боже! Это же паутина!"
+	],
+	"story23text2": [
+		"I hate spiders and you?",
+		"Ненавижу пауков, а ты?"
+	],
+	"story24text1": [
+		"Great job! We cleaned it up.",
+		"Отличная работа! Мы все почистили."
+	],
+	"story24text2": [
+		"That was not so terrible. Move on!",
+		"Не так уж и ужасно. Идем!"
+	],
+	"story25text1": [
+		"Look! One web is in the top right corner!",
+		"Смотри! Одна паутина в верхнем правом углу!"
+	],
+	"story25text2": [
+		"How to clean it up? You have to think...",
+		"Как ее убрать? Тебе надо бы подумать..."
+	],
+	"story26text1": [
+		"Ho-Ho-Ho! All is coming good!",
+		"Хо-Хо-Хо! Все идет нормально!"
+	],
+	"story26text2": [
+		"But what's that? More stronger web!",
+		"Но что это? Более крепкая паутина!"
+	],
+	"story27text1": [
+		"Oh god! Monkeys are blocked by webs...",
+		"О, боже! Обезьяны заблокированы паутиной..."
+	],
+	"story27text2": [
+		"Let's clean up all webs and save them!",
+		"Давай почистим все тут и спасем их!"
+	],
+	"story28text1": [
+		"Uppss... One other monkey in the web...",
+		"Уппсс... Еще одна обезьяна в паутине..."
+	],
+	"story28text2": [
+		"I think I know how to save this monkey!",
+		"Думаю, я знаю, как спасти эту обезьяну!"
+	],
+	"story29text1": [
+		"Okay, moving on! We are in a good shape.",
+		"Ладно, двигаемся! Мы в хорошей форме."
+	],
+	"story29text2": [
+		"Hey, but did you hear that? Steps...?",
+		"Эй, а ты это слышал? Шаги..."
+	],
+	"story30text1": [
+		"That was really cool! You've beaten that spider!",
+		"Это было реально круто! Ты побил того паука!"
+	],
+	"story30text2": [
+		"How do you think - are there any other spiders?",
+		"Как думаешь - есть тут еще другие пауки?"
+	],
+	"story31text1": [
+		"Oh, god... monkey again?! Too many webs are here...",
+		"О, боже... снова обезьяна?! Слишком много паутины здесь..."
+	],
+	"story31text2": [
+		"I beilive you will find a way how save the monkey!",
+		"Я верю, что ты найдешь способ спасти эту обезьяну!"
+	],
+	"story32text1": [
+		"Great! You are the spider's warrior!",
+		"Отлично! Ты - победитель пауков!"
+	],
+	"story32text2": [
+		"But... I have feelings that you'll meet their Boss soon.",
+		"Но... Я чувствую, что скоро ты встретишь их Босса."
+	]
+
+
+
+
+
+
+
+
+
+
+
+
+
+}

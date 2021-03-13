@@ -1,0 +1,21 @@
+{
+	"name": "tutorial_red_cross",
+	"bodyType": "STATIC",
+	"atlas": "tutorials",
+	"frame": "red_cross",
+	"tweens": {
+		"blink": {
+			"delay": 10,
+			"randomDelay": [5,8],
+			"firstDelay": 1,
+			"timeline": [
+				{"to": {"alpha": 1}, "duration": 1000},
+				{"to": {"alpha": 0}, "duration": 1000, "delay":500}
+			]
+		}
+	},
+	"isDecor": true,
+	"alpha": 0,
+	"layer": 4,
+	"isDestroyOnPusherDragStart": true
+}

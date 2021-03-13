@@ -1,0 +1,6 @@
+{
+	"name": "intro_bg",
+	"bodyType": "KINEMATIC",
+	"frame": "intro01",
+	"isDecor": true
+}

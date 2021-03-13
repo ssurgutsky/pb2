@@ -1,0 +1,11 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "spaceship1shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "intro",
+	"lives": 3,
+	"frame": "spaceship1",
+	"bodyMass": 300,
+	"debrises": [
+	]
+}

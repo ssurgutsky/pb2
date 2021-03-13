@@ -1,0 +1,99 @@
+{
+	"name": "Chest1",
+	"atlas": "assets0001",
+	"bodyType": "DYNAMIC",
+	"frame": "chest1",
+	"shape": "POLYGON",
+	"shapeName": "chest1shape",
+	"lives": 1,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_block",
+	"hasDust": true,
+	"layer": 2,
+	"angle": 0,
+
+	"hitDebrises": [
+		{
+			"name": "chd1",
+			"template": "debris_chest1_atom",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		},
+		{
+			"name": "chd2",
+			"template": "debris_chest1_atom",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "b1",
+			"isTask": true,
+			"template": "ball_big1_prepare",
+			"lx": 0,
+			"ly": -200,
+			"vx": 0,
+			"vy": -1000,
+			"sx": 1,
+			"sy": 1,
+			"ox": 1760,
+			"oy": 740
+		},
+		{
+			"name": "cd0",
+			"template": "debris_chest10",
+			"lx": 0,
+			"ly": -70,
+			"vx": 0,
+			"vy": -500,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "cd1",
+			"template": "debris_chest11",
+			"lx": -30,
+			"ly": -20,
+			"vx": -300,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "cd2",
+			"template": "debris_chest12",
+			"lx": 30,
+			"ly": -20,
+			"vx": 300,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "cd3",
+			"template": "debris_chest13",
+			"lx": -30,
+			"ly": 70,
+			"vx": -300,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "cd4",
+			"template": "debris_chest14",
+			"lx": 30,
+			"ly": 70,
+			"vx": 300,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

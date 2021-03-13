@@ -1,0 +1,21 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "keyhole1shape",
+	"bodyType": "STATIC",
+	"atlas": "assets0001",
+	"isSensor": true,
+	"respawnOnHit": true,
+	"lives": 2,
+	"livesFrames": ["keyhole1_2","keyhole1"],
+	"livesTimeToLive": [2,99999],
+	"hitSound": "hit_block",
+	"hasDust": true,
+	"bodyMass": 1,
+	"minHitImpulse": 1000,
+	"dispatchEventsHit": ["keyhole1_hit"],
+	"dispatchEventsDestroy": ["keyhole1_destroy"],
+	"sleepSpeedLimit": 0.2,
+
+	"debrises": [
+	]
+}

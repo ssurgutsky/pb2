@@ -1,0 +1,145 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
+		],
+		"IMAGES": [
+			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+		],
+		"JSON": [
+			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+
+			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
+			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
+			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
+			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
+			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+
+			{ "key": "jewel_test", "url": "src/assets/data/jewel_test.json" },
+
+			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
+			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
+			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
+			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
+			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+
+			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" }
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
+		]
+	}, 
+	"bg": "bg",
+	"balls": 20,
+	"tasks": 1,
+	"fails": 2,
+	"objects": [
+		{
+			"name": "bf1",
+			"template": "board_frame1",
+			"x": 0,
+			"y": 0,
+			"layer": 0
+		},
+
+		{
+			"name": "sensorGround",
+			"template": "sensor_ground"
+		},
+
+		{
+			"name": "Pusher",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 800
+		},
+		{
+			"name": "pusher1_lb",
+			"template": "pusher1_lb",
+			"x": 1626,
+			"y": 890
+		},
+		{
+			"name": "pusher1_rb",
+			"template": "pusher1_rb",
+			"x": 1809,
+			"y": 890
+		},
+		{
+			"name": "pusher1_lt",
+			"template": "pusher1_lt",
+			"x": 1642,
+			"y": 655
+		},
+		{
+			"name": "pusher1_rt",
+			"template": "pusher1_rt",
+			"x": 1797,
+			"y": 655
+		},
+
+
+		{
+			"name": "Beam1",
+			"template": "beam1",
+			"lives": 99999,
+			"layer": 3
+		},
+		{
+			"name": "Ball1",
+			"template": "ball_big1",
+			"x": 1720,
+			"y": 710,
+			"layer": 2
+		},
+		{
+			"name": "pharao1",
+			"template": "pharao_light",
+			"x": 360,
+			"y": 457,
+			"layer": 2
+		},
+		{
+			"name": "pharao2",
+			"template": "pharao_light",
+			"x": 668,
+			"y": 311,
+			"layer": 2
+		},
+
+		{
+			"name": "jewel_test",
+			"template": "jewel_test",
+			"x": 1500,
+			"y": 800,
+			"layer": 2
+		},
+
+		{
+			"name": "drone1",
+			"template": "drone1",
+			"x": 1500,
+			"y": 211,
+			"attackX": 668,
+			"attackY": 311,
+			"AI": {
+				"distance": 300,
+				"produceProbability": 0.1
+			},
+			"layer": 2
+		}
+	]
+}

@@ -1,0 +1,206 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
+		],
+		"IMAGES": [
+			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+		],
+		"JSON": [
+			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+
+			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
+			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
+			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
+			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
+			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+
+
+
+			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
+
+			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
+			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
+
+			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
+			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
+			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
+			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
+			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
+			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
+
+			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
+			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
+			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
+			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
+			{ "key": "brick1_3_2", "url": "src/assets/data/assets0001/brick1_3_2.json" },
+			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
+			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
+
+			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
+			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
+			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
+			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
+			{ "key": "debris_chest10_2", "url": "src/assets/data/assets0001/debris_chest10_2.json" },
+			{ "key": "debris_chest11", "url": "src/assets/data/assets0001/debris_chest11.json" },
+			{ "key": "debris_chest12", "url": "src/assets/data/assets0001/debris_chest12.json" },
+			{ "key": "debris_chest13", "url": "src/assets/data/assets0001/debris_chest13.json" },
+			{ "key": "debris_chest14", "url": "src/assets/data/assets0001/debris_chest14.json" },
+			{ "key": "debris_chest1_atom", "url": "src/assets/data/assets0001/debris_chest1_atom.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
+			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
+			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
+		]
+	}, 
+	"bg": "bg",
+	"balls": 20,
+	"tasks": 3,
+	"objects": [
+		{
+			"name": "bf1",
+			"template": "board_frame1",
+			"x": 0,
+			"y": 0,
+			"layer": 0
+		},
+
+		{
+			"name": "sensorGround",
+			"template": "sensor_ground"
+		},
+
+		{
+			"name": "Pusher",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 800
+		},
+		{
+			"name": "pusher1_lb",
+			"template": "pusher1_lb",
+			"x": 1626,
+			"y": 890
+		},
+		{
+			"name": "pusher1_rb",
+			"template": "pusher1_rb",
+			"x": 1809,
+			"y": 890
+		},
+		{
+			"name": "pusher1_lt",
+			"template": "pusher1_lt",
+			"x": 1642,
+			"y": 655
+		},
+		{
+			"name": "pusher1_rt",
+			"template": "pusher1_rt",
+			"x": 1797,
+			"y": 655
+		},
+
+
+		{
+			"name": "pharao1",
+			"template": "pharao",
+			"x": 1100,
+			"y": 260,
+			"layer": 2
+		},
+
+		{
+			"name": "pharao2",
+			"template": "pharao_dynamic",
+			"x": 542,
+			"y": 885,
+			"layer": 2
+		},
+
+		{
+			"name": "chest1",
+			"template": "chest1",
+			"x": 1100,
+			"y": 897,
+			"layer": 2
+		},
+
+		{
+			"name": "brick11",
+			"template": "brick1_3",
+			"x": 800,
+			"y": 919,
+			"layer": 2
+		},
+		{
+			"name": "brick12",
+			"template": "brick1_3",
+			"x": 800,
+			"y": 808,
+			"layer": 2,
+			"isDisabled": false
+		},
+		{
+			"name": "brick13",
+			"template": "brick1_3",
+			"x": 800,
+			"y": 696,
+			"layer": 2
+		},
+
+		{
+			"name": "brick21",
+			"template": "brick1_3",
+			"x": 300,
+			"y": 919,
+			"layer": 2
+		},
+		{
+			"name": "brick22",
+			"template": "brick1_3",
+			"x": 300,
+			"y": 808,
+			"layer": 2,
+			"isDisabled": false
+		},
+		{
+			"name": "brick23",
+			"template": "brick1_3",
+			"x": 300,
+			"y": 696,
+			"layer": 2
+		},
+
+
+		{
+			"name": "Beam1",
+			"template": "beam1",
+			"lives": 40,
+			"livesEffect": true,
+			"layer": 3
+		},
+		{
+			"name": "Ball1",
+			"template": "ball_big1",
+			"x": 1720,
+			"y": 710,
+			"layer": 2
+		}
+	]
+}

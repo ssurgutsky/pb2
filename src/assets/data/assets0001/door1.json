@@ -1,0 +1,142 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "door1shape",
+	"bodyType": "STATIC",
+	"atlas": "assets0001",
+	"lives": 2,
+	"livesEffect": true,
+	"frame": "door1",
+	"livesHitSound": ["hit_block2","hit_block"],
+	"hasDust": true,
+	"bodyMass": 500,
+	"minHitImpulse": 10000,
+	"listenEventsHit": ["keyhole1_hit"],
+	"listenEventsDestroy": ["keyhole1_destroy"],
+	"sleepSpeedLimit": 0.2,
+
+	"debrises": [
+		{
+			"name": "d1",
+			"isTask": true,
+			"template": "debris_atom1",
+			"timeToLive": 1.5,
+			"lx": -200,
+			"ly": -150,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d2",
+			"template": "debris_pharao2",
+			"lx": -100,
+			"ly": -150,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d3",
+			"template": "debris_pharao3",
+			"lx": 0,
+			"ly": -150,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d4",
+			"template": "debris_pharao3",
+			"lx": -150,
+			"ly": -50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d5",
+			"template": "debris_pharao2",
+			"lx": -50,
+			"ly": -50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d6",
+			"template": "debris_pharao2",
+			"lx": 50,
+			"ly": -50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d7",
+			"template": "debris_pharao3",
+			"lx": -100,
+			"ly": 50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d8",
+			"template": "debris_pharao3",
+			"lx": 0,
+			"ly": 50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d9",
+			"template": "debris_pharao2",
+			"lx": 100,
+			"ly": 50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d10",
+			"template": "debris_pharao2",
+			"lx": -150,
+			"ly": 150,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d11",
+			"template": "debris_pharao3",
+			"lx": -50,
+			"ly": 150,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		},
+		{
+			"name": "d12",
+			"template": "debris_pharao3",
+			"lx": 50,
+			"ly": 150,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5
+		}
+
+	]
+}

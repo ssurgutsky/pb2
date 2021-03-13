@@ -1,0 +1,158 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
+		],
+		"IMAGES": [
+			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+		],
+		"JSON": [
+			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+
+			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "key_golden", "url": "src/assets/data/assets0001/key_golden.json" },
+			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
+			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
+			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
+			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
+			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+
+
+
+			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
+
+			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
+
+			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
+			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
+
+			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
+			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
+			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
+			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
+			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
+			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
+			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
+			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
+			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
+			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
+
+			{ "key": "door2", "url": "src/assets/data/assets0001/door2.json" },
+			{ "key": "keyhole1", "url": "src/assets/data/assets0001/keyhole1.json" }
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
+		]
+	}, 
+	"bg": "bg",
+	"balls": 10,
+	"tasks": 1,
+	"fails": 1,
+	"objects": [
+		{
+			"name": "bf1",
+			"template": "board_frame1",
+			"x": 0,
+			"y": 0,
+			"layer": 0
+		},
+
+
+		{
+			"name": "sensorGround",
+			"template": "sensor_ground"
+		},
+
+		{
+			"name": "Pusher",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 800
+		},
+		{
+			"name": "pusher1_lb",
+			"template": "pusher1_lb",
+			"x": 1626,
+			"y": 890
+		},
+		{
+			"name": "pusher1_rb",
+			"template": "pusher1_rb",
+			"x": 1809,
+			"y": 890
+		},
+		{
+			"name": "pusher1_lt",
+			"template": "pusher1_lt",
+			"x": 1642,
+			"y": 655
+		},
+		{
+			"name": "pusher1_rt",
+			"template": "pusher1_rt",
+			"x": 1797,
+			"y": 655
+		},
+
+
+		{
+			"name": "h1",
+			"template": "hint1",
+			"x": 1720,
+			"y": 700,
+			"layer": 3
+		},
+
+		{
+			"name": "Door2",
+			"template": "door2",
+			"x": 250,
+			"y": 470,
+			"sx": 2,
+			"sy": 2
+		},
+		{
+			"name": "Keyhole1",
+			"template": "keyhole1",
+			"x": 340,
+			"y": 470
+		},
+		{
+			"name": "Keyhole1_2",
+			"template": "keyhole1",
+			"x": 340,
+			"y": 650
+		},
+
+		{
+			"name": "Beam1",
+			"template": "beam1",
+			"lives": 19,
+			"layer": 3
+		},
+		{
+			"name": "Key1",
+			"template": "key_golden",
+			"impulseMultiplier": 3,
+			"isBall": true,
+			"isRespawnable": true,
+			"respawnSound": "respawn",
+			"x": 1719,
+			"y": 660,
+			"angle": -90,
+			"layer": 2
+		}
+	]
+}

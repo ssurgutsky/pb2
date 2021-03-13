@@ -1,0 +1,17 @@
+{
+	"name": "pusher1_rb",
+	"shape": "POLYGON",
+	"shapeName": "pusherRBshape",
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"frame": "pusher1_rb",
+	"layer": 3,
+
+	"lives": 3,
+	"livesEffect": true,
+	"bodyMass": 3,
+	"minHitImpulse": 500,
+
+	"isBallIgnore": true,
+	"forceDraggableDisabled": true
+}
