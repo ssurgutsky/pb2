@@ -19,11 +19,19 @@
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 
+			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
+
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
 			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
 			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
 			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
 			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+
+			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
+			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
+			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
+			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
@@ -98,6 +106,39 @@
 			"lives": 99999,
 			"layer": 3
 		},
+
+		{
+			"name": "smoke1",
+			"template": "smoke",
+			"x": 736,
+			"y": 200,
+			"sx": 1,
+			"sy": 1,
+			"layer": 1
+		},
+
+		{
+			"name": "smoke2",
+			"template": "smoke",
+			"x": 1300,
+			"y": 400,
+			"sx": 2,
+			"sy": 2,
+			"layer": 1
+		},
+
+		{
+			"name": "fire1",
+			"bodyType": "STATIC",
+			"template": "fire",
+			"x": 0,
+			"y": 800,
+			"sx": 3,
+			"sy": 3,
+			"angle": 180,
+			"layer": 3
+		},
+
 		{
 			"name": "Ball1",
 			"template": "ball_big1",
@@ -129,7 +170,7 @@
 			"attackY": 222,
 			"AI": {
 				"distance": 300,
-				"produceProbability": 0.1
+				"produceProbability": 0.2
 			},
 			"layer": 2
 		},
@@ -138,11 +179,11 @@
 			"template": "drone1",
 			"x": 1400,
 			"y": 711,
-			"attackX": 239,
-			"attackY": 277,
+			"attackX": 260,
+			"attackY": 240,
 			"AI": {
 				"distance": 300,
-				"produceProbability": 0.1
+				"produceProbability": 0.2
 			},
 			"layer": 2
 		}

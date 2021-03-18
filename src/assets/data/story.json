@@ -51,7 +51,8 @@
 	{
 		"id": 9,
 		"maxStoryId": 9,
-		"levelNo": 2,
+		"levelNo": 1,
+		"isAfterLevel": true,
 		"text1": "story9text1",
 		"text2": "story9text2"
 	},
@@ -85,8 +86,7 @@
 		"maxStoryId": 13,
 		"levelNo": 5,
 		"isAfterLevel": true,
-		"text1": "story13text1",
-		"text2": "story13text2"
+		"text1": "story13text1"
 	},
 	{
 		"id": 14,

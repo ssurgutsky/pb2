@@ -19,11 +19,19 @@
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 
+			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
+
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
 			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
 			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
 			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
 			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+
+			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
+			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
+			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
+			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
@@ -89,6 +97,15 @@
 			"y": 655
 		},
 
+		{
+			"name": "smoke1",
+			"template": "smoke",
+			"x": 130,
+			"y": 570,
+			"sx": 3,
+			"sy": 3,
+			"layer": 1
+		},
 
 		{
 			"name": "Beam1",

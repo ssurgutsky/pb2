@@ -1,0 +1,24 @@
+{
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"frame": "emitter_smoke",
+	"isDecor": true,
+	"emitters": [
+		{
+			"frames": ["emitter_smoke"], 
+			"x": 0, 
+			"y": 0, 
+			"updateTime": 100, 
+			"explode": true, 
+			"speedX":[-50, 50], 
+			"speedY":[-250, -450], 
+			"lifespan": 2000,
+			"alpha": 0.3, 
+			"rotation": 1,
+			"scaleX": 1,
+			"scaleY": 1,
+			"layer": 1
+		}
+	]
+
+}

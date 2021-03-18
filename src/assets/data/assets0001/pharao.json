@@ -11,6 +11,8 @@
 	"hasDust": true,
 	"bodyMass": 5,
 	"minHitImpulse": 1000,
+	"isVictim": true,
+	"victimPriority": 10,
 
 	"hitDebrises": [
 		{
@@ -34,7 +36,7 @@
 	"debrises": [
 		{
 			"name": "d2",
-			"isTask": true,
+			"isFail": true,
 			"template": "debris_pharao2",
 			"lx": 30,
 			"ly": 30,

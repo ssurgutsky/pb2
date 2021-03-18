@@ -19,13 +19,19 @@
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 
-			{ "key": "jewel_test", "url": "src/assets/data/jewel_test.json" },
+			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
 			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
 			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
 			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
 			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+
+			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
+			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
+			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
+			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
@@ -93,6 +99,23 @@
 			"y": 655
 		},
 
+		{
+			"name": "smoke1",
+			"template": "smoke",
+			"x": 200,
+			"y": 470,
+			"sx": 3,
+			"sy": 3,
+			"layer": 1
+		},
+		{
+			"name": "smoke2",
+			"template": "smoke",
+			"x": 600,
+			"y": 400,
+			"layer": 1
+		},
+
 
 		{
 			"name": "Beam1",
@@ -125,14 +148,14 @@
 		{
 			"name": "drone1",
 			"template": "drone1",
-			"x": 1500,
-			"y": 250,
+			"x": 830,
+			"y": 300,
 			"attackX": 603,
 			"attackY": 411,
 			"livesEmitters": null,
 			"AI": {
 				"distance": 250,
-				"produceProbability": 0.1
+				"produceProbability": 0.2
 			},
 			"layer": 2
 		}

@@ -1,0 +1,44 @@
+{
+	"shape": "CIRCLE",
+	"shapeRadius": "80",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "drone1_engine",
+	"bodyMass": 5,
+	"minHitImpulse": 2000,
+	"lives": 1,
+	"hasElectro": true,
+	"hitSound": "hit_block",
+	"debrises": [
+		{
+			"name": "d1ed1",
+			"template": "debris_drone1_engine1_1",
+			"lx": 50,
+			"ly": 0,
+			"vx": 100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
+		},
+		{
+			"name": "d1ed2",
+			"template": "debris_drone1_engine1_2",
+			"lx": -50,
+			"ly": 50,
+			"vx": -100,
+			"vy": 100,
+			"sx": 1,
+			"sy": 1
+		},
+		{
+			"name": "d1ed3",
+			"template": "debris_drone1_engine1_3",
+			"lx": -50,
+			"ly": -50,
+			"vx": -100,
+			"vy": -100,
+			"sx": 1,
+			"sy": 1
+		}
+	]
+}

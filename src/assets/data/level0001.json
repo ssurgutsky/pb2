@@ -13,7 +13,11 @@
 			{ "key": "intro_bg", "url": "src/assets/data/intro/intro_bg.json" },
 			{ "key": "spaceship1", "url": "src/assets/data/intro/spaceship1.json" },
 			{ "key": "rocket1", "url": "src/assets/data/intro/rocket1.json" },
-			{ "key": "fire", "url": "src/assets/data/intro/fire.json" }
+			{ "key": "fire", "url": "src/assets/data/intro/fire.json" },
+
+			{ "key": "spaceship1_name", "url": "src/assets/data/intro/spaceship1_name.json" },
+			{ "key": "intro_text01", "url": "src/assets/data/intro/intro_text01.json" },
+			{ "key": "intro_text02", "url": "src/assets/data/intro/intro_text02.json" }
 
 		],
 		"PHYSICS": [
@@ -123,9 +127,39 @@
 					"offset": {"x": 400, "y": 50},
 					"angle": 90
 				},
-			"x": 1900,
-			"y": 200,
 			"layer": 1
+		},
+
+		{
+			"name": "spaceship1_name",
+			"template": "spaceship1_name",
+			"lockToObject": 
+				{
+					"name": "spaceship1",
+					"offset": {"x": 200, "y": -200},
+					"angle": 0
+				},
+			"timeToLive": 9,
+			"layer": 1
+		},
+
+		{
+			"name": "intro_text01",
+			"template": "intro_text01",
+			"x": 960,
+			"y": 900,
+			"timeToLive": 8,
+			"layer": 3,
+			"debrises": [
+				{
+					"name": "intro_text02",
+					"template": "intro_text02",
+					"x": 960,
+					"y": 900,
+					"timeToLive": 8
+				}
+			]
+
 		}
 
 	]

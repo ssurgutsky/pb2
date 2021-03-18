@@ -24,6 +24,12 @@
 			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
 			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
 			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+
+			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
+			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
+			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
+			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
@@ -60,7 +66,7 @@
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 1,
-	"fails": 2,
+	"fails": 4,
 	"objects": [
 		{
 			"name": "bf1",

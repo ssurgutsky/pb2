@@ -3,12 +3,13 @@
 	"shapeRadius": "100",
 	"atlas": "assets0001",
 	"lives": 3,
-	"livesFrames": ["drone1","drone1","drone1"],
+	"livesFrames": ["drone1_3","drone1_2","drone1"],
 	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
 	"livesCoins": [0,0,0],
 	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao"],
 	"livesTimeToLive": [99999,99999,99999],
 	"livesEffect": true,
+	"hasElectro": true,
 	"bodyMass": 0.5,
 	"minHitImpulse": 1000,
 	"impulseMultiplier": 10,
@@ -17,10 +18,10 @@
 
 	"livesEmitters": [
 		[
-			{"frames": ["emitter_smoke"], "x": 0, "y": 0, "updateTime": 100, "explode": true, "speedX":[-50, 50], "speedY":[-200, -300], "lifespan": 1500, "alpha": 0.2, "rotation": 1}
+			{"frames": ["emitter_smoke"], "x": 0, "y": 0, "updateTime": 100, "explode": true, "speedX":[-50, 50], "speedY":[-200, -300], "lifespan": 1500, "alpha": 0.3, "rotation": 1}
 		],
 		[
-			{"frames": ["emitter_smoke"], "x": 0, "y": 0, "updateTime": 200, "explode": true, "speedX":[-20, 20], "speedY":[-300, -400], "lifespan": 2000, "alpha": 0.1, "rotation": 1}
+			{"frames": ["emitter_smoke"], "x": 0, "y": 0, "updateTime": 200, "explode": true, "speedX":[-20, 20], "speedY":[-300, -400], "lifespan": 2000, "alpha": 0.2, "rotation": 1}
 		],
 		[
 		]
@@ -36,7 +37,7 @@
 
 		"produceProbability": 1,
 		"produce0Lxy": 200,
-		"produce1Lxy": 200,
+		"produce1Lxy": 150,
 		"produce1Vxy": 1000,
 		"produceOverParent": true,
 		"produce": [
@@ -49,12 +50,14 @@
 			{
 				"name": "fire_damage",
 				"template": "debris_atom1",
-				"timeToLive": 0.01,
-				"impulseMultiplier": 3
+				"timeToLive": 0.02,
+				"impulseMultiplier": 3,
+				"sx": 1.5,
+				"sy": 1.5,
+				"alpha": 0
 			}
 		]
 	},
-
 
 	"hitDebrises": [
 		{
@@ -86,6 +89,16 @@
 			"vy": 0,
 			"sx": 0.5,
 			"sy": 0.5
+		},
+		{
+			"name": "dde",
+			"template": "drone1_engine",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
 		},
 		{
 			"name": "d1",

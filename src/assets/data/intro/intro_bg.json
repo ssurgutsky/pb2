@@ -2,5 +2,22 @@
 	"name": "intro_bg",
 	"bodyType": "KINEMATIC",
 	"frame": "intro01",
-	"isDecor": true
+	"isDecor": true,
+	"emitters": [
+		{
+			"frames": ["emitter_smoke"], 
+			"x": -230, 
+			"y": -40, 
+			"updateTime": 70, 
+			"explode": true, 
+			"speedX":[-30, 30], 
+			"speedY":[-100, -150], 
+			"lifespan": 1000, 
+			"alpha": 0.3, 
+			"rotation": 1,
+			"scaleX": 0.3,
+			"scaleY": 0.5,
+			"layer": 1
+		}
+	]
 }

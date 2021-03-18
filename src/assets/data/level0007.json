@@ -26,6 +26,12 @@
 			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
 			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
 			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+
+			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
+			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
+			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
+			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
@@ -46,6 +52,7 @@
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
+			{ "key": "pharao_light2", "url": "src/assets/data/assets0001/pharao_light2.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
@@ -60,7 +67,7 @@
 	}, 
 	"bg": "bg",
 	"balls": 20,
-	"tasks": 1,
+	"tasks": 2,
 	"fails": 2,
 	"objects": [
 		{
@@ -155,7 +162,15 @@
 
 
 		{
-			"name": "pharao3",
+			"name": "pharao1",
+			"template": "pharao_light2",
+			"x": 542,
+			"y": 260,
+			"layer": 2
+		},
+
+		{
+			"name": "pharao2",
 			"template": "pharao_dynamic",
 			"x": 542,
 			"y": 885,
@@ -170,21 +185,33 @@
 		},
 
 		{
-			"name": "drone2",
-			"template": "drone2",
+			"name": "drone1",
+			"template": "drone1",
+			"AI": {
+				"canGetAttackedVictim": true
+			},
 			"x": 1200,
 			"y": 300,
 			"layer": 2
 		},
+		{
+			"name": "drone2",
+			"template": "drone1",
+			"AI": {
+				"canGetAttackedVictim": true
+			},
+			"x": 200,
+			"y": 200,
+			"layer": 2
+		},
+
 
 		{
 			"name": "Ball1",
 			"template": "ball_big1",
 			"x": 1720,
 			"y": 710,
-			"layer": 2,
-			"isVictim": true,
-			"victimPriority": 100
+			"layer": 2
 		}
 	]
 }

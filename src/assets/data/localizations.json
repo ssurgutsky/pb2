@@ -53,7 +53,7 @@
 	],
 	"Back": [
 		"Back",
-		"Выйти"
+		"Назад"
 	],
 	"MusicOn": [
 		"Music:On",
@@ -133,48 +133,44 @@
 		"... просто исчез куда-то!"
 	],
 	"story8text1": [
-		"We must investigate what happened with Apolacho people!\nLet's launch a rocket-drone to there.",
-		"Мы должны выяснить, что произошло с народом Аполачо!\nДавай отправим туда ракету-дрон."
+		"We'll launch a rocket-drone to investigate it.",
+		"Мы отправим туда ракету-дрон, чтобы расследовать это."
 	],
 	"story9text1": [
-		"Landing... Hey, look - strange heads appeared on walls.\nWe've never seen them here before!",
-		"Приземляемся... Эй, смотри - странные головы появились на стенах.\nМы никогда не видели их раньше!"
+		"Landing...\nHey, look! An unknown drone is destroying the Fortress!",
+		"Приземляемся...\nСмотри! Неизвестный дрон уничтожает Крепость!"
 	],
 	"story9text2": [
-		"Hit them all to clear the walls.\nThey hurt the Fortress!",
-		"Сбей их, чтобы очистить стены.\nОни вредят Крепости!"
+		"Hit him immediately!",
+		"Сбей его немедленно!"
 	],
 	"story10text1": [
-		"Awesome! You have found your first artefact!",
-		"Классно! Ты нашел свой первый артефакт!"
+		"Awesome!\nA Silver Lion Coin was inside of the drone.",
+		"Отлично!\nВнутри дрона была Серебрянная Монета Льва."
 	],
 	"story10text2": [
-		"It's a Silver Lion coin.\nLet's hit other heads too!",
-		"Это же Серебрянная Монета Льва.\nДавай собьем другие головы тоже!"
+		"Let's hit all other drones!",
+		"Давай собьем остальные дроны!"
 	],
 	"story11text1": [
-		"Amazing! You have got silver coins!",
-		"Удивительно! Ты набрал серебрянных монет!"
+		"Good job! You have got silver coins!",
+		"Хорошая работа! Ты набрал серебрянных монет!"
 	],
 	"story11text2": [
-		"But look - what's next? Oh wow!\nThis head is bigger and stronger than all before!",
-		"Но смотри - что дальше? Оу, вау!\nЭта голова больше и крепче, чем все остальные!"
+		"But look - what's next? Oh no!\nMore drones!",
+		"Но смотри - что дальше? О, нет!\nЕще дроны!"
 	],
 	"story12text1": [
 		"That was definitely harder...",
 		"Это было определенно труднее..."
 	],
 	"story12text2": [
-		"But now you have got an extra ball!",
-		"Зато теперь у тебя есть дополнительный шар!"
+		"But we shouldn't stop. Go ahead!",
+		"Но не стоит останавливаться. Идем вперед!"
 	],
 	"story13text1": [
-		"Ohh... nothing was inside. Sometimes it happens.",
-		"Оу... внутри ничего не было. Иногда такое случается."
-	],
-	"story13text2": [
-		"Let's look ahead! I see some bricks...",
-		"Гляди вперед! Я вижу какие-то кирпичи..."
+		"Well done!\nMoving on...",
+		"Молодец!\nДвигаемся дальше..."
 	],
 	"story14text1": [
 		"Wow! It's a Golden Lion coin!",
@@ -327,7 +323,23 @@
 	"story32text2": [
 		"But... I have feelings that you'll meet their Boss soon.",
 		"Но... Я чувствую, что скоро ты встретишь их Босса."
+	],
+
+	"intro_text01": [
+		"We're arriving to the Fortress. Observing a thick smoke.",
+		"Мы приближаемся к Крепости. Видим густой дым."
+	],
+
+	"intro_text02": [
+		"Launching the rocket-drone.",
+		"Запускаем ракету-дрон."
+	],
+
+	"spaceship1_name": [
+		"Delivery-TRX-027",
+		"Delivery-TRX-027"
 	]
+
 
 
 
