@@ -18,10 +18,50 @@
 
 	"livesEmitters": [
 		[
-			{"frames": ["emitter_smoke"], "x": 0, "y": 0, "updateTime": 100, "explode": true, "speedX":[-50, 50], "speedY":[-200, -300], "lifespan": 1500, "alpha": 0.3, "rotation": 1}
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 750, 
+				"speedX":[-20, 20], 
+				"speedY":[-200, -300], 
+				"lifespan": 1500,
+				"frequency": 300,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
 		],
 		[
-			{"frames": ["emitter_smoke"], "x": 0, "y": 0, "updateTime": 200, "explode": true, "speedX":[-20, 20], "speedY":[-300, -400], "lifespan": 2000, "alpha": 0.2, "rotation": 1}
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 1500, 
+				"speedX":[-20, 20], 
+				"speedY":[-150, -250], 
+				"lifespan": 1500,
+				"frequency": 500,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
 		],
 		[
 		]

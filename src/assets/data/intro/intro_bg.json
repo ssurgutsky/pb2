@@ -8,7 +8,7 @@
 			"frames": ["emitter_smoke"], 
 			"x": -230, 
 			"y": -40, 
-			"updateTime": 70, 
+			"updateTime": 70,
 			"explode": true, 
 			"speedX":[-30, 30], 
 			"speedY":[-100, -150], 
