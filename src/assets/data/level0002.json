@@ -89,8 +89,8 @@
 			"template": "smoke",
 			"x": 250,
 			"y": 470,
-			"sx": 3,
-			"sy": 3,
+			"sx": 2,
+			"sy": 2,
 			"layer": 1
 		},
 

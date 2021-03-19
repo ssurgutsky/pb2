@@ -5,18 +5,25 @@
 	"isDecor": true,
 	"emitters": [
 		{
-			"frames": ["emitter_smoke"], 
+			"frames": ["emitter_smoke"],
+			"maxParticles": 20,
 			"x": -230, 
 			"y": -40, 
-			"updateTime": 70,
+			"updateTime": 100,
 			"explode": true, 
-			"speedX":[-30, 30], 
-			"speedY":[-100, -150], 
+			"speedX":[-20, 20], 
+			"speedY":[-50, -100], 
 			"lifespan": 1000, 
-			"alpha": 0.3, 
-			"rotation": 1,
-			"scaleX": 0.3,
-			"scaleY": 0.5,
+			"frequency": 150,
+			"quantity": 20,
+			"minAlpha": 0.8,
+			"maxAlpha": 0,
+			"minRotation": 0,
+			"maxRotation": 45,
+			"minScaleX": 0.2,
+			"maxScaleX": 0.2,
+			"minScaleY": 0.4,
+			"maxScaleY": 0.4,
 			"layer": 1
 		}
 	]
