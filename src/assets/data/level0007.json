@@ -19,6 +19,8 @@
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 
+			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
+
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
 			{ "key": "drone2", "url": "src/assets/data/assets0001/drone2.json" },
 			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
@@ -33,13 +35,10 @@
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
+			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
-
-			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
-			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
-
-			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
 
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
@@ -205,7 +204,38 @@
 			"layer": 2
 		},
 
+		{
+			"name": "smoke1",
+			"template": "smoke",
+			"x": 130,
+			"y": 500,
+			"sx": 1.5,
+			"sy": 1.5,
+			"layer": 1
+		},
+		{
+			"name": "smoke2",
+			"template": "smoke",
+			"x": 1000,
+			"y": 150,
+			"sx": 1.5,
+			"sy": 1.5,
+			"layer": 1
+		},
+		{
+			"name": "fire1",
+			"bodyType": "STATIC",
+			"template": "fire",
+			"x": 1000,
+			"y": 180,
+			"sx": 1,
+			"sy": 1,
+			"alpha": 1,
+			"angle": 190,
+			"layer": 1
+		},
 
+                
 		{
 			"name": "Ball1",
 			"template": "ball_big1",

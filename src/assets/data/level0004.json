@@ -33,6 +33,8 @@
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
+			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
 

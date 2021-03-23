@@ -1,0 +1,19 @@
+{
+	"name": "explosion",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "explosion00",
+	"isDecor": true,
+	"gravityScale": 0,
+	"timeToLive": 0.4,
+
+	"animations": {
+		"idle": {
+			"frameName": "explosion0",
+			"framesCount": 9,
+			"frameRate": 16,
+			"isStart": true,
+			"isLoop": false
+		}
+	}
+}

@@ -1,10 +1,10 @@
 {
-	"name": "intro_text02",
+	"name": "intro_text03",
 	"bodyType": "KINEMATIC",
 	"isDecor": true,
 	"texts": [
 		{
-		 	"text": "intro_text02",
+		 	"text": "intro_text03",
 			"fontSize": 60,
 			"x": 0,
 			"y": 0

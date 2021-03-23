@@ -4,7 +4,7 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/e01bg0005.jpg" }
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
@@ -32,20 +32,20 @@
 			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
-			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+			{ "key": "box1", "url": "src/assets/data/assets0001/box1.json" },
+			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
+			{ "key": "extra_ball_name", "url": "src/assets/data/assets0001/extra_ball_name.json" },
+			{ "key": "debris_box1_1", "url": "src/assets/data/assets0001/debris_box1_1.json" },
+			{ "key": "debris_box1_2", "url": "src/assets/data/assets0001/debris_box1_2.json" },
+			{ "key": "debris_box1_3", "url": "src/assets/data/assets0001/debris_box1_3.json" },
+			{ "key": "debris_box1_4", "url": "src/assets/data/assets0001/debris_box1_4.json" },
 
+			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
+			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
 
-			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
-			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
-
-			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
-			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
-			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
-			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
-			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
-			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
 
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
@@ -55,16 +55,6 @@
 			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
 			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
 
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
-			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
-			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
-			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
-			{ "key": "debris_chest10_2", "url": "src/assets/data/assets0001/debris_chest10_2.json" },
-			{ "key": "debris_chest11", "url": "src/assets/data/assets0001/debris_chest11.json" },
-			{ "key": "debris_chest12", "url": "src/assets/data/assets0001/debris_chest12.json" },
-			{ "key": "debris_chest13", "url": "src/assets/data/assets0001/debris_chest13.json" },
-			{ "key": "debris_chest14", "url": "src/assets/data/assets0001/debris_chest14.json" },
-			{ "key": "debris_chest1_atom", "url": "src/assets/data/assets0001/debris_chest1_atom.json" },
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
@@ -149,8 +139,8 @@
 		},
 
 		{
-			"name": "chest1",
-			"template": "chest1",
+			"name": "box1",
+			"template": "box1",
 			"x": 1100,
 			"y": 897,
 			"layer": 2

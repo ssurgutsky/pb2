@@ -23,8 +23,7 @@
 			"minScaleX": 1,
 			"maxScaleX": 3,
 			"minScaleY": 1,
-			"maxScaleY": 3,
-			"layer": 1
+			"maxScaleY": 3
 		}
 	]
 

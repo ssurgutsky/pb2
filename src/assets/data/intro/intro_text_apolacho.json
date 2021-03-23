@@ -1,11 +1,11 @@
 {
-	"name": "intro_text02",
+	"name": "intro_text_apolacho",
 	"bodyType": "KINEMATIC",
 	"isDecor": true,
 	"texts": [
 		{
-		 	"text": "intro_text02",
-			"fontSize": 60,
+		 	"text": "intro_text_apolacho",
+			"fontSize": 200,
 			"x": 0,
 			"y": 0
 		}

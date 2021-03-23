@@ -326,19 +326,34 @@
 	],
 
 	"intro_text01": [
-		"We're arriving to the Fortress. Observing a thick smoke.",
-		"Мы приближаемся к Крепости. Видим густой дым."
+		"We're arriving to the Fortress",
+		"Мы приближаемся к Крепости"
 	],
 
 	"intro_text02": [
-		"Launching the rocket-drone.",
-		"Запускаем ракету-дрон."
+		"Observing a thick smoke",
+		"Видим густой дым"
+	],
+
+	"intro_text03": [
+		"Launched the Rocket-Drone",
+		"Выпустили Ракету-Дрон"
+	],
+	"intro_text_apolacho": [
+		"APOLACHO",
+		"АPOLACHO"
 	],
 
 	"spaceship1_name": [
 		"Delivery-TRX-027",
 		"Delivery-TRX-027"
+	],
+
+	"extra_ball_name": [
+		"Extra bullet!",
+		"Еще один снаряд!"
 	]
+
 
 
 

@@ -1,0 +1,83 @@
+{
+	"name": "Box1",
+	"atlas": "assets0001",
+	"bodyType": "DYNAMIC",
+	"livesFrames": ["box1_3","box1_2","box1"],
+	"shape": "POLYGON",
+	"shapeName": "box1shape",
+	"lives": 3,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_block",
+	"layer": 2,
+	"angle": 0,
+
+	"debrises": [
+		{
+			"name": "ball_big1_prepare",
+			"isTask": true,
+			"template": "ball_big1_prepare",
+			"fixedRotation": true,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"ox": 1760,
+			"oy": 740
+		},
+		{
+			"name": "extra_ball_name",
+			"template": "extra_ball_name",
+			"lockToObject": 
+				{
+					"name": "ball_big1_prepare",
+					"offset": {"x": 0, "y": -50},
+					"angle": 0
+				},
+			"timeToLive": 5,
+			"fixedRotation": true,
+			"layer": 5
+		},
+		{
+			"name": "bd1",
+			"template": "debris_box1_1",
+			"lx": 0,
+			"ly": -200,
+			"vx": 0,
+			"vy": -1000,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bd2",
+			"template": "debris_box1_2",
+			"lx": 0,
+			"ly": -50,
+			"vx": 0,
+			"vy": -100,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bd3",
+			"template": "debris_box1_3",
+			"lx": -100,
+			"ly": 0,
+			"vx": -100,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bd4",
+			"template": "debris_box1_4",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

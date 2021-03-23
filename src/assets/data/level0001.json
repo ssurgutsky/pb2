@@ -17,7 +17,9 @@
 
 			{ "key": "spaceship1_name", "url": "src/assets/data/intro/spaceship1_name.json" },
 			{ "key": "intro_text01", "url": "src/assets/data/intro/intro_text01.json" },
-			{ "key": "intro_text02", "url": "src/assets/data/intro/intro_text02.json" }
+			{ "key": "intro_text02", "url": "src/assets/data/intro/intro_text02.json" },
+			{ "key": "intro_text03", "url": "src/assets/data/intro/intro_text03.json" },
+			{ "key": "intro_text_apolacho", "url": "src/assets/data/intro/intro_text_apolacho.json" }
 
 		],
 		"PHYSICS": [
@@ -28,7 +30,7 @@
 	"balls": 1,
 	"tasks": 1,
 	"isHideUI": true,
-	"isHideWinLose": false,
+	"isHideWinLose": true,
 	"objects": [
 		{
 			"name": "intro_bg",
@@ -148,7 +150,7 @@
 			"template": "intro_text01",
 			"x": 960,
 			"y": 900,
-			"timeToLive": 8,
+			"timeToLive": 5,
 			"layer": 3,
 			"debrises": [
 				{
@@ -156,7 +158,28 @@
 					"template": "intro_text02",
 					"x": 960,
 					"y": 900,
-					"timeToLive": 8
+					"timeToLive": 6,
+					"debrises": [
+						{
+							"name": "intro_text03",
+							"template": "intro_text03",
+							"x": 960,
+							"y": 900,
+							"timeToLive": 10,
+							"debrises": [
+								{
+									"name": "intro_text_apolacho",
+									"template": "intro_text_apolacho",
+									"x": 960,
+									"y": 400,
+									"timeToLive": 7,
+									"debrises": [
+									]
+
+								}
+							]
+						}
+					]
 				}
 			]
 

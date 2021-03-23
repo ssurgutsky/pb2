@@ -39,6 +39,16 @@
 			"vy": -100,
 			"sx": 1,
 			"sy": 1
+		},
+		{
+			"name": "d1ed4",
+			"template": "explosion2",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": -200,
+			"sx": 2,
+			"sy": 2
 		}
 	]
 }

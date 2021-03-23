@@ -6,7 +6,7 @@
 	"frame": "key_golden",
 	"bodyMass": 1,
 	"timeToLive": 99,
-	"minHitImpulse": 1000,
+	"minHitImpulse": 100000,
 	"sx": 1,
 	"sy": 1,
 	"debrises": [

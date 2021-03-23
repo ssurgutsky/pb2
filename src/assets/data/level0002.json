@@ -41,6 +41,8 @@
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
+			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
 			{ "key": "pharao_intro", "url": "src/assets/data/assets0001/pharao_intro.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },

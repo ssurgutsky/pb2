@@ -1,0 +1,14 @@
+{
+	"name": "extra_ball_name",
+	"bodyType": "DYNAMIC",
+	"isDecor": true,
+	"texts": [
+		{
+		 	"text": "extra_ball_name",
+			"fontSize": 60,
+			"fill": "#ffff00",
+			"x": 0,
+			"y": 0
+		}
+	]
+}

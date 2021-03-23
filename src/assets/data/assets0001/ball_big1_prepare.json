@@ -5,6 +5,7 @@
 	"frame": "ball_big",
 	"bodyMass": 1,
 	"impulseMultiplier": 3,
+	"minHitImpulse": 100000,
 	"lives": 1,
 	"timeToLive": 5,
 	"debrises": [

@@ -35,7 +35,7 @@
 		{
 			"name": "b1",
 			"isTask": true,
-			"template": "ball_big1_prepare",
+			"template": "key_golden",
 			"lx": 0,
 			"ly": -200,
 			"vx": 0,

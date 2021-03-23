@@ -138,8 +138,32 @@
 			"vx": 0,
 			"vy": 0,
 			"sx": 1,
-			"sy": 1
+			"sy": 1,
+			"emitters": [
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 450, 
+				"speedX":[-20, 20], 
+				"speedY":[-200, -300], 
+				"lifespan": 1500,
+				"frequency": 300,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
+			]
 		},
+
 		{
 			"name": "d1",
 			"template": "debris_drone1",
