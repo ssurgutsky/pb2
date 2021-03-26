@@ -8,7 +8,7 @@
 	"minHitImpulse": 2000,
 	"lives": 1,
 	"hasElectro": true,
-	"hitSound": "hit_block",
+	"hitSound": "explosion1",
 	"debrises": [
 		{
 			"name": "d1ed1",

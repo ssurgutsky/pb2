@@ -32,21 +32,13 @@
 			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
-			{ "key": "box1", "url": "src/assets/data/assets0001/box1.json" },
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
-			{ "key": "extra_ball_name", "url": "src/assets/data/assets0001/extra_ball_name.json" },
-			{ "key": "debris_box1_1", "url": "src/assets/data/assets0001/debris_box1_1.json" },
-			{ "key": "debris_box1_2", "url": "src/assets/data/assets0001/debris_box1_2.json" },
-			{ "key": "debris_box1_3", "url": "src/assets/data/assets0001/debris_box1_3.json" },
-			{ "key": "debris_box1_4", "url": "src/assets/data/assets0001/debris_box1_4.json" },
-
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
 			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
 
-
+			{ "key": "brick1_3_sdd", "url": "src/assets/data/assets0001/brick1_3_sdd.json" },
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
 			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
@@ -74,8 +66,8 @@
 	}, 
 	"bg": "bg",
 	"balls": 20,
-	"tasks": 2,
-	"fails": 6,
+	"tasks": 1,
+	"fails": 2,
 	"objects": [
 		{
 			"name": "bf1",
@@ -123,26 +115,10 @@
 
 
 		{
-			"name": "pharao1",
-			"template": "pharao",
-			"x": 1100,
-			"y": 260,
-			"layer": 2
-		},
-
-		{
 			"name": "pharao2",
 			"template": "pharao_dynamic",
 			"x": 542,
 			"y": 885,
-			"layer": 2
-		},
-
-		{
-			"name": "box1",
-			"template": "box1",
-			"x": 1100,
-			"y": 897,
 			"layer": 2
 		},
 
@@ -192,6 +168,13 @@
 			"layer": 2
 		},
 
+		{
+			"name": "brick1sdd2",
+			"template": "brick1_3_sdd",
+			"x": 1000,
+			"y": 100,
+			"layer": 2
+		},
 
 		{
 			"name": "Beam1",
