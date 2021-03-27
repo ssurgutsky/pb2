@@ -6,9 +6,9 @@
 	"shape": "POLYGON",
 	"shapeName": "box1shape",
 	"lives": 3,
+	"bodyMass": 1,
 	"minHitImpulse": 1000,
 	"hitSound": "hit_block",
-	"layer": 2,
 	"angle": 0,
 
 	"debrises": [

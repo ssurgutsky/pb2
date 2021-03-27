@@ -1,0 +1,78 @@
+{
+	"name": "Barrel1",
+	"atlas": "assets0001",
+	"bodyType": "DYNAMIC",
+	"frame": "barrel1",
+	"shape": "POLYGON",
+	"shapeName": "barrel1shape",
+	"lives": 3,
+	"bodyMass": 3,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_block",
+	"layer": 2,
+	"angle": 0,
+
+	"debrises": [
+		{
+			"name": "bad1",
+			"template": "debris_barrel1_1",
+			"lx": -120,
+			"ly": 0,
+			"vx": -1000,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bad2",
+			"template": "debris_barrel1_1",
+			"lx": -120,
+			"ly": -120,
+			"vx": -1000,
+			"vy": -1000,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bad3",
+			"template": "debris_barrel1_2",
+			"lx": 0,
+			"ly": -120,
+			"vx": 0,
+			"vy": -1000,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bad4",
+			"template": "debris_barrel1_1",
+			"lx": 120,
+			"ly": -120,
+			"vx": 1000,
+			"vy": -1000,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "bad5",
+			"template": "debris_barrel1_2",
+			"lx": 120,
+			"ly": 0,
+			"vx": 1000,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+
+		{
+			"name": "bad5",
+			"template": "explosion",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 2,
+			"sy": 2
+		}
+	]
+}

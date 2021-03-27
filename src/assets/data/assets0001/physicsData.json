@@ -395,6 +395,26 @@
 		}
 	],
 
+	"barrel1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [10,280, 10,20, 175,20, 175,280]
+		}
+	],
+	"debris_barrel1_1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [24,94, 11,46, 58,6, 57,82]
+		}
+	],
+	"debris_barrel1_2shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [16,105, 24,38, 74,10, 68,92]
+		}
+	],
+
+
 	"board_frame1shape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
