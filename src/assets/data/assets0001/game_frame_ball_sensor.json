@@ -1,0 +1,14 @@
+{
+	"name": "game_frame_ball_sensor",
+	"shape": "POLYGON",
+	"shapeName": "game_frame_ball_sensor_shape",
+	"bodyType": "STATIC",
+	"isSensor": true,
+	"isBallSensor": true,
+	"lives": -1,
+	"respawnOnHit": true,
+	"x": 0,
+	"y": 0,
+	"layer": 0,
+	"forceDraggableDisabled": true
+}

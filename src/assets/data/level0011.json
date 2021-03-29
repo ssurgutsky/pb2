@@ -10,7 +10,8 @@
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
 		],
 		"JSON": [
-			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
+			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
 			{ "key": "key_golden", "url": "src/assets/data/assets0001/key_golden.json" },
@@ -21,10 +22,7 @@
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 
 
-
 			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
-
-			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
 
 			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
 			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
@@ -62,17 +60,10 @@
 	"fails": 1,
 	"objects": [
 		{
-			"name": "bf1",
-			"template": "board_frame1",
-			"x": 0,
-			"y": 0,
-			"layer": 0
+			"template": "game_frame_ball_sensor"
 		},
-
-
 		{
-			"name": "sensorGround",
-			"template": "sensor_ground"
+			"template": "game_ground"
 		},
 
 		{
@@ -119,7 +110,7 @@
 			"name": "Door1",
 			"template": "door1",
 			"x": 250,
-			"y": 470,
+			"y": 520,
 			"sx": 2,
 			"sy": 2
 		},
@@ -127,7 +118,7 @@
 			"name": "Keyhole1",
 			"template": "keyhole1",
 			"x": 340,
-			"y": 500
+			"y": 550
 		},
 
 		{

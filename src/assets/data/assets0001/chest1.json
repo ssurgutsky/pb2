@@ -6,6 +6,7 @@
 	"shape": "POLYGON",
 	"shapeName": "chest1shape",
 	"lives": 1,
+	"bodyMass": 1,
 	"minHitImpulse": 1000,
 	"hitSound": "hit_block",
 	"hasDust": true,

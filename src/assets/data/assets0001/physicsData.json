@@ -415,7 +415,7 @@
 	],
 
 
-	"board_frame1shape": [
+	"game_frame_ball_sensor_shape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
 			"shape": [0,0, 50,0, 50,1080, 0,1080]
@@ -430,8 +430,14 @@
 		},
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
-			"shape": [0,1070, 1950,1070, 1950,1130, 0,1130]
+			"shape": [0,1040, 1950,1040, 1950,1400, 0,1400]
 		}
-
+	],
+	"game_ground_shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [-10000,400, -10000,0, 10000,0, 10000,400]
+		}
 	]
+
 }

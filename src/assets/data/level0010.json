@@ -10,7 +10,8 @@
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
 		],
 		"JSON": [
-			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
+			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
@@ -46,8 +47,6 @@
 
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 
-			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
-
 			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
 			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
 
@@ -82,25 +81,24 @@
 	"fails": 2,
 	"objects": [
 		{
-			"name": "bf1",
-			"template": "board_frame1",
-			"x": 0,
-			"y": 0,
-			"layer": 0
+			"template": "game_frame_ball_sensor"
+		},
+		{
+			"template": "game_ground"
 		},
 
 		{
 			"name": "brick11",
 			"template": "brick1_3",
 			"x": 800,
-			"y": 919,
+			"y": 969,
 			"layer": 2
 		},
 		{
 			"name": "brick12",
 			"template": "brick1_3",
 			"x": 800,
-			"y": 808,
+			"y": 858,
 			"layer": 2,
 			"isDisabled": false
 		},
@@ -108,7 +106,7 @@
 			"name": "brick13",
 			"template": "brick1_3",
 			"x": 800,
-			"y": 696,
+			"y": 746,
 			"layer": 2
 		},
 
@@ -116,14 +114,14 @@
 			"name": "brick21",
 			"template": "brick1_3",
 			"x": 300,
-			"y": 919,
+			"y": 969,
 			"layer": 2
 		},
 		{
 			"name": "brick22",
 			"template": "brick1_3",
 			"x": 300,
-			"y": 808,
+			"y": 858,
 			"layer": 2,
 			"isDisabled": false
 		},
@@ -131,13 +129,8 @@
 			"name": "brick23",
 			"template": "brick1_3",
 			"x": 300,
-			"y": 696,
+			"y": 746,
 			"layer": 2
-		},
-
-		{
-			"name": "sensorGround",
-			"template": "sensor_ground"
 		},
 
 		{
@@ -176,7 +169,7 @@
 			"name": "pharao3",
 			"template": "pharao_dynamic",
 			"x": 542,
-			"y": 885,
+			"y": 935,
 			"layer": 2
 		},
 
@@ -199,7 +192,7 @@
 			"name": "chest1",
 			"template": "chest1",
 			"x": 1100,
-			"y": 897,
+			"y": 947,
 			"layer": 2
 		},
 

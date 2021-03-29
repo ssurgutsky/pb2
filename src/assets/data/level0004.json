@@ -10,7 +10,8 @@
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
 		],
 		"JSON": [
-			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
+			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
@@ -36,8 +37,6 @@
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
-			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
-
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
@@ -56,18 +55,10 @@
 	"fails": 2,
 	"objects": [
 		{
-			"name": "bf1",
-			"template": "board_frame1",
-			"x": 0,
-			"y": 0,
-			"layer": 0
+			"template": "game_frame_ball_sensor"
 		},
-
 		{
-			"name": "sensorGround",
-			"template": "sensor_ground",
-			"x": 960,
-			"y": 1050
+			"template": "game_ground"
 		},
 
 		{

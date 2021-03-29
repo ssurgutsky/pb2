@@ -10,7 +10,8 @@
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
 		],
 		"JSON": [
-			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
+			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
@@ -49,8 +50,6 @@
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 
-			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
-
 			{ "key": "brick1_3_sdd", "url": "src/assets/data/assets0001/brick1_3_sdd.json" },
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
@@ -83,16 +82,10 @@
 	"fails": 2,
 	"objects": [
 		{
-			"name": "bf1",
-			"template": "board_frame1",
-			"x": 0,
-			"y": 0,
-			"layer": 0
+			"template": "game_frame_ball_sensor"
 		},
-
 		{
-			"name": "sensorGround",
-			"template": "sensor_ground"
+			"template": "game_ground"
 		},
 
 		{
@@ -131,7 +124,7 @@
 			"name": "pharao2",
 			"template": "pharao_dynamic",
 			"x": 542,
-			"y": 885,
+			"y": 935,
 			"layer": 2
 		},
 
@@ -155,14 +148,14 @@
 			"name": "brick11",
 			"template": "brick1_3",
 			"x": 800,
-			"y": 919,
+			"y": 969,
 			"layer": 2
 		},
 		{
 			"name": "brick12",
 			"template": "brick1_3",
 			"x": 800,
-			"y": 808,
+			"y": 858,
 			"layer": 2,
 			"isDisabled": false
 		},
@@ -170,7 +163,7 @@
 			"name": "brick13",
 			"template": "brick1_3",
 			"x": 800,
-			"y": 696,
+			"y": 746,
 			"layer": 2
 		},
 
@@ -178,14 +171,14 @@
 			"name": "brick21",
 			"template": "brick1_3",
 			"x": 300,
-			"y": 919,
+			"y": 969,
 			"layer": 2
 		},
 		{
 			"name": "brick22",
 			"template": "brick1_3",
 			"x": 300,
-			"y": 808,
+			"y": 858,
 			"layer": 2,
 			"isDisabled": false
 		},
@@ -193,7 +186,7 @@
 			"name": "brick23",
 			"template": "brick1_3",
 			"x": 300,
-			"y": 696,
+			"y": 746,
 			"layer": 2
 		},
 
@@ -201,7 +194,7 @@
 			"name": "barrel1",
 			"template": "barrel1",
 			"x": 100,
-			"y": 300,
+			"y": 350,
 			"layer": 2
 		},
 

@@ -4,7 +4,7 @@
 	"atlas": "assets0001",
 	"lives": 5,
 	"livesFrames": ["pharao216x200_1","pharao216x200_1","pharao216x200_2","pharao216x200_2","pharao216x200_3"],
-	"livesBodyTypes": ["DYNAMIC","DYNAMIC","KINEMATIC","KINEMATIC","KINEMATIC"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC","KINEMATIC"],
 	"livesCoins": [0,0,0,0,0],
 	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao","hit_pharao"],
 	"livesEffect": true,
