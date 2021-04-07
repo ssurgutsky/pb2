@@ -108,35 +108,12 @@
 		},
 
 		{
-			"name": "Pusher",
+			"name": "Pusher1",
 			"template": "pusher1",
 			"x": 1720,
-			"y": 800
+			"y": 850
 		},
-		{
-			"name": "pusher1_lb",
-			"template": "pusher1_lb",
-			"x": 1626,
-			"y": 890
-		},
-		{
-			"name": "pusher1_rb",
-			"template": "pusher1_rb",
-			"x": 1809,
-			"y": 890
-		},
-		{
-			"name": "pusher1_lt",
-			"template": "pusher1_lt",
-			"x": 1642,
-			"y": 655
-		},
-		{
-			"name": "pusher1_rt",
-			"template": "pusher1_rt",
-			"x": 1797,
-			"y": 655
-		},
+
 
 
 		{

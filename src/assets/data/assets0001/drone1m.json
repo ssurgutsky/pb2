@@ -1,0 +1,52 @@
+{
+	"name": "drone1",
+	"template": "drone1",
+	"AI": {
+		"distance": 30,
+		"produce1Lxy": 300
+	},
+	"lockedObjects": [
+		{
+			"name": "da1up",
+			"template": "drone_armour1",
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": -150},
+					"angle": -90
+				},
+			"angle": -90,
+			"layer": 2
+		},
+		{
+			"name": "da2right",
+			"template": "drone_armour1",
+			"lockToObject": 
+				{
+					"offset": {"x": 150, "y": 0}
+				},
+			"layer": 2
+		},
+		{
+			"name": "da3down",
+			"template": "drone_armour1",
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": 150},
+					"angle": 90
+				},
+			"angle": 90,
+			"layer": 2
+		},
+		{
+			"name": "da3left",
+			"template": "drone_armour1",
+			"lockToObject": 
+				{
+					"offset": {"x": -150, "y": 0},
+					"angle": 180
+				},
+			"angle": 180,
+			"layer": 2
+		}
+	]
+}

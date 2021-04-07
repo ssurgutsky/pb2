@@ -1,11 +1,10 @@
 {
 	"name": "pusher1_lt",
 	"shape": "POLYGON",
-	"shapeName": "pusherLTshape",
-	"bodyType": "KINEMATIC",
+	"shapeName": "pusher1LTshape",
+	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"frame": "pusher1_lt",
-	"layer": 3,
 
 	"lives": 3,
 	"livesEffect": true,

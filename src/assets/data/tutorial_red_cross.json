@@ -16,6 +16,5 @@
 	},
 	"isDecor": true,
 	"alpha": 0,
-	"layer": 4,
 	"isDestroyOnPusherDragStart": true
 }

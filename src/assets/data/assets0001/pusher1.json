@@ -1,16 +1,85 @@
 {
-	"shape": "POLYGON",
-	"shapeName": "pusher1shape",
 	"atlas": "assets0001",
-	"frame": "pusher1",
-	"pBodyMass": 500,
-	"pScaleGravity": -30,
-	"pPrismaticConstraintAnchorB": 60,
-	"pOffsetY": 45,
-	"pMinY": 28,
-	"pMaxY": 230,
+	"frame": "pusher1_base",
+	"bodyType": "STATIC",
 	"isBallIgnore": true,
-	"isPusher": true,
-	"effectSound": "spring",
-	"layer": 2
+	"isPusherBase": true,
+	"forceDraggableDisabled": true,
+	"fixedRotation": true,
+	"lives": -1,
+
+	"lockedObjects": [
+		{
+			"name": "spring",
+			"shape": "POLYGON",
+			"shapeName": "pusher1shape",
+			"atlas": "assets0001",
+			"frame": "pusher1",
+			"bodyType": "DYNAMIC",
+			"bodyMass": 10000,
+
+			"isSpring": true,
+			"pStiffness": 3000000,
+			"pPrismaticConstraintAnchorB": 180,
+			"pFixedX": true,
+			"dragOffsetY": 100,
+
+			"fixedRotation": true,
+			"isBallIgnore": true,
+			"isPusher": true,
+			"effectSound": "spring",
+			"lives": -1,
+			"isDraggable": true,
+
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": 0}
+				}
+		},
+		{
+			"name": "pusher1_lb",
+			"template": "pusher1_lb",
+			"collisionGroup": 3,
+			"lockToObject": 
+				{
+					"offset": {"x": -94, "y": 90}
+				}
+		},
+		{
+			"name": "pusher1_rb",
+			"template": "pusher1_rb",
+			"collisionGroup": 3,
+			"lockToObject": 
+				{
+					"offset": {"x": 89, "y": 90}
+				}
+		},
+		{
+			"name": "pusher1_lt",
+			"template": "pusher1_lt",
+			"collisionGroup": 3,
+			"lockToObject": 
+				{
+					"offset": {"x": -80, "y": -145}
+				}
+		},
+		{
+			"name": "pusher1_rt",
+			"template": "pusher1_rt",
+			"collisionGroup": 3,
+			"lockToObject": 
+				{
+					"offset": {"x": 77, "y": -145}
+				}
+		},
+		{
+			"name": "pusher1_head",
+			"template": "pusher1_head",
+			"collisionGroup": 3,
+			"lockToObject": 
+				{
+					"offset": {"x": 90, "y": -717}
+				}
+		}
+	]
 }

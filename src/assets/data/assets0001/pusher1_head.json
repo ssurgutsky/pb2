@@ -1,0 +1,30 @@
+{
+	"name": "pusher1_head",
+	"shape": "POLYGON",
+	"shapeName": "pusher1_head_shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "assets0001",
+	"frame": "pusher1_head",
+
+	"lives": 3,
+	"livesEffect": true,
+	"bodyMass": 3,
+	"minHitImpulse": 500,
+	"bodyRotation": 0,
+	"angle": 35,
+
+	"isBallIgnore": true,
+	"forceDraggableDisabled": false,
+
+	"tweens": {
+		"blink": {
+			"firstDelay": 0.01,
+			"delay": 2,
+			"timeline": [
+				{"toBody": {"y": "+20"}, "duration": 1000},
+				{"toBody": {"y": "-20"}, "duration": 1000}
+			]
+		}
+	}
+
+}

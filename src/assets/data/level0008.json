@@ -21,6 +21,8 @@
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
+			{ "key": "drone1m", "url": "src/assets/data/assets0001/drone1m.json" },
+
 			{ "key": "drone_armour1", "url": "src/assets/data/assets0001/drone_armour1.json" },
 			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
 			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
@@ -76,35 +78,12 @@
 		},
 
 		{
-			"name": "Pusher",
+			"name": "Pusher1",
 			"template": "pusher1",
 			"x": 1720,
-			"y": 800
+			"y": 850
 		},
-		{
-			"name": "pusher1_lb",
-			"template": "pusher1_lb",
-			"x": 1626,
-			"y": 890
-		},
-		{
-			"name": "pusher1_rb",
-			"template": "pusher1_rb",
-			"x": 1809,
-			"y": 890
-		},
-		{
-			"name": "pusher1_lt",
-			"template": "pusher1_lt",
-			"x": 1642,
-			"y": 655
-		},
-		{
-			"name": "pusher1_rt",
-			"template": "pusher1_rt",
-			"x": 1797,
-			"y": 655
-		},
+
 
 
 		{
@@ -185,63 +164,10 @@
 		},
 
 		{
-			"name": "drone1",
-			"template": "drone1",
+			"name": "drone1m",
+			"template": "drone1m",
 			"x": 600,
-			"y": 500,
-			"layer": 2,
-			"AI": {
-				"distance": 30,
-				"produce1Lxy": 300
-			}
-
-		},
-		{
-			"name": "da1up",
-			"template": "drone_armour1",
-			"lockToObject": 
-				{
-					"name": "drone1",
-					"offset": {"x": 0, "y": -150},
-					"angle": -90
-				},
-			"angle": -90,
-			"layer": 2
-		},
-		{
-			"name": "da2right",
-			"template": "drone_armour1",
-			"lockToObject": 
-				{
-					"name": "drone1",
-					"offset": {"x": 150, "y": 0}
-				},
-			"layer": 2
-		},
-		{
-			"name": "da3down",
-			"template": "drone_armour1",
-			"lockToObject": 
-				{
-					"name": "drone1",
-					"offset": {"x": 0, "y": 150},
-					"angle": 90
-				},
-			"angle": 90,
-			"layer": 2
-		},
-		{
-			"name": "da3left",
-			"template": "drone_armour1",
-			"lockToObject": 
-				{
-					"name": "drone1",
-					"offset": {"x": -150, "y": 0},
-					"angle": 180
-				},
-			"angle": 180,
-			"layer": 2
+			"y": 500
 		}
-
 	]
 }

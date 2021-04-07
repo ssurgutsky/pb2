@@ -19,6 +19,7 @@
 			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+			{ "key": "pusher1_head", "url": "src/assets/data/assets0001/pusher1_head.json" },
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
@@ -41,9 +42,8 @@
 
 			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" }
 
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -63,34 +63,10 @@
 		},
 
 		{
-			"name": "Pusher",
+			"name": "Pusher1",
 			"template": "pusher1",
 			"x": 1720,
-			"y": 800
-		},
-		{
-			"name": "pusher1_lb",
-			"template": "pusher1_lb",
-			"x": 1626,
-			"y": 890
-		},
-		{
-			"name": "pusher1_rb",
-			"template": "pusher1_rb",
-			"x": 1809,
-			"y": 890
-		},
-		{
-			"name": "pusher1_lt",
-			"template": "pusher1_lt",
-			"x": 1642,
-			"y": 655
-		},
-		{
-			"name": "pusher1_rt",
-			"template": "pusher1_rt",
-			"x": 1797,
-			"y": 655
+			"y": 850
 		},
 
 		{
@@ -111,12 +87,6 @@
 		},
 
 
-		{
-			"name": "Beam1",
-			"template": "beam1",
-			"lives": 99999,
-			"layer": 3
-		},
 		{
 			"name": "Ball1",
 			"template": "ball_big1",

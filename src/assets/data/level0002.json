@@ -22,6 +22,7 @@
 			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+			{ "key": "pusher1_head", "url": "src/assets/data/assets0001/pusher1_head.json" },
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
@@ -47,8 +48,6 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-
 			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
 			{ "key": "tutorial_hand_pusher", "url": "src/assets/data/tutorial_hand_pusher.json" },
 			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" }
@@ -68,13 +67,6 @@
 		},
 		{
 			"template": "game_ground"
-		},
-
-		{
-			"name": "Beam1",
-			"template": "beam1",
-			"lives": 99999,
-			"layer": 2
 		},
 
 		{
@@ -130,7 +122,6 @@
 		{
 			"name": "rocket1",
 			"template": "rocket1",
-			"layer": 2,
 			"x": 1710,
 			"y": -500,
 			"sx": 3,
@@ -139,7 +130,7 @@
 			"tweens": {
 				"idle": {
 					"timeline": [
-						{"toBody": {"y": "+1250"}, "duration": 5000}
+						{"toBody": {"y": "+1270"}, "duration": 5000}
 						]
 					}
 				},
@@ -148,52 +139,25 @@
 					"name": "Ball1",
 					"template": "ball_big1",
 					"x": 1720,
-					"y": 710,
-					"layer": 2
+					"y": 710
 				},
 				{
 					"name": "Pusher",
 					"template": "pusher1",
 					"x": 1720,
-					"y": 800
-				},
-				{
-					"name": "pusher1_lb",
-					"template": "pusher1_lb",
-					"x": 1626,
-					"y": 890
-				},
-				{
-					"name": "pusher1_rb",
-					"template": "pusher1_rb",
-					"x": 1809,
-					"y": 890
-				},
-				{
-					"name": "pusher1_lt",
-					"template": "pusher1_lt",
-					"x": 1642,
-					"y": 655
-				},
-				{
-					"name": "pusher1_rt",
-					"template": "pusher1_rt",
-					"x": 1797,
-					"y": 655
+					"y": 850
 				},
 				{
 					"name": "h2",
 					"template": "hint1",
 					"x": 1720,
 					"y": 700,
-					"layer": 3,
 					"isDestroyOnPusherDragStart": true
 				},
 				{
 					"name": "thpusher1",
 					"template": "tutorial_hand_pusher",
 					"x": 1820,
-					"y": 870,
 					"layer": 3
 				},
 				{
@@ -201,8 +165,7 @@
 					"template": "tutorial_hand_pointing",
 					"x": 1350,
 					"y": 220,
-					"angle": -45,
-					"layer": 3
+					"angle": -45
 				}
 			]
 		},
@@ -219,8 +182,7 @@
 					"offset": {"x": 0, "y": 600},
 					"angle": 0,
 					"isDestroyWithLockedObject": true
-				},
-			"layer": 2
+				}
 		}
 
 	]

@@ -19,28 +19,40 @@
 			"shape": [0,0, 100,0, 100,200, 0,200]
 		}
 	],
-	"pusherLTshape": [
+	"pusher1LTshape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
 			"shape": [2,189, 2,0, 50,0, 50,189]
 		}
 	],
-	"pusherRTshape": [
+	"pusher1RTshape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
 			"shape": [5,189, 5,0, 54,0, 54,189]
 		}
 	],
-	"pusherLBshape": [
+	"pusher1LBshape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
-			"shape": [80,282, 80,0, 130,0, 130,282]
+			"shape": [80,220, 80,0, 130,0, 130,220]
 		}
 	],
-	"pusherRBshape": [
+	"pusher1RBshape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
-			"shape": [62,282, 62,0, 110,0, 110,282]
+			"shape": [62,220, 62,0, 110,0, 110,220]
+		}
+	],
+	"pusher1_rtor_shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,189, 0,0, 55,0, 55,189]
+		}
+	],
+	"pusher1_head_shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [0,214, 104,0, 208,214]
 		}
 	],
 

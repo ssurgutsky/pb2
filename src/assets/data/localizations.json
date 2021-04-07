@@ -35,6 +35,10 @@
 		"DONATE",
 		"НА РАЗВИТИЕ"
 	],
+	"DONATE2": [
+		"DONATE2",
+		"НА РАЗВИТИЕ2"
+	],
 	"Next": [
 		"Next",
 		"Дальше"
@@ -345,7 +349,7 @@
 	],
 	"intro_text_apolacho": [
 		"APOLACHO",
-		"АPOLACHO"
+		"АПОЛАЧО"
 	],
 
 	"spaceship1_name": [

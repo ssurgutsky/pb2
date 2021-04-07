@@ -15,7 +15,7 @@
 	"impulseMultiplier": 10,
 	"fixedRotation": true,
 	"gravityScale": 0,
-	"collisionGroup": 2,
+	"collisionGroup": 1,
 
 	"livesEmitters": [
 		[
