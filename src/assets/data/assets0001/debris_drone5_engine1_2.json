@@ -1,0 +1,14 @@
+{
+	"shape": "CIRCLE",
+	"shapeRadius": "30",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_drone5_engine1_2",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hasElectro": true,
+	"hitSound": "hit_block",
+	"debrises": [
+	]
+}

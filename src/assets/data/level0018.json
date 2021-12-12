@@ -7,10 +7,15 @@
 			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" },
+			{ "key": "move_energy", "url": "src/assets/audio/sound/move_energy.mp3" },
+			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
 		],
 		"JSON": [
-			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
+
+			{ "key": "spot", "url": "src/assets/data/assets0001/spot.json" },
+			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
 			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
@@ -18,20 +23,106 @@
 			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+			{ "key": "pusher1_head", "url": "src/assets/data/assets0001/pusher1_head.json" },
+			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
+			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
 
+			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
+			{ "key": "drone1m", "url": "src/assets/data/assets0001/drone1m.json" },
 
+			{ "key": "drone_armour1", "url": "src/assets/data/assets0001/drone_armour1.json" },
+			{ "key": "debris_drone1_1", "url": "src/assets/data/assets0001/debris_drone1_1.json" },
+			{ "key": "debris_drone1_2", "url": "src/assets/data/assets0001/debris_drone1_2.json" },
+			{ "key": "debris_drone1_3", "url": "src/assets/data/assets0001/debris_drone1_3.json" },
+			{ "key": "debris_drone1_atom1", "url": "src/assets/data/assets0001/debris_drone1_atom1.json" },
+			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
+			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
+			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
+			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
-			{ "key": "sensor_ground", "url": "src/assets/data/assets0001/sensor_ground.json" },
+			{ "key": "drone2", "url": "src/assets/data/assets0001/drone2.json" },
+			{ "key": "debris_drone2_1", "url": "src/assets/data/assets0001/debris_drone2_1.json" },
+			{ "key": "debris_drone2_2", "url": "src/assets/data/assets0001/debris_drone2_2.json" },
+			{ "key": "debris_drone2_3", "url": "src/assets/data/assets0001/debris_drone2_3.json" },
+			{ "key": "debris_drone2_atom1", "url": "src/assets/data/assets0001/debris_drone2_atom1.json" },
+			{ "key": "drone2_engine", "url": "src/assets/data/assets0001/drone2_engine.json" },
+			{ "key": "debris_drone2_engine1_1", "url": "src/assets/data/assets0001/debris_drone2_engine1_1.json" },
+			{ "key": "debris_drone2_engine1_2", "url": "src/assets/data/assets0001/debris_drone2_engine1_2.json" },
+			{ "key": "debris_drone2_engine1_3", "url": "src/assets/data/assets0001/debris_drone2_engine1_3.json" },
+			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
+
+			{ "key": "debris_fire", "url": "src/assets/data/assets0001/debris_fire.json" },
+
+			{ "key": "drone3", "url": "src/assets/data/assets0001/drone3.json" },
+			{ "key": "debris_drone3_1", "url": "src/assets/data/assets0001/debris_drone3_1.json" },
+			{ "key": "debris_drone3_2", "url": "src/assets/data/assets0001/debris_drone3_2.json" },
+			{ "key": "debris_drone3_3", "url": "src/assets/data/assets0001/debris_drone3_3.json" },
+			{ "key": "debris_drone3_atom1", "url": "src/assets/data/assets0001/debris_drone3_atom1.json" },
+
+			{ "key": "drone_energy_ball1", "url": "src/assets/data/assets0001/drone_energy_ball1.json" },
+
+			{ "key": "drone4", "url": "src/assets/data/assets0001/drone4.json" },
+			{ "key": "debris_drone4_1", "url": "src/assets/data/assets0001/debris_drone4_1.json" },
+			{ "key": "debris_drone4_2", "url": "src/assets/data/assets0001/debris_drone4_2.json" },
+			{ "key": "debris_drone4_3", "url": "src/assets/data/assets0001/debris_drone4_3.json" },
+			{ "key": "debris_drone4_atom1", "url": "src/assets/data/assets0001/debris_drone4_atom1.json" },
+			{ "key": "drone4_engine", "url": "src/assets/data/assets0001/drone4_engine.json" },
+			{ "key": "debris_drone4_engine1_1", "url": "src/assets/data/assets0001/debris_drone4_engine1_1.json" },
+			{ "key": "debris_drone4_engine1_2", "url": "src/assets/data/assets0001/debris_drone4_engine1_2.json" },
+			{ "key": "debris_drone4_engine1_3", "url": "src/assets/data/assets0001/debris_drone4_engine1_3.json" },
+
+			{ "key": "drone_b1", "url": "src/assets/data/assets0001/drone_b1.json" },
+			{ "key": "debris_drone_b1_1", "url": "src/assets/data/assets0001/debris_drone_b1_1.json" },
+			{ "key": "debris_drone_b1_2", "url": "src/assets/data/assets0001/debris_drone_b1_2.json" },
+			{ "key": "debris_drone_b1_3", "url": "src/assets/data/assets0001/debris_drone_b1_3.json" },
+			{ "key": "drone_b1_engine", "url": "src/assets/data/assets0001/drone_b1_engine.json" },
+			{ "key": "debris_drone_b1_atom1", "url": "src/assets/data/assets0001/debris_drone_b1_atom1.json" },
+			{ "key": "debris_drone_b1_engine1_1", "url": "src/assets/data/assets0001/debris_drone_b1_engine1_1.json" },
+			{ "key": "debris_drone_b1_engine1_2", "url": "src/assets/data/assets0001/debris_drone_b1_engine1_2.json" },
+			{ "key": "debris_drone_b1_engine1_3", "url": "src/assets/data/assets0001/debris_drone_b1_engine1_3.json" },
+
+			{ "key": "drone_spider1", "url": "src/assets/data/assets0001/drone_spider1.json" },
+			{ "key": "spider_debris1", "url": "src/assets/data/assets0001/spider_debris1.json" },
+			{ "key": "spider_debris2", "url": "src/assets/data/assets0001/spider_debris2.json" },
+			{ "key": "spider_debris3", "url": "src/assets/data/assets0001/spider_debris3.json" },
+			{ "key": "spider_dead", "url": "src/assets/data/assets0001/spider_dead.json" },
+			{ "key": "spider_web_big", "url": "src/assets/data/assets0001/spider_web_big.json" },
+			{ "key": "spider_web_debris1", "url": "src/assets/data/assets0001/spider_web_debris1.json" },
+			{ "key": "spider_web_debris2", "url": "src/assets/data/assets0001/spider_web_debris2.json" },
+			{ "key": "spider_web_debris3", "url": "src/assets/data/assets0001/spider_web_debris3.json" },
+
+			{ "key": "drone_boss1", "url": "src/assets/data/assets0001/drone_boss1.json" },
+			{ "key": "drone_boss1_cabin", "url": "src/assets/data/assets0001/drone_boss1_cabin.json" },
+			{ "key": "drone_boss1_hood", "url": "src/assets/data/assets0001/drone_boss1_hood.json" },
+			{ "key": "drone_boss1_gun", "url": "src/assets/data/assets0001/drone_boss1_gun.json" },
+			{ "key": "debris_drone_boss1_gun_5_1", "url": "src/assets/data/assets0001/debris_drone_boss1_gun_5_1.json" },
+			{ "key": "debris_drone_boss1_gun_5_2", "url": "src/assets/data/assets0001/debris_drone_boss1_gun_5_2.json" },
+			{ "key": "debris_drone_boss1_gun_atom1", "url": "src/assets/data/assets0001/debris_drone_boss1_gun_atom1.json" },
+			{ "key": "debris_drone_boss1_gun_atom2", "url": "src/assets/data/assets0001/debris_drone_boss1_gun_atom2.json" },
+			{ "key": "debris_drone_boss1_gun_atom3", "url": "src/assets/data/assets0001/debris_drone_boss1_gun_atom3.json" },
+			{ "key": "debris_drone_boss1_atom1", "url": "src/assets/data/assets0001/debris_drone_boss1_atom1.json" },
+			{ "key": "debris_drone_boss1_atom2", "url": "src/assets/data/assets0001/debris_drone_boss1_atom2.json" },
+
+        
+			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
+			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
+			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
+			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
+			{ "key": "debris_chest10_2", "url": "src/assets/data/assets0001/debris_chest10_2.json" },
+			{ "key": "debris_chest11", "url": "src/assets/data/assets0001/debris_chest11.json" },
+			{ "key": "debris_chest12", "url": "src/assets/data/assets0001/debris_chest12.json" },
+			{ "key": "debris_chest13", "url": "src/assets/data/assets0001/debris_chest13.json" },
+			{ "key": "debris_chest14", "url": "src/assets/data/assets0001/debris_chest14.json" },
+			{ "key": "debris_chest1_atom", "url": "src/assets/data/assets0001/debris_chest1_atom.json" },
+			{ "key": "key_golden", "url": "src/assets/data/assets0001/key_golden.json" },
+
+			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
+			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
+			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
+			{ "key": "explosion3", "url": "src/assets/data/assets0001/explosion3.json" },
 
 			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
 			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
-
-			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
-			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
-			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
-			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
-			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
-			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
 
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
@@ -41,23 +132,13 @@
 			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
 			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
 
-			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
-			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
-			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
-			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" },
-
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
-			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
 			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
-			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
-			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+			{ "key": "bomb1", "url": "src/assets/data/assets0001/bomb1.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -66,44 +147,56 @@
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 1,
-	"fails": 1,
+	"fails": 2,
 	"objects": [
+
 		{
-			"name": "bf1",
-			"template": "board_frame1",
-			"x": 0,
-			"y": 0,
-			"layer": 0
+			"template": "game_ground"
 		},
 
 		{
 			"name": "brick11",
 			"template": "brick1_3",
-			"x": 703,
-			"y": 920,
-			"angle": 0,
+			"x": 800,
+			"y": 969,
 			"layer": 2
 		},
 		{
 			"name": "brick12",
 			"template": "brick1_3",
-			"x": 475,
-			"y": 920,
+			"x": 800,
+			"y": 858,
 			"layer": 2,
 			"isDisabled": false
 		},
 		{
 			"name": "brick13",
 			"template": "brick1_3",
-			"x": 125,
-			"y": 900,
-			"angle": 90,
+			"x": 800,
+			"y": 746,
 			"layer": 2
 		},
 
 		{
-			"name": "sensorGround",
-			"template": "sensor_ground"
+			"name": "drone_boss1",
+			"template": "drone_boss1",
+			"x": 90,
+			"y": -200,
+			"lives": 4,
+			"livesTimeToLive": [99999,99999,99999,99999],
+			"isDisabled": false
+		},
+
+		{
+			"name": "drone_boss1_gun",
+			"template": "drone_boss1_gun",
+			"x": 300,
+			"y": 700,
+			"gravityScale": 1,
+			"lives": 1,
+			"sx": 2,
+			"sy": 2,
+			"isDisabled": false
 		},
 
 		{
@@ -113,50 +206,25 @@
 			"y": 850
 		},
 
-
-
 		{
-			"name": "monkey001_light",
-			"template": "monkey001_light",
-			"x": 869,
-			"y": 840,
+			"name": "spot1",
+			"template": "spot",
+			"x": 312,
+			"y": 400,
 			"layer": 2
 		},
 		{
-			"name": "monkey002_light",
-			"template": "monkey002_light",
-			"x": 125,
-			"y": 673,
+			"name": "spot2",
+			"template": "spot",
+			"x": 1036,
+			"y": 180,
 			"layer": 2
 		},
 		{
-			"name": "monkey003_light",
-			"template": "monkey003_light",
-			"x": 1385,
-			"y": 506,
-			"layer": 2,
-			"isDisabled": true
-		},
-
-		{
-			"name": "pharao",
-			"template": "pharao_light",
-			"x": 509,
-			"y": 724,
-			"layer": 2
-		},
-
-		{
-			"name": "Beam1",
-			"template": "beam1",
-			"lives": 19,
-			"layer": 3
-		},
-		{
-			"name": "Ball1",
-			"template": "ball_big1",
-			"x": 1720,
-			"y": 710,
+			"name": "spot3",
+			"template": "spot",
+			"x": 1300,
+			"y": 450,
 			"layer": 2
 		}
 	]

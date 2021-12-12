@@ -1,0 +1,21 @@
+{
+	"name": "explosion4",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "drone_regenerator1_ball1_00",
+	"isDecor": true,
+	"fadeOutOnRemove": true,
+	"gravityScale": 0,
+	"timeToLive": 0.3,
+	"appearSound": "explosion3",
+
+	"animations": {
+		"idle": {
+			"frameName": "drone_regenerator1_ball1_0",
+			"framesCount": 10,
+			"frameRate": 24,
+			"isStart": true,
+			"isLoop": false
+		}
+	}
+}

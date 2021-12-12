@@ -1,0 +1,13 @@
+{
+	"name": "text_hit_drone",
+	"bodyType": "KINEMATIC",
+	"isDecor": true,
+	"texts": [
+		{
+		 	"text": "hit_drone",
+			"fontSize": 100,
+			"x": 0,
+			"y": 0
+		}
+	]
+}

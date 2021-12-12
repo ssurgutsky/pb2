@@ -8,6 +8,7 @@
 		],
 		"AUDIO": [
 			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" },
 			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
 		],
 		"JSON": [
@@ -46,9 +47,7 @@
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
-			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }

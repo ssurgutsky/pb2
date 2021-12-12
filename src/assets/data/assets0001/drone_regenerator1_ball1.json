@@ -1,0 +1,48 @@
+{
+	"name": "drone_regenerator1_ball1",
+	"objType": "drone_regenerator1_ball1",
+	"shape": "CIRCLE",
+	"shapeRadius": "40",
+	"atlas": "assets0001",
+	"frame": "drone_regenerator1_ball1_00",
+	"bodyType": "DYNAMIC",
+	"lives": 1,
+
+	"bodyMass": 0.1,
+	"minHitImpulse": 10,
+	"impulseMultiplier": 100000,
+
+	"hitSound": "explosion3",
+	"hitShake": true,
+
+	"fixedRotation": false,
+	"bodyRotation": 0,
+
+	"gravityScale": 0,
+	"isRegenerator": true,
+	"hitRegeneration": 1,
+
+	"animations": {
+		"idle": {
+			"frameName": "drone_regenerator1_ball1_0",
+			"framesCount": 10,
+			"frameRate": 24,
+			"isStart": true,
+			"isLoop": true
+		}
+	},
+
+	"debrises": [
+		{
+			"name": "dr1b1d1",
+			"template": "explosion4",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"useOwnAngle": true
+		}
+	]
+}

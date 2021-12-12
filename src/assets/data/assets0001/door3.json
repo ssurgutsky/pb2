@@ -1,4 +1,5 @@
 {
+	"objType": "door3",
 	"shape": "POLYGON",
 	"shapeName": "door3shape",
 	"bodyType": "STATIC",

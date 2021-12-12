@@ -1,7 +1,7 @@
 {
 	"name": "spider_web_big",
-	"shape": "POLYGON",
-	"shapeName": "spider_web001shape",
+	"shape": "CIRCLE",
+	"shapeRadius": 80,
 	"bodyType": "KINEMATIC",
 	"atlas": "assets0001",
 	"frame": "spider_web",
@@ -12,8 +12,6 @@
 
 	"lives": 1,
 	"hitSound": "hit_spider_web",
-	"sx": 1.5,
-	"sy": 1.5,
 
 	"debrises": [
 		{
@@ -22,9 +20,7 @@
 			"lx": -80,
 			"ly": 0,
 			"vx": 0,
-			"vy": 0,
-			"sx": 1.5,
-			"sy": 1.5
+			"vy": 0
 		},
 		{
 			"name": "swbd2",
@@ -32,9 +28,7 @@
 			"lx": 50,
 			"ly": 0,
 			"vx": 0,
-			"vy": 0,
-			"sx": 1.5,
-			"sy": 1.5
+			"vy": 0
 		},
 		{
 			"name": "swbd3",
@@ -42,9 +36,7 @@
 			"lx": 0,
 			"ly": 80,
 			"vx": 0,
-			"vy": 0,
-			"sx": 1.5,
-			"sy": 1.5
+			"vy": 0
 		}
 	],
 	"respawnOnHit": true,

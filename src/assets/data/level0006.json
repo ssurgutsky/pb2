@@ -4,13 +4,15 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/e01bg0005.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/e01bg0002.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
-			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
+
+			{ "key": "spot", "url": "src/assets/data/assets0001/spot.json" },
 			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
@@ -20,15 +22,20 @@
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 			{ "key": "pusher1_head", "url": "src/assets/data/assets0001/pusher1_head.json" },
+			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
+			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
+
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
 
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
-			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
-			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
-			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
-			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+			{ "key": "debris_drone1_1", "url": "src/assets/data/assets0001/debris_drone1_1.json" },
+			{ "key": "debris_drone1_2", "url": "src/assets/data/assets0001/debris_drone1_2.json" },
+			{ "key": "debris_drone1_3", "url": "src/assets/data/assets0001/debris_drone1_3.json" },
+			{ "key": "debris_drone1_atom1", "url": "src/assets/data/assets0001/debris_drone1_atom1.json" },
+			{ "key": "debris_fire", "url": "src/assets/data/assets0001/debris_fire.json" },
+
 
 			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
 			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
@@ -38,9 +45,11 @@
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
+			{ "key": "explosion3", "url": "src/assets/data/assets0001/explosion3.json" },
 
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
 			{ "key": "brick1_3_sdd", "url": "src/assets/data/assets0001/brick1_3_sdd.json" },
+			{ "key": "brick1_3_sssd", "url": "src/assets/data/assets0001/brick1_3_sssd.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
 			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
 			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
@@ -50,124 +59,118 @@
 
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
-			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
+			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" }
 
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
-			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
 		]
-	}, 
+	},
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 1,
 	"fails": 4,
 	"objects": [
-		{
-			"template": "game_frame_ball_sensor"
-		},
-		{
-			"template": "game_ground"
-		},
 
 		{
-			"name": "brick11",
-			"template": "brick1_3",
-			"x": 800,
-			"y": 969,
-			"layer": 2
-		},
-		{
-			"name": "brick12",
-			"template": "brick1_3",
-			"x": 800,
-			"y": 858,
-			"layer": 2,
-			"isDisabled": false
-		},
-		{
-			"name": "brick13",
-			"template": "brick1_3",
-			"x": 800,
-			"y": 746,
-			"layer": 2
-		},
-
-		{
-			"name": "Pusher1",
-			"template": "pusher1",
-			"x": 1720,
-			"y": 850
-		},
-
-
-
-		{
-			"name": "pharao3",
-			"template": "pharao_dynamic",
-			"x": 780,
-			"y": 600,
-			"layer": 2
-		},
-
-		{
-			"name": "brick1sdd1",
-			"template": "brick1_3_sdd",
-			"x": 1000,
-			"y": 50,
-			"layer": 2
-		},
-		{
-			"name": "brick1sdd2",
-			"template": "brick1_3_sdd",
-			"x": 830,
-			"y": 65,
-			"layer": 2
-		},
-		{
-			"name": "brick1sdd3",
-			"template": "brick1_3_sdd",
-			"x": 660,
-			"y": 80,
-			"layer": 2
-		},
-
-		{
-			"name": "Beam1",
-			"template": "beam1",
-			"lives": 19,
-			"layer": 3
-		},
-
-		{
-			"name": "drone1",
-			"template": "drone1",
-			"x": 1500,
-			"y": 300,
-			"layer": 2
-		},
-
-		{
-			"name": "Ball1",
-			"template": "ball_big1",
-			"x": 1720,
-			"y": 710,
-			"layer": 2
+			"template": "game_ground",
+			"y": 1090
 		},
 
 		{
 			"name": "smoke1",
 			"template": "smoke",
 			"x": 130,
-			"y": 500,
+			"y": 470,
+			"angle": -30,
 			"sx": 3,
 			"sy": 3,
-			"layer": 4
+			"layer": 1
+		},
+		{
+			"name": "fire1",
+			"bodyType": "STATIC",
+			"template": "fire",
+			"x": 130,
+			"y": 480,
+			"sx": 1,
+			"sy": 1,
+			"angle": 180,
+			"layer": 1
+		},
+
+		{
+			"name": "smoke2",
+			"template": "smoke",
+			"x": 1370,
+			"y": 820,
+			"layer": 1
+		},
+		{
+			"name": "fire1",
+			"bodyType": "STATIC",
+			"template": "fire",
+			"x": 1370,
+			"y": 820,
+			"sx": 1,
+			"sy": 1,
+			"angle": 180,
+			"layer": 2
+		},
+
+		{
+			"name": "monkey1",
+			"template": "monkey002_light",
+			"lives": 5,
+			"x": 893,
+			"y": 261
+		},
+		{
+			"name": "brick1",
+			"template": "brick1_3_sssd",
+			"x": 893,
+			"y": 451,
+			"angle": 180,
+			"layer": 3
+		},
+
+		{
+			"name": "monkey2",
+			"template": "monkey003_light",
+			"lives": 5,
+			"x": 1063,
+			"y": 261
+		},
+		{
+			"name": "brick2",
+			"template": "brick1_3_sssd",
+			"x": 1063,
+			"y": 451,
+			"angle": 180,
+			"layer": 3
+		},
+
+
+		{
+			"name": "drone1",
+			"template": "drone1",
+			"AI": {
+				"produceProbability": 0.3
+			},
+			"x": 1500,
+			"y": 200
+		},
+
+
+		{
+			"name": "Pusher1",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 850
 		}
 
 

@@ -86,7 +86,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "sd2",
@@ -94,7 +95,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "sd3",
@@ -102,7 +104,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		}
 	],
 

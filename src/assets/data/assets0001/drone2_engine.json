@@ -1,0 +1,64 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "drone2_engine1shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "drone2_engine",
+	"bodyMass": 5,
+	"minHitImpulse": 2000,
+	"lives": 1,
+	"hasElectro": true,
+	"hitShake": true,
+	"debrises": [
+		{
+			"name": "d1ed1",
+			"template": "debris_drone2_engine1_1",
+			"timeToLive": 2,
+			"lx": -40,
+			"ly": 0,
+			"vx": -1000,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d1ed2",
+			"template": "debris_drone2_engine1_2",
+			"timeToLive": 2,
+			"lx": 40,
+			"ly": -60,
+			"vx": 1000,
+			"vy": -1000,
+			"sx": 1,
+			"sy": 1,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d1ed3",
+			"template": "debris_drone2_engine1_3",
+			"timeToLive": 2,
+			"lx": 40,
+			"ly": 40,
+			"vx": 1000,
+			"vy": 1000,
+			"sx": 1,
+			"sy": 1,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d1ed4",
+			"template": "explosion2",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": -200,
+			"sx": 2,
+			"sy": 2,
+			"useOwnAngle": true
+		}
+	]
+}

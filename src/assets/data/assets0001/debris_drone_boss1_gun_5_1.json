@@ -1,0 +1,39 @@
+{
+	"shape": "BOX",
+	"shapeParams": {"w":70,"h":60,"ofsX":0,"ofsY":0, "r":0},
+
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_drone_boss1_gun_5_1",
+	"bodyMass": 1,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hitSound": "hit_block",
+
+	"debrises": [
+		{
+			"name": "ddb1ga1",
+			"template": "debris_drone_boss1_gun_atom2",
+			"lx": -15,
+			"ly": 0,
+			"vx": -100,
+			"vy": -500
+		},
+		{
+			"name": "ddb1ga2",
+			"template": "debris_drone_boss1_gun_atom3",
+			"lx": 15,
+			"ly": 0,
+			"vx": 100,
+			"vy": -500
+		},
+		{
+			"name": "ddb1ge3",
+			"template": "explosion",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0
+		}
+	]
+}

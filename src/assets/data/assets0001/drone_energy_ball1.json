@@ -1,0 +1,77 @@
+{
+	"name": "drone_energy_ball1",
+	"objType": "drone_energy_ball1",
+	"shape": "CIRCLE",
+	"shapeRadius": "40",
+	"atlas": "assets0001",
+	"frame": "energy_ball1_00",
+	"bodyType": "DYNAMIC",
+	"lives": 1,
+	"livesEffect": true,
+
+	"bodyMass": 1.5,
+	"minHitImpulse": 1000,
+	"impulseMultiplier": 100,
+	"destroyOnHit": true,
+
+	"hitSound": "explosion3",
+	"hitShake": true,
+
+	"fixedRotation": false,
+	"bodyRotation": 0,
+
+	"gravityScale": 0,
+
+	"sx": 2,
+	"sy": 2,
+
+	"clanId": 2,
+
+	"animations": {
+		"idle": {
+			"frameName": "energy_ball1_0",
+			"framesCount": 3,
+			"frameRate": 15,
+			"isStart": true,
+			"isLoop": true
+		}
+	},
+
+	"AI": {
+		"type": "drone",
+		"updateDelay": 500,
+		"vf": 0.5,
+		"maxV": 100,
+		"distanceX": 10,
+		"minDistanceX": 10,
+		"distanceY": 10,
+		"minDistanceY": 10,
+		"moveSound": "move_energy",
+
+		"stuckDistance": 20,
+		"stuckTime": 2,
+
+		"changeEnemy": true,
+		"rememberEnemy": false,
+		"changeEnemyInterval": 10,
+
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["pusher1"]
+		]
+	},
+
+	"debrises": [
+		{
+			"name": "df1d1",
+			"template": "explosion3",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"useOwnAngle": true
+		}
+	]
+}

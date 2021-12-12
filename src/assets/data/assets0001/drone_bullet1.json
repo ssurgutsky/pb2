@@ -1,14 +1,27 @@
 {
+	"objType": "drone_bullet1",
 	"shape": "CIRCLE",
 	"shapeRadius": "30",
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
-	"frame": "emitter_red",
+	"frame": "fire00",
 	"bodyMass": 1,
-	"minHitImpulse": 1000,
+	"minHitImpulse": 100,
+	"impulseMultiplier": 10,
 	"lives": 1,
+	"hasElectro": true,
 	"hitSound": "hit_block",
-	"hasDust": true,
+
+	"animations": {
+		"idle": {
+			"frameName": "fire0",
+			"framesCount": 7, 
+			"frameRate": 24, 
+			"isStart": true,
+			"isLoop": true
+		}
+	},
+
 	"debrises": [
 	]
 }

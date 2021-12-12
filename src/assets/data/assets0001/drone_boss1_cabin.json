@@ -1,0 +1,81 @@
+{
+	"objType": "drone_boss1_cabin",
+	"shape": "POLYGON",
+	"shapeName": "drone_boss1_cabin_shape",
+	"atlas": "assets0001",
+	"lives": 3,
+	"livesFrames": ["drone_boss1_cabin_3","drone_boss1_cabin_2","drone_boss1_cabin"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesTimeToLive": [99999,99999,99999],
+	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao"],
+	"livesHitShake": [true, false, false],
+	"bodyMass": 3,
+	"minHitImpulse": 1000,
+	"livesEffect": true,
+	"hitSound": "hit_block",
+	"isDecor": false,
+	"gravityScale": 0,
+	"sleepSpeedLimit": 0,
+
+	"hitDebrises": [
+		{
+			"name": "dad1",
+			"template": "debris_drone_boss1_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		},
+		{
+			"name": "dad2",
+			"template": "debris_drone_boss1_atom2",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "d1",
+			"template": "drone1",
+			"addTasks": 1,
+			"useOwnLockerId": false,
+			"useOwnLockerId:true": "to allow to attack him by his creator (boss1)",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.75,
+			"sy": 0.75,
+			"ignoreParentScale": true,
+			"angle": 0,
+			"AI": {
+				"changeEnemy": true,
+				"rememberEnemy": true,
+				"changeEnemyInterval": 10,
+
+				"livesEnemyPriorities": null,		
+				"enemyPriorities": [
+					["pusher1_lt","pusher1_rt","pusher1_lb","pusher1_head","pusher1_rb"],
+					["monkey"],
+					["pharao"],
+					["brick1_3_sdd","brick1_3_sssd","brick1_3"],
+					["spot"]
+				]
+			}
+		},
+		{
+			"name": "dbc_3",
+			"template": "explosion2",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": -200,
+			"useOwnAngle": true
+		}
+	]
+}

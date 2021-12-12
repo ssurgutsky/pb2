@@ -1,4 +1,5 @@
 {
+	"objType": "brick1_3",
 	"shape": "POLYGON",
 	"shapeName": "brick1_3shape",
 	"bodyType": "DYNAMIC",
@@ -13,8 +14,6 @@
 	"bodyMass": 3,
 	"minHitImpulse": 500,
 	"sleepSpeedLimit": 0.2,
-	"isVictim": true,
-	"victimPriority": 1,
 
 	"hitDebrises": [
 		{
@@ -23,7 +22,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "d1",
@@ -31,7 +31,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		}
 	],
 

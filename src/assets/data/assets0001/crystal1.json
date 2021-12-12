@@ -1,0 +1,71 @@
+{
+	"name": "Crystal1",
+	"objType": "crystal1",
+	"atlas": "assets0001",
+	"bodyType": "STATIC",
+	"frame": "crystal1",
+	"shape": "POLYGON",
+	"shapeName": "crystal1shape",
+	"lives": 1,
+	"bodyMass": 3,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_block",
+	"hasElectro": true,
+	"angle": 90,
+
+	"hitDebrises": [
+		{
+			"name": "crhd1",
+			"template": "debris_crystal1_atom3",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		},
+		{
+			"name": "crhd2",
+			"template": "debris_crystal1_atom3",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "crd11",
+			"template": "debris_crystal1_1_1",
+			"lx": -50,
+			"ly": -80,
+			"vx": -100,
+			"vy": -100
+		},
+		{
+			"name": "crd21",
+			"template": "debris_crystal1_2_1",
+			"lx": 50,
+			"ly": -80,
+			"vx": 100,
+			"vy": -100
+		},
+		{
+			"name": "crd12",
+			"template": "debris_crystal1_1_2",
+			"lx": -40,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0
+		},
+		{
+			"name": "crd22",
+			"template": "debris_crystal1_2_2",
+			"lx": 40,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0
+		}
+	]
+}

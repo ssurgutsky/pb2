@@ -1,16 +1,18 @@
 {
 	"name": "monkey003_light",
+	"objType": "monkey",
 	"shape": "POLYGON",
 	"shapeName": "monkey003shape",
 	"atlas": "assets0001",
 	"lives": 1,
 	"frame": "monkey003",
-	"bodyTypes": "DYNAMIC",
+	"bodyType": "DYNAMIC",
 	"hitSound": "hit_block2",
 	"livesEffect": true,
 	"hasDust": true,
 	"bodyMass": 5,
 	"minHitImpulse": 1000,
+
 	"debrises": [
 		{
 			"name": "d1",
@@ -67,6 +69,7 @@
 		{
 			"name": "dSoul1",
 			"template": "soul1",
+			"useOwnAngle": true,
 			"lx": 0,
 			"ly": -60,
 			"vx": 0,

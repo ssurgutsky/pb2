@@ -1,0 +1,201 @@
+{
+	"name": "drone_b1",
+	"shape": "BOX",
+	"shapeParams": {"w":250,"h":130,"ofsX":0,"ofsY":0, "r":0},
+
+	"objType": "drone_b1",
+	"template": "drone1",
+	"bodyMass": 20,
+	"lives": 5,
+	"livesFrames": ["drone_b1","drone_b1","drone_b1","drone_b1","drone_b1"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0,0,0],
+	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao","hit_pharao"],
+	"livesTimeToLive": [99999,99999,99999,99999,99999],
+	"livesEffect": true,
+	"livesHitShake": [true, false, false, false, false],
+
+
+	"AI": {
+		"type": "drone",
+		"rotateLockedObjects": true,
+		"updateDelay": 100,
+		"rotationDuration": 500,
+		"rotateToEnemy": false,
+
+		"vf": 0.5,
+		"maxV": 100,
+
+		"distanceX": 50,
+		"minDistanceX": 10,
+		"distanceY": 700,
+		"minDistanceY": 600,
+
+		"spotDistanceX": 50,
+		"spotMinDistanceX": 10,
+		"spotDistanceY": 50,
+		"spotMinDistanceY": 10,
+
+		"changeEnemy": true,
+		"changeEnemyInterval": 10,
+
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["monkey"],
+			["pharao"],
+			["brick1_3_sdd","brick1_3_sssd","brick1_3"],
+			["spot"],
+			["pusher1_lt","pusher1_rt","pusher1_lb","pusher1_head","pusher1_rb"]
+		],
+
+		"produceFirstDelay": 1,
+		"produceDelay": 0.5,
+		"produceProbability": 0.5,
+		"produceOverParent": false,
+		"livesProduce": null,
+		"produce": [
+			{
+				"name": "bomb1",
+				"template": "bomb1",
+				"useOwnAngle": true,
+				"lx": 0,
+				"ly": 150,
+				"sy": 1,
+				"sy": 1
+			}
+		]
+	},
+
+	"hitDebrises": [
+		{
+			"name": "dbd1",
+			"template": "debris_drone_b1_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		},
+		{
+			"name": "dbd2",
+			"template": "debris_drone_b1_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "cg1",
+			"template": "coin_golden",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -50,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.5,
+			"sy": 0.5
+		},
+		{
+			"name": "dde",
+			"template": "drone_b1_engine",
+			"timeToLive":3,
+			"useOwnAngle": true,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"emitters": [
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 450,
+				"speedX":[-20, 20],
+				"speedY":[-200, -300],
+				"lifespan": 1500,
+				"frequency": 300,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
+			]
+		},
+
+		{
+			"name": "d1",
+			"template": "debris_drone_b1_1",
+			"isTask": true,
+			"timeToLive": 2,
+			"lx": -110,
+			"ly": 0,
+			"vx": -100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d2",
+			"template": "debris_drone_b1_2",
+			"timeToLive": 2,
+			"lx": 110,
+			"ly": 0,
+			"vx": 100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d3",
+			"template": "debris_drone_b1_3",
+			"timeToLive": 2,
+			"lx": 12,
+			"ly": -50,
+			"vx": 0,
+			"vy": -100,
+			"sx": 1,
+			"sy": 1,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d_fire1",
+			"template": "debris_fire",
+			"useOwnAngle": true,
+			"angle": 180,
+			"lx": -100,
+			"ly": 150,
+			"vx": -100,
+			"vy": 0,
+			"sx": 0.7,
+			"sy": 0.7
+		},
+		{
+			"name": "d_fire2",
+			"template": "debris_fire",
+			"useOwnAngle": true,
+			"angle": 180,
+			"lx": 100,
+			"ly": 150,
+			"vx": 100,
+			"vy": 0,
+			"sx": 0.7,
+			"sy": 0.7
+		}
+	]
+
+}

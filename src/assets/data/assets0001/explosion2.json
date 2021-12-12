@@ -1,17 +1,19 @@
 {
-	"name": "explosion",
+	"name": "explosion2",
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"frame": "explosion2_00",
 	"isDecor": true,
+	"fadeOutOnRemove": true,
 	"gravityScale": 0,
-	"timeToLive": 0.4,
+	"timeToLive": 0.25,
+	"appearSound": "explosion1",
 
 	"animations": {
 		"idle": {
 			"frameName": "explosion2_0",
-			"framesCount": 9,
-			"frameRate": 20,
+			"framesCount": 10,
+			"frameRate": 24,
 			"isStart": true,
 			"isLoop": false
 		}

@@ -1,5 +1,6 @@
 {
 	"name": "Chest1",
+	"objType": "chest1",
 	"atlas": "assets0001",
 	"bodyType": "DYNAMIC",
 	"frame": "chest1",
@@ -20,7 +21,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "chd2",
@@ -28,7 +30,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		}
 	],
 

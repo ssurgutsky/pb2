@@ -1,0 +1,13 @@
+{
+	"name": "spot",
+	"objType": "spot",
+	"shape": "CIRCLE",
+	"shapeRadius": "20",
+	"atlas": "assets0001",
+	"frame": "white10x10",
+	"bodyType": "STATIC",
+	"bodyMass": 1,
+	"lives": -1,
+	"isDecor": true,
+	"alpha": 1
+}

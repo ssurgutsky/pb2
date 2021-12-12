@@ -1,5 +1,6 @@
 {
 	"name": "key_golden",
+	"objType": "key_golden",
 	"shape": "POLYGON",
 	"shapeName": "key_goldenshape",
 	"atlas": "assets0001",

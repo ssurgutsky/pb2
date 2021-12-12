@@ -1,0 +1,291 @@
+{
+	"name": "drone_boss1",
+	"objType": "drone_boss1",
+	"template": "drone1",
+	"shape": "POLYGON",
+	"shapeName": "drone_boss1_shape",
+	"atlas": "assets0001",
+	"lives": 4,
+	"livesFrames": ["drone_boss1_body","drone_boss1_body","drone_boss1_body","drone_boss1_body"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0,0],
+	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao"],
+	"livesTimeToLive": [99999,99999,99999,99999],
+	"livesEffect": true,
+	"bodyMass": 3,
+	"minHitImpulse": 1000,
+	"impulseMultiplier": 10,
+	"fixedRotation": true,
+	"gravityScale": 0,
+	"sx": 1.5,
+	"sy": 1.5,
+	"collisionGroup": 2,
+	"isDecor": false,
+	"sleepSpeedLimit": 0,
+
+	"AI": {
+		"type": "drone",
+		"rotateLockedObjects": true,
+		"updateDelay": 100,
+		"rotationDuration": 500,
+		"rotateToEnemy": false,
+
+		"vf": 0.5,
+		"maxV": 200,
+
+		"distanceX": 50,
+		"minDistanceX": 10,
+		"distanceY": 400,
+		"minDistanceY": 300,
+
+		"spotDistanceX": 50,
+		"spotMinDistanceX": 10,
+		"spotDistanceY": 50,
+		"spotMinDistanceY": 10,
+
+		"changeEnemy": true,
+		"changeEnemyInterval": 3,
+
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["spot"]
+		],
+
+		"produce": []
+	},
+
+	"hitDebrises": [
+		{
+			"name": "dad1",
+			"template": "debris_drone_boss1_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		},
+		{
+			"name": "dad2",
+			"template": "debris_drone_boss1_atom2",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "cg1",
+			"template": "coin_golden",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0.5,
+			"sy": 0.5,
+			"ignoreParentScale": true
+		},
+		{
+			"name": "dde",
+			"template": "drone4_engine",
+			"isTask": true,
+			"timeToLive":3,
+			"lx": -100,
+			"ly": -100,
+			"vx": 0,
+			"vy": -100,
+			"sx": 1,
+			"sy": 1,
+			"useOwnAngle": true,
+			"ignoreParentScale": true,
+			"emitters": [
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 450,
+				"speedX":[-20, 20],
+				"speedY":[-200, -300],
+				"lifespan": 1500,
+				"frequency": 300,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
+			]
+		},
+
+		{
+			"name": "d1",
+			"template": "debris_drone_boss1_atom1",
+			"timeToLive": 2,
+			"lx": -200,
+			"ly": 0,
+			"vx": -150,
+			"vy": 0,
+			"sx": 2,
+			"sy": 2,
+			"isDecor": false,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d2",
+			"template": "debris_drone_boss1_atom2",
+			"timeToLive": 2,
+			"lx": -75,
+			"ly": -100,
+			"vx": 0,
+			"vy": -100,
+			"sx": 2,
+			"sy": 2,
+			"isDecor": false,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d3",
+			"template": "debris_drone_boss1_atom1",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -100,
+			"vx": 0,
+			"vy": -100,
+			"sx": 2,
+			"sy": 2,
+			"isDecor": false,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d4",
+			"template": "debris_drone_boss1_atom2",
+			"timeToLive": 2,
+			"lx": 75,
+			"ly": 0,
+			"vx": 150,
+			"vy": -100,
+			"sx": 2,
+			"sy": 2,
+			"isDecor": false,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d5",
+			"template": "debris_drone_boss1_atom2",
+			"timeToLive": 2,
+			"lx": 200,
+			"ly": 0,
+			"vx": 150,
+			"vy": 0,
+			"sx": 2,
+			"sy": 2,
+			"isDecor": false,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "d_fire1",
+			"template": "debris_fire",
+			"useOwnAngle": true,
+			"angle": 180,
+			"lx": -150,
+			"ly": 150,
+			"vx": -100,
+			"vy": 0,
+			"sx": 0.7,
+			"sy": 0.7
+		},
+		{
+			"name": "d_fire2",
+			"template": "debris_fire",
+			"useOwnAngle": true,
+			"angle": 180,
+			"lx": 150,
+			"ly": 150,
+			"vx": 100,
+			"vy": 0,
+			"sx": 0.7,
+			"sy": 0.7
+		},
+		{
+			"name": "dbe_3",
+			"template": "explosion2",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": -200,
+			"sx": 2,
+			"sy": 2,
+			"useOwnAngle": true
+		}
+	],
+
+	"lockedObjects": [
+		{
+			"name": "dboss1gun2b",
+			"template": "drone_boss1_gun",
+			"collisionGroup": 2,
+			"childIndex": 0,
+			"lockToObject":
+				{
+					"offset": {"x": 260, "y": 0},
+					"angle": 0,
+					"isDestroyWithLockedObject": false
+				},
+			"sx": 1.5,
+			"sy": 1.5,
+			"angle": 0
+		},
+		{
+			"name": "dboss1hood",
+			"template": "drone_boss1_hood",
+			"collisionGroup": 2,
+			"lockToObject":
+				{
+					"offset": {"x": 320, "y": 95},
+					"angle": 0,
+					"isDestroyWithLockedObject": false
+				},
+			"sx": 1.5,
+			"sy": 1.5,
+			"angle": 0
+		},
+		{
+			"name": "dboss1cabin",
+			"template": "drone_boss1_cabin",
+			"collisionGroup": 2,
+			"lockToObject":
+				{
+					"offset": {"x": 130, "y": -110},
+					"angle": 0,
+					"isDestroyWithLockedObject": false
+				},
+			"sx": 1.5,
+			"sy": 1.5,
+			"angle": 0
+		},
+		{
+			"name": "dboss1gun1f",
+			"template": "drone_boss1_gun",
+			"collisionGroup": 2,
+			"lockToObject":
+				{
+					"offset": {"x": 30, "y": 150},
+					"angle": 0,
+					"isDestroyWithLockedObject": false
+				},
+			"sx": 2,
+			"sy": 2,
+			"angle": 0
+		}
+
+	]
+}

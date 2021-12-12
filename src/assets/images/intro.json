@@ -1,8 +1,16 @@
 {"frames": [
 
 {
+	"filename": "box1",
+	"frame": {"x":1,"y":546,"w":200,"h":160},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":200,"h":160},
+	"sourceSize": {"w":200,"h":160}
+},
+{
 	"filename": "emitter_smoke",
-	"frame": {"x":1779,"y":203,"w":57,"h":56},
+	"frame": {"x":733,"y":288,"w":57,"h":56},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":57,"h":56},
@@ -18,7 +26,7 @@
 },
 {
 	"filename": "fire01",
-	"frame": {"x":925,"y":1,"w":120,"h":256},
+	"frame": {"x":803,"y":259,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -26,7 +34,7 @@
 },
 {
 	"filename": "fire02",
-	"frame": {"x":1047,"y":1,"w":120,"h":256},
+	"frame": {"x":1,"y":288,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -34,7 +42,7 @@
 },
 {
 	"filename": "fire03",
-	"frame": {"x":1169,"y":1,"w":120,"h":256},
+	"frame": {"x":123,"y":288,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -42,7 +50,7 @@
 },
 {
 	"filename": "fire04",
-	"frame": {"x":1291,"y":1,"w":120,"h":256},
+	"frame": {"x":245,"y":288,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -50,7 +58,7 @@
 },
 {
 	"filename": "fire05",
-	"frame": {"x":1413,"y":1,"w":120,"h":256},
+	"frame": {"x":367,"y":288,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -58,7 +66,7 @@
 },
 {
 	"filename": "fire06",
-	"frame": {"x":1535,"y":1,"w":120,"h":256},
+	"frame": {"x":489,"y":288,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -66,7 +74,7 @@
 },
 {
 	"filename": "fire07",
-	"frame": {"x":1657,"y":1,"w":120,"h":256},
+	"frame": {"x":611,"y":288,"w":120,"h":256},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":120,"h":256},
@@ -74,7 +82,7 @@
 },
 {
 	"filename": "rocket01",
-	"frame": {"x":1779,"y":1,"w":114,"h":200},
+	"frame": {"x":733,"y":517,"w":114,"h":200},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":114,"h":200},
@@ -93,8 +101,8 @@
 	"version": "1.0",
 	"image": "intro.png",
 	"format": "RGBA8888",
-	"size": {"w":1894,"h":287},
+	"size": {"w":924,"h":718},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:4f9ad93443a3d7f300c581aa195d6f14:3de70a087bc0b4adaacb964eaaa84733:1c3925316af8212576a1ec3cf99896c2$"
+	"smartupdate": "$TexturePacker:SmartUpdate:99b011bcf3790fd7d2e76760242abd89:b5cb66c851d4f8be3fef9d437d1584d1:1c3925316af8212576a1ec3cf99896c2$"
 }
 }

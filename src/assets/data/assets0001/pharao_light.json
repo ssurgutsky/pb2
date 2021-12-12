@@ -1,4 +1,5 @@
 {
+	"objType": "pharao",
 	"shape": "POLYGON",
 	"shapeName": "pharao216x200",
 	"atlas": "assets0001",
@@ -12,8 +13,6 @@
 	"hasDust": true,
 	"bodyMass": 5,
 	"minHitImpulse": 1000,
-	"isVictim": true,
-	"victimPriority": 10,
 
 	"hitDebrises": [
 		{
@@ -22,7 +21,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "d1",
@@ -30,7 +30,8 @@
 			"timeToLive": 0.5,
 			"sx": 1,
 			"sy": 1,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		}
 	],
 

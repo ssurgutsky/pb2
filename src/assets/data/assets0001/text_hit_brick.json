@@ -1,0 +1,13 @@
+{
+	"name": "text_hit_brick",
+	"bodyType": "KINEMATIC",
+	"isDecor": true,
+	"texts": [
+		{
+		 	"text": "hit_brick",
+			"fontSize": 100,
+			"x": 0,
+			"y": 0
+		}
+	]
+}

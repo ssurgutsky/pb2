@@ -4,7 +4,7 @@
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"frame": "debris_drone1_engine1_2",
-	"bodyMass": 1,
+	"bodyMass": 2,
 	"minHitImpulse": 1000,
 	"lives": 1,
 	"hasElectro": true,

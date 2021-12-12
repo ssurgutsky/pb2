@@ -1,120 +1,179 @@
 {
 	"preload": {
 		"ATLAS_JSON_ARRAYS": [
-			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
+			{ "key": "intro", "url": "src/assets/images/intro" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "intro01", "url": "src/assets/images/bg/intro01.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
-			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
-			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
+			{ "key": "intro_bg", "url": "src/assets/data/intro/intro_bg.json" },
+			{ "key": "spaceship1", "url": "src/assets/data/intro/spaceship1.json" },
+			{ "key": "box1", "url": "src/assets/data/intro/box1.json" },
+			{ "key": "fire", "url": "src/assets/data/intro/fire.json" },
 
-			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
-			{ "key": "key_golden", "url": "src/assets/data/assets0001/key_golden.json" },
-			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
-			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
-			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
-			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
-			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+			{ "key": "spaceship1_name", "url": "src/assets/data/intro/spaceship1_name.json" },
+			{ "key": "intro2_text01", "url": "src/assets/data/intro/intro2_text01.json" },
+			{ "key": "intro2_text02", "url": "src/assets/data/intro/intro2_text02.json" },
+			{ "key": "intro2_text03", "url": "src/assets/data/intro/intro2_text03.json" },
+			{ "key": "intro_text_apolacho", "url": "src/assets/data/intro/intro_text_apolacho.json" }
 
-
-			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
-
-			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
-			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
-
-			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
-			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
-			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
-			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
-			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
-			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
-
-			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
-
-			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
-			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
-			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
-			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
-
-			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
-			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
-
-			{ "key": "door1", "url": "src/assets/data/assets0001/door1.json" },
-			{ "key": "keyhole1", "url": "src/assets/data/assets0001/keyhole1.json" }
 		],
 		"PHYSICS": [
-			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
+			{ "key": "physicsData", "url": "src/assets/data/intro/physicsData.json" }
 		]
 	}, 
-	"bg": "bg",
-	"balls": 10,
+	"bg": "",
+	"balls": 1,
 	"tasks": 1,
-	"fails": 1,
+	"isHideUI": true,
+	"isHideWinLose": true,
 	"objects": [
 		{
-			"template": "game_frame_ball_sensor"
-		},
-		{
-			"template": "game_ground"
-		},
-
-		{
-			"name": "Pusher1",
-			"template": "pusher1",
-			"x": 1720,
-			"y": 850
-		},
-
-
-
-		{
-			"name": "h1",
-			"template": "hint1",
-			"x": 1720,
-			"y": 700,
-			"layer": 3
+			"name": "intro_bg",
+			"template": "intro_bg",
+			"x": 960,
+			"y": 540,
+			"layer": 1,
+			"tweens": {
+				"idle": {
+					"timeline": [
+						{"toBody": {"x": "-500", "y": "+100"}, "duration": 40000},
+						{"toScale": {"x": 2, "y": 2}, "duration": 40000, "isParallel": true}
+					]
+				}
+			}
 		},
 
 		{
-			"name": "Door1",
-			"template": "door1",
-			"x": 250,
-			"y": 520,
-			"sx": 2,
-			"sy": 2
-		},
-		{
-			"name": "Keyhole1",
-			"template": "keyhole1",
-			"x": 340,
-			"y": 550
+			"name": "spaceship1",
+			"template": "spaceship1",
+			"x": 3000,
+			"y": 400,
+			"sx": 3,
+			"sy": 3,
+			"layer": 2,
+			"tweens": {
+				"idle": {
+					"timeline": [
+						{"toBody": {"x": 900, "y": 250}, "duration": 5000},
+						{"toScale": {"x": 0.75, "y": 0.75}, "duration": 5000, "isParallel": true},
+						{"toBody": {"y": 280}, "duration": 2000},
+						{"toBody": {"y": 250}, "duration": 2000},
+						{"toScale": {"x": 1.5, "y": 1.5}, "duration": 2000, "isParallel": true},
+						{"toBody": {"y": 280}, "duration": 2000},
+						{"toScale": {"x": 0.75, "y": 0.75}, "duration": 5000, "isParallel": true},
+						{"toBody": {"y": 250}, "duration": 2000},
+						{"toBody": {"y": 280}, "duration": 2000},
+						{"toBody": {"y": 750}, "duration": 2000},
+						{"toBody": {"x": 800}, "duration": 2000},
+						{"toScale": {"x": 1.5, "y": 1.5}, "duration": 2000, "isParallel": true},
+						{"toBody": {"x": 900, "y": -1500, "rotation": 1.7}, "duration": 2000},
+						{"toScale": {"x": 3, "y": 3}, "duration": 2000, "isParallel": true}
+					]
+				}
+			},
+		
+			"produceDelays": [9],
+			"produceRandom": false,
+			"produce": [
+				{
+					"name": "box1",
+					"template": "box1",
+					"alpha": 0,
+					"addTasks": 0,
+					"addFails": 0,
+					"layer": 1,
+					"timeToLive": 15,
+					"sx": 0.5,
+					"sy": 0.5,
+					"tweens": {
+						"idle": {
+							"timeline": [
+								{"to": {"alpha": 1}, "duration": 300},
+								{"toBody": {"y": "+300"}, "duration": 2000},
+								{"toBody": {"x": "-600", "rotation": -1}, "duration": 12000},
+								{"toScale": {"x": 0.01, "y": 0.01}, "duration": 12000, "isParallel": true}
+							]
+						}
+					},
+					"debrises": [
+						{
+							"name": "dummy",
+							"isTask": true
+						}
+					]
+				}
+			]
 		},
 
 		{
-			"name": "Beam1",
-			"template": "beam1",
-			"lives": 19,
-			"layer": 3
+			"name": "spaceship_fire1",
+			"template": "fire",
+			"lockToObject": 
+				{
+					"name": "spaceship1",
+					"offset": {"x": 400, "y": 50},
+					"angle": 90
+				}
 		},
+
 		{
-			"name": "Key1",
-			"template": "key_golden",
-			"impulseMultiplier": 3,
-			"isBall": true,
-			"isRespawnable": true,
-			"respawnSound": "respawn",
-			"x": 1719,
-			"y": 660,
-			"angle": -90,
-			"layer": 4
+			"name": "spaceship1_name",
+			"template": "spaceship1_name",
+			"lockToObject": 
+				{
+					"name": "spaceship1",
+					"offset": {"x": 200, "y": -200},
+					"angle": 0
+				},
+			"timeToLive": 9,
+			"layer": 2
+		},
+
+		{
+			"name": "intro2_text01",
+			"template": "intro2_text01",
+			"x": 960,
+			"y": 900,
+			"timeToLive": 5,
+			"layer": 3,
+			"debrises": [
+				{
+					"name": "intro2_text02",
+					"template": "intro2_text02",
+					"x": 960,
+					"y": 900,
+					"timeToLive": 6,
+					"debrises": [
+						{
+							"name": "intro2_text03",
+							"template": "intro2_text03",
+							"x": 960,
+							"y": 900,
+							"timeToLive": 10,
+							"debrises": [
+								{
+									"name": "intro_text_apolacho",
+									"template": "intro_text_apolacho",
+									"x": 960,
+									"y": 400,
+									"timeToLive": 7,
+									"debrises": [
+									]
+
+								}
+							]
+						}
+					]
+				}
+			]
+
 		}
+
 	]
 }

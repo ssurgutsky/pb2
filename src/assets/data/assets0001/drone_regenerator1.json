@@ -1,0 +1,94 @@
+{
+	"name": "drone_regenerator1",
+	"objType": "drone_regenerator1",
+	"template": "drone1",
+	"shape": "CIRCLE",
+	"shapeRadius": "80",
+	"atlas": "assets0001",
+	"frame": "drone_regenerator1_00",
+	"bodyType": "DYNAMIC",
+	"lives": 4,
+	"livesFrames": null,
+	"livesBodyTypes": null,
+	"livesTimeToLive": null,
+	"livesHitSound": null,
+	"livesEffect": true,
+
+	"bodyMass": 1,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_pharao",
+
+	"fixedRotation": false,
+	"gravityScale": 0,
+
+	"isRegenerator": true,
+	"hitRegeneration": 1,
+
+	"animations": {
+		"idle": {
+			"frameName": "drone_regenerator1_0",
+			"framesCount": 4,
+			"frameRate": 24,
+			"isStart": true,
+			"isLoop": true
+		}
+	},
+
+	"AI": {
+		"type": "drone",
+		"updateDelay": 500,
+		"vf": 0.5,
+		"maxV": 100,
+		"distanceX": 200,
+		"minDistanceX": 100,
+		"distanceY": 200,
+		"minDistanceY": 100,
+		"moveSound": "move_energy",
+
+		"stuckDistance": 20,
+		"stuckTime": 99999,
+
+		"changeEnemy": true,
+		"rememberEnemy": false,
+		"changeEnemyInterval": 1,
+
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["drone1?damaged=yes&clan=yes","drone1m?damaged=yes&clan=yes"],
+			["spot_regenerator"]
+		],
+
+		"produceFirstDelay": 3,
+		"produceDelay": 1,
+		"produceRandomDelay": [1,2],
+		"produceProbability": 1,
+		"produceOverParent": true,
+		"livesProduce": null,
+		"produce": [
+			{
+				"name": "drone_regenerator1_ball1",
+				"template": "drone_regenerator1_ball1",
+				"fadeOutOnRemove": false,
+				"timeToLive": 5,
+				"lx": -140,
+				"ly": 0,
+				"vx": -1000,
+				"vy": 0
+			}
+		]
+	},
+
+	"debrises": [
+		{
+			"name": "re1d1",
+			"template": "explosion4",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"useOwnAngle": true
+		}
+	]
+}

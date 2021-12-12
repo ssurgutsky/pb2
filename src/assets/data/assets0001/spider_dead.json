@@ -5,6 +5,10 @@
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"frame": "spider_dead",
+	"lives": 1,
 	"bodyMass": 5,
+	"minHitImpulse": 5000,
+	"timeToLive": 3,
+	"fadeOutOnRemove": true,
 	"hitSound": "hit_block"
 }

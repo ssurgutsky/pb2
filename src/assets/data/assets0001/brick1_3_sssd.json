@@ -1,0 +1,9 @@
+{
+	"name": "brick_sssd",
+	"objType": "brick1_3_sssd",
+	"template": "brick1_3_sdd",
+	"lives": 4,
+	"livesFrames": ["brick1_1","brick1_2","brick1_2","brick1_3"],
+	"livesBodyTypes": ["DYNAMIC","STATIC","STATIC","STATIC"],
+	"livesHitSound": ["hit_block2","hit_block","hit_block","hit_block"]
+}

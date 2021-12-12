@@ -7,7 +7,8 @@
 			{ "key": "intro01", "url": "src/assets/images/bg/intro01.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
 			{ "key": "intro_bg", "url": "src/assets/data/intro/intro_bg.json" },

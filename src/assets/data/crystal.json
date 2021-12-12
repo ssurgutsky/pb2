@@ -1,0 +1,17 @@
+			{ "key": "crystal1", "url": "src/assets/data/assets0001/crystal1.json" },
+			{ "key": "debris_crystal1_1_1", "url": "src/assets/data/assets0001/debris_crystal1_1_1.json" },
+			{ "key": "debris_crystal1_1_2", "url": "src/assets/data/assets0001/debris_crystal1_1_2.json" },
+			{ "key": "debris_crystal1_2_1", "url": "src/assets/data/assets0001/debris_crystal1_2_1.json" },
+			{ "key": "debris_crystal1_2_2", "url": "src/assets/data/assets0001/debris_crystal1_2_2.json" },
+			{ "key": "debris_crystal1_atom1", "url": "src/assets/data/assets0001/debris_crystal1_atom1.json" },
+			{ "key": "debris_crystal1_atom2", "url": "src/assets/data/assets0001/debris_crystal1_atom2.json" },
+			{ "key": "debris_crystal1_atom3", "url": "src/assets/data/assets0001/debris_crystal1_atom3.json" }
+
+
+		{
+			"name": "crystal1",
+			"template": "crystal1",
+			"x": 1500,
+			"y": 800,
+			"layer": 2
+		},

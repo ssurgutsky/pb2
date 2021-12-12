@@ -1,4 +1,5 @@
 {
+	"objType": "key_hole",
 	"shape": "POLYGON",
 	"shapeName": "keyhole1shape",
 	"bodyType": "STATIC",

@@ -1,0 +1,16 @@
+{
+	"name": "objects_generator",
+	"lives": -1,
+	"isDecor": true,
+	"forceDraggableDisabled": true,
+
+	"AI": {
+		"type": "object_generator",
+		"subtype": "",
+		"updateDelay": 500,
+		"scanX": 100,
+		"scanY": 200,
+		"maxObjects": -1,
+		"parallelObjects": 1
+	}
+}

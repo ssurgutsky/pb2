@@ -28,9 +28,7 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
-			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" }
+
 	}, 
 	"bg": "bg",
 	"balls": 100,

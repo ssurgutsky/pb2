@@ -1,15 +1,15 @@
 {
 	"name": "Barrel1",
+	"objType": "barrel1",
 	"atlas": "assets0001",
 	"bodyType": "DYNAMIC",
 	"frame": "barrel1",
 	"shape": "POLYGON",
 	"shapeName": "barrel1shape",
-	"lives": 3,
+	"lives": 1,
 	"bodyMass": 3,
-	"minHitImpulse": 1000,
+	"minHitImpulse": 700,
 	"hitSound": "hit_block",
-	"layer": 2,
 	"angle": 0,
 
 	"debrises": [
@@ -72,7 +72,8 @@
 			"vx": 0,
 			"vy": 0,
 			"sx": 2,
-			"sy": 2
+			"sy": 2,
+			"useOwnAngle": true
 		}
 	]
 }

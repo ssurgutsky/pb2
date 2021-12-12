@@ -1,0 +1,157 @@
+{
+	"name": "drone3",
+	"objType": "drone3",
+	"template": "drone1",
+	"shape": "CIRCLE",
+	"shapeRadius": "90",
+	"atlas": "assets0001",
+	"lives": 2,
+	"livesFrames": ["drone3_2","drone3"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0],
+	"livesHitSound": ["hit_block2","hit_pharao"],
+	"livesTimeToLive": [99999,99999],
+	"livesEffect": true,
+	"bodyMass": 1.5,
+	"minHitImpulse": 1000,
+	"impulseMultiplier": 10,
+	"fixedRotation": true,
+	"gravityScale": 0,
+
+	"livesEmitters": null,
+
+	"AI": {
+		"type": "drone",
+		"updateDelay": 500,
+		"vf": 0.5,
+		"maxV": 300,
+		"distanceX": 10,
+		"minDistanceX": 10,
+		"distanceY": 10,
+		"minDistanceY": 10,
+
+		"changeEnemy": true,
+		"rememberEnemy": false,
+		"changeEnemyInterval": 10,
+
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["spot"]
+		],
+
+		"produceProbability": 0.1,
+		"produceOverParent": false,
+		"produce": [
+			{
+				"name": "flash",
+				"atlas": "assets0001",
+				"frame": "white10x10",
+				"isDecor": true,
+				"timeToLive": 6,
+				"gravityScale": 0,
+				"lx": 0,
+				"ly": 0,
+				"sx": 1,
+				"sy": 1,
+				"useOwnAngle": true,
+				"layer": 4,
+				"tweens": {
+					"idle": {
+						"firstDelay": 0,
+						"timeline": [
+							{"to": {"alpha": 0}, "duration": 4000, "initAlpha": 1, "delay": 2000},
+							{"toScale": {"x": 192, "y": 108}, "duration": 100, "isParallel": true},
+							{"toBody": {"x": 960, "y": 540}, "duration": 100, "isParallel": true}
+						]
+					}
+				}
+			}
+		]
+	},
+
+	"hitDebrises": [
+		{
+			"name": "dd3_1",
+			"template": "debris_drone3_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		},
+		{
+			"name": "dd3_2",
+			"template": "debris_drone3_atom1",
+			"timeToLive": 0.5,
+			"sx": 1,
+			"sy": 1,
+			"isDecor": true,
+			"fadeOutOnRemove": true
+		}
+	],
+
+	"debrises": [
+		{
+			"name": "dd3d1",
+			"template": "debris_drone3_1",
+			"isTask": true,
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "dd3d2",
+			"template": "debris_drone3_2",
+			"timeToLive": 2,
+			"lx": -70,
+			"ly": 0,
+			"vx": -100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "dd3d3",
+			"template": "debris_drone3_3",
+			"timeToLive": 2,
+			"lx": 70,
+			"ly": 0,
+			"vx": 100,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "dd3d3",
+			"template": "debris_drone3_2",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -70,
+			"vx": 0,
+			"vy": -100,
+			"sx": 1,
+			"sy": 1
+		},
+		{
+			"name": "dd3d4",
+			"template": "debris_drone3_3",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1
+		}
+	]
+}

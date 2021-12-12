@@ -1,0 +1,14 @@
+{
+	"shape": "BOX",
+	"shapeParams": {"w":70,"h":40,"ofsX":0,"ofsY":0, "r":0},
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_drone_b1_engine1_2",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hasElectro": true,
+	"hitSound": "hit_block",
+	"debrises": [
+	]
+}

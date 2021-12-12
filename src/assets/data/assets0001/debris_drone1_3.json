@@ -1,0 +1,33 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "debris_drone1_3shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_drone1_3",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"hitSound": "hit_block",
+	"debrises": [
+		{
+			"name": "d1",
+			"template": "debris_drone1_atom1",
+			"lx": -30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d1",
+			"template": "debris_drone1_atom1",
+			"lx": 30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

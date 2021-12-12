@@ -4,7 +4,7 @@
 	"frame": "soul1",
 	"bodyMass": 1,
 	"lives": 1,
-	"timeToLive": 0.5,
+	"timeToLive": 1,
 	"isDecor": true,
 	"alpha": 0.5,
 

@@ -8,10 +8,12 @@
 			{ "key": "bg", "url": "src/assets/images/bg/e01bg0001.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
-			{ "key": "game_frame_ball_sensor", "url": "src/assets/data/assets0001/game_frame_ball_sensor.json" },
+
+			{ "key": "spot", "url": "src/assets/data/assets0001/spot.json" },
 			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "rocket1", "url": "src/assets/data/intro/rocket1.json" },
@@ -23,6 +25,9 @@
 			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
 			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
 			{ "key": "pusher1_head", "url": "src/assets/data/assets0001/pusher1_head.json" },
+			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
+			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
+
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
@@ -30,10 +35,12 @@
 			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
 
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
-			{ "key": "debris_drone1", "url": "src/assets/data/assets0001/debris_drone1.json" },
-			{ "key": "debris_drone2", "url": "src/assets/data/assets0001/debris_drone2.json" },
-			{ "key": "debris_drone3", "url": "src/assets/data/assets0001/debris_drone3.json" },
-			{ "key": "debris_drone4", "url": "src/assets/data/assets0001/debris_drone4.json" },
+			{ "key": "debris_drone1_1", "url": "src/assets/data/assets0001/debris_drone1_1.json" },
+			{ "key": "debris_drone1_2", "url": "src/assets/data/assets0001/debris_drone1_2.json" },
+			{ "key": "debris_drone1_3", "url": "src/assets/data/assets0001/debris_drone1_3.json" },
+			{ "key": "debris_drone1_atom1", "url": "src/assets/data/assets0001/debris_drone1_atom1.json" },
+			{ "key": "debris_fire", "url": "src/assets/data/assets0001/debris_fire.json" },
+
 
 			{ "key": "drone1_engine", "url": "src/assets/data/assets0001/drone1_engine.json" },
 			{ "key": "debris_drone1_engine1_1", "url": "src/assets/data/assets0001/debris_drone1_engine1_1.json" },
@@ -43,6 +50,7 @@
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
+			{ "key": "explosion3", "url": "src/assets/data/assets0001/explosion3.json" },
 
 			{ "key": "pharao_intro", "url": "src/assets/data/assets0001/pharao_intro.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
@@ -50,21 +58,20 @@
 
 			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
 			{ "key": "tutorial_hand_pusher", "url": "src/assets/data/tutorial_hand_pusher.json" },
-			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" }
+			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" },
+			{ "key": "text_hit_drone", "url": "src/assets/data/assets0001/text_hit_drone.json" }
 
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
 		]
-	}, 
+	},
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 1,
 	"fails": 1,
 	"objects": [
-		{
-			"template": "game_frame_ball_sensor"
-		},
+
 		{
 			"template": "game_ground"
 		},
@@ -99,12 +106,14 @@
 			"template": "drone1",
 			"x": 1165,
 			"y": 220,
-			"attackX": 865,
-			"attackY": 295,
-			"layer": 2,
+			"lives": 1,
+			"livesFrames": ["drone1","drone1","drone1"],
 			"livesEmitters": null,
+			"dispatchEventsHit": ["drone1_hit"],
+
 			"AI": {
-				"distance": 300,
+				"distanceX": 300,
+				"distanceY": 300,
 				"produceProbability": 0.2
 			},
 			"tweens": {
@@ -136,35 +145,33 @@
 				},
 			"debrises": [
 				{
-					"name": "Ball1",
-					"template": "ball_big1",
-					"x": 1720,
-					"y": 710
-				},
-				{
 					"name": "Pusher",
 					"template": "pusher1",
+					"ignoreParentScale": true,
 					"x": 1720,
 					"y": 850
 				},
 				{
 					"name": "h2",
 					"template": "hint1",
+					"ignoreParentScale": true,
 					"x": 1720,
 					"y": 700,
 					"isDestroyOnPusherDragStart": true
 				},
 				{
 					"name": "thpusher1",
+					"ignoreParentScale": true,
 					"template": "tutorial_hand_pusher",
 					"x": 1820,
 					"layer": 3
 				},
 				{
 					"name": "thp1",
+					"ignoreParentScale": true,
 					"template": "tutorial_hand_pointing",
-					"x": 1350,
-					"y": 220,
+					"x": 1300,
+					"y": 300,
 					"angle": -45
 				}
 			]
@@ -176,13 +183,22 @@
 			"sy": 3,
 			"x": 2000,
 			"y": -1000,
-			"lockToObject": 
+			"lockToObject":
 				{
 					"name": "rocket1",
 					"offset": {"x": 0, "y": 600},
 					"angle": 0,
 					"isDestroyWithLockedObject": true
 				}
+		},
+		{
+			"name": "text_hit_drone",
+			"template": "text_hit_drone",
+			"x": 960,
+			"y": 900,
+			"layer": 5,
+			"listenEventsHit": ["drone1_hit"],
+			"fadeOutOnRemove": true
 		}
 
 	]

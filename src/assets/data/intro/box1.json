@@ -1,0 +1,10 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "box1shape",
+	"bodyType": "KINEMATIC",
+	"atlas": "intro",
+	"lives": 1,
+	"frame": "box1",
+	"bodyMass": 10,
+	"debrises": []
+}

@@ -5,7 +5,7 @@
 	"atlas": "assets0001",
 	"frame": "debris_pharao2",
 	"bodyMass": 2,
-	"minHitImpulse": 1000,
+	"minHitImpulse": 100,
 	"lives": 1,
 	"hitSound": "hit_block",
 	"hasDust": true,

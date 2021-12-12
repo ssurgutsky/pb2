@@ -189,36 +189,36 @@
 		"Похоже, кто-то сегодня станет богатым!"
 	],
 	"story15text1": [
-		"Wonderful! You are the best!",
-		"Замечательно! Ты лучший!"
+		"All is coming good! But, seems...",
+		"Все идет отлично! Но, кажется..."
 	],
 	"story15text2": [
-		"But look further - what's it?!",
-		"Но смотри дальше - что это?!"
+		"The enemy noticed your presence! Defend!",
+		"Твое присутствие заметил враг! Обороняйся!"
 	],
 	"story16text1": [
 		"Awesome! You beaten him!",
-		"Классно! Ты побил его!"
+		"Отлично! Ты побил его!"
 	],
 	"story16text2": [
-		"It's a secret key! And what door it could open?",
-		"Какой-то секретный ключ! И какую же дверь он может открыть?"
+		"Watch out! A horde of drones are flying at you!",
+		"Берегись! На тебя летит орава дронов!"
 	],
 	"story17text1": [
-		"Hey, here is that door to the inner Fortress yard.",
-		"Эй, здесь та дверь во внутренний двор Крепости."
+		"Uhh!",
+		"Ух!"
 	],
 	"story17text2": [
-		"Okay, please open the door by the key!",
-		"Давай, открывай ключом эту дверь!"
+		"You've defended this time...",
+		"На этот раз тебе удалось отбиться..."
 	],
 	"story18text1": [
-		"We have entered. It's Monkey's yard.",
-		"Мы зашли внутрь. Это двор Обезьян."
+		"Catch the toolkit!",
+		"Лови помощь!"
 	],
 	"story18text2": [
-		"And seems these monkeys are scared!\nPlease do not hurt them!",
-		"И, кажется, обезьяны чем-то напуганы!\nПожалуйста, не причиняй им вреда!"
+		"It's very usefull...",
+		"Она тебе очень понадобится..."
 	],
 	"story19text1": [
 		"Awesome!\nBut did you see what happens once a monkey is broken?",
@@ -350,6 +350,31 @@
 	"intro_text_apolacho": [
 		"APOLACHO",
 		"АПОЛАЧО"
+	],
+
+	"hit_drone": [
+		"Hit the drone!",
+		"Сбей дрон!"
+	],
+
+	"hit_brick": [
+		"Hit the brick!",
+		"Сбей кирпич!"
+	],
+
+	"intro2_text01": [
+		"Hey, friend! We've heard you've hard there.",
+		"Эй, друг! Мы слышали тебе там трудно."
+	],
+
+	"intro2_text02": [
+		"Sending a helpful toolkit to you.",
+		"Отправляем тебе ящик с помощью."
+	],
+
+	"intro2_text03": [
+		"Catch it!",
+		"Лови!"
 	],
 
 	"spaceship1_name": [

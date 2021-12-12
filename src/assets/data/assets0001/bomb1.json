@@ -1,0 +1,52 @@
+{
+	"name": "Bomb1",
+	"objType": "bomb1",
+	"atlas": "assets0001",
+	"bodyType": "DYNAMIC",
+	"frame": "bomb1",
+	"shape": "CIRCLE",
+	"shapeRadius": 25,
+	"lives": 1,
+	"bodyMass": 1,
+	"minHitImpulse": 100,
+	"impulseMultiplier": 20,
+	"destroyOnHit": true,
+	"hitShake": true,
+
+	"debrises": [
+		{
+			"name": "bombd1",
+			"template": "debris_atom1",
+			"timeToLive": 0.2,
+			"impulseMultiplier": 10,
+			"fadeOutOnRemove": false,
+			"lx": -80,
+			"ly": -40,
+			"vx": -1000,
+			"vy": -200
+		},
+		{
+			"name": "bombd2",
+			"template": "debris_atom1",
+			"timeToLive": 0.2,
+			"impulseMultiplier": 10,
+			"fadeOutOnRemove": false,
+			"lx": 80,
+			"ly": -40,
+			"vx": 1000,
+			"vy": -200
+		},
+
+		{
+			"name": "bombd1",
+			"template": "explosion",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 2,
+			"sy": 2,
+			"useOwnAngle": true
+		}
+	]
+}

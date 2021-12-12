@@ -1,22 +1,23 @@
 {
 	"name": "pusher1_head",
+	"objType": "pusher1_head",
 	"shape": "POLYGON",
 	"shapeName": "pusher1_head_shape",
 	"bodyType": "KINEMATIC",
 	"atlas": "assets0001",
-	"frame": "pusher1_head",
+	"livesFrames": ["pusher1_head_3","pusher1_head_2","pusher1_head"],
 
 	"lives": 3,
 	"livesEffect": true,
+	"hasElectro": true,
 	"bodyMass": 3,
 	"minHitImpulse": 500,
 	"bodyRotation": 0,
-	"angle": 35,
+	"#angle": 35,
 
-	"isBallIgnore": true,
 	"forceDraggableDisabled": false,
 
-	"tweens": {
+	"#tweens": {
 		"blink": {
 			"firstDelay": 0.01,
 			"delay": 2,
@@ -25,6 +26,20 @@
 				{"toBody": {"y": "-20"}, "duration": 1000}
 			]
 		}
-	}
+	},
 
+	"debrises": [
+		{
+			"name": "d1ed4",
+			"template": "explosion2",
+			"isMainFail": true,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": -200,
+			"sx": 2,
+			"sy": 2,
+			"useOwnAngle": true
+		}
+	]
 }

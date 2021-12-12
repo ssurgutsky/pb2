@@ -1,0 +1,31 @@
+{
+	"shape": "POLYGON",
+	"shapeName": "debris_crystal1_2_1shape",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_crystal1_2_1",
+	"bodyMass": 2,
+	"minHitImpulse": 500,
+	"lives": 1,
+	"hitSound": "hit_block",
+	"debrises": [
+		{
+			"name": "crda1",
+			"template": "debris_crystal1_atom1",
+			"lx": 0,
+			"ly": -40,
+			"vx": 0,
+			"vy": 0,
+			"fadeOutOnRemove": true
+		},
+		{
+			"name": "crda2",
+			"template": "debris_crystal1_atom2",
+			"lx": 0,
+			"ly": 40,
+			"vx": 0,
+			"vy": 0,
+			"fadeOutOnRemove": true
+		}
+	]
+}

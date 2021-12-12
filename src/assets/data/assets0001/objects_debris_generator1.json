@@ -1,0 +1,46 @@
+{
+	"name": "debris_generator1",
+	"template": "objects_generator",
+	"bodyType": "STATIC",
+
+	"AI": {
+		"subtype": "debris_generator1",
+		"updateDelay": 300,
+		"scanX": 300,
+		"scanY": 300,
+		"maxObjects": -1,
+		"parallelObjects": 3,
+
+		"produceRandom": true,
+		"produce": [
+			{
+				"name": "d1",
+				"objType": "debris",
+				"template": "debris_pharao2",
+				"lx": [-100,100],
+				"ly": 0,
+				"vx": [-300,300]
+			},
+			{
+				"name": "d2",
+				"objType": "debris",
+				"template": "debris_pharao3",
+				"lx": [-100,100],
+				"ly": 0,
+				"vx": [-300,300]
+			},
+			{
+				"name": "d3",
+				"objType": "debris",
+				"template": "debris_fire",
+				"useOwnAngle": true,
+				"angle": 180,
+				"lx": [-100,100],
+				"ly": 0,
+				"vx": [-300,300]
+			}
+
+		]
+
+	}
+}

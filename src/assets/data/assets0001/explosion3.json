@@ -1,0 +1,21 @@
+{
+	"name": "explosion3",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "explosion3_00",
+	"isDecor": true,
+	"fadeOutOnRemove": true,
+	"gravityScale": 0,
+	"timeToLive": 0.2,
+	"appearSound": "explosion3",
+
+	"animations": {
+		"idle": {
+			"frameName": "explosion3_0",
+			"framesCount": 8,
+			"frameRate": 24,
+			"isStart": true,
+			"isLoop": false
+		}
+	}
+}

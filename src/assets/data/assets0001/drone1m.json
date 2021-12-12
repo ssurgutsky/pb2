@@ -1,15 +1,54 @@
 {
-	"name": "drone1",
+	"name": "drone1m",
+	"objType": "drone1m",
 	"template": "drone1",
+	"bodyMass": 5,
 	"AI": {
-		"distance": 30,
-		"produce1Lxy": 300
+		"type": "drone",
+		"rotateLockedObjects": true,
+		"updateDelay": 500,
+		"vf": 0.5,
+		"changeEnemy": false,
+		"changeEnemyInterval": 30,
+
+		"produceProbability": 1,
+		"produceOverParent": true,
+		"produce": [
+			{
+				"name": "fire",
+				"template": "fire",
+				"angle": 180,
+				"timeToLive": 0.5,
+				"gravityScale": 0,
+				"lx": -240,
+				"ly": 0,
+				"sy": 1,
+				"sy": 1.5
+			},
+			{
+				"name": "fire_damage",
+				"template": "debris_atom1",
+				"collisionGroup": 2,
+				"fadeOutOnRemove": false,
+				"timeToLive": 0.2,
+				"impulseMultiplier": 10,
+				"gravityScale": 0,
+				"lx": -240,
+				"ly": 0,
+				"vx": -350,
+				"vy": 0,
+				"sx": 1.5,
+				"sy": 1.5,
+				"alpha": 1
+			}
+		]
 	},
+
 	"lockedObjects": [
 		{
 			"name": "da1up",
 			"template": "drone_armour1",
-			"lockToObject": 
+			"lockToObject":
 				{
 					"offset": {"x": 0, "y": -150},
 					"angle": -90
@@ -20,7 +59,7 @@
 		{
 			"name": "da2right",
 			"template": "drone_armour1",
-			"lockToObject": 
+			"lockToObject":
 				{
 					"offset": {"x": 150, "y": 0}
 				},
@@ -29,7 +68,7 @@
 		{
 			"name": "da3down",
 			"template": "drone_armour1",
-			"lockToObject": 
+			"lockToObject":
 				{
 					"offset": {"x": 0, "y": 150},
 					"angle": 90
@@ -40,7 +79,7 @@
 		{
 			"name": "da3left",
 			"template": "drone_armour1",
-			"lockToObject": 
+			"lockToObject":
 				{
 					"offset": {"x": -150, "y": 0},
 					"angle": 180

@@ -1,0 +1,13 @@
+{
+	"shape": "CIRCLE",
+	"shapeRadius": "15",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_crystal1_atom1",
+	"bodyMass": 2,
+	"minHitImpulse": 500,
+	"lives": 1,
+	"timeToLive": 2,
+	"hitSound": "hit_block",
+	"hasElectro": true
+}

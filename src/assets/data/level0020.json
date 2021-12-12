@@ -7,7 +7,8 @@
 			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" }
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
 			{ "key": "board_frame1", "url": "src/assets/data/board_frame1.json" },
@@ -45,9 +46,7 @@
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
 			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
-			{ "key": "debris_beam1", "url": "src/assets/data/assets0001/debris_beam1.json" },
-			{ "key": "debris_beam2", "url": "src/assets/data/assets0001/debris_beam2.json" },
-			{ "key": "debris_beam3", "url": "src/assets/data/assets0001/debris_beam3.json" },
+
 
 			{ "key": "door2", "url": "src/assets/data/assets0001/door2.json" },
 			{ "key": "keyhole1", "url": "src/assets/data/assets0001/keyhole1.json" }

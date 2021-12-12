@@ -1,16 +1,32 @@
 {
 	"name": "pusher1_lt",
+	"objType": "pusher1_lt",
 	"shape": "POLYGON",
 	"shapeName": "pusher1LTshape",
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
-	"frame": "pusher1_lt",
+	"livesFrames": ["pusher1_lt_3","pusher1_lt_2","pusher1_lt"],
 
 	"lives": 3,
 	"livesEffect": true,
+	"hasElectro": true,
 	"bodyMass": 3,
 	"minHitImpulse": 500,
 
 	"isBallIgnore": true,
-	"forceDraggableDisabled": true
+	"forceDraggableDisabled": true,
+
+	"debrises": [
+		{
+			"name": "d1ed4",
+			"template": "explosion2",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": -200,
+			"sx": 2,
+			"sy": 2,
+			"useOwnAngle": true
+		}
+	]
 }

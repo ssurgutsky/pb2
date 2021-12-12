@@ -100,7 +100,7 @@
 		"id": 15,
 		"maxStoryId": 15,
 		"levelNo": 9,
-		"isAfterLevel": true,
+		"isAfterLevel":false,
 		"text1": "story15text1",
 		"text2": "story15text2"
 	},
@@ -108,7 +108,7 @@
 		"id": 16,
 		"maxStoryId": 16,
 		"levelNo": 10,
-		"isAfterLevel": true,
+		"isAfterLevel": false,
 		"text1": "story16text1",
 		"text2": "story16text2"
 	},

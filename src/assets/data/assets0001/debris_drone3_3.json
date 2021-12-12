@@ -1,0 +1,32 @@
+{
+	"shape": "CIRCLE",
+	"shapeRadius": 30,
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "debris_drone3_3",
+	"bodyMass": 2,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"debrises": [
+		{
+			"name": "d1",
+			"template": "debris_drone3_atom1",
+			"lx": -30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "d1",
+			"template": "debris_drone3_atom1",
+			"lx": 30,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

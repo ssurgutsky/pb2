@@ -1,11 +1,12 @@
 {
 	"name": "Box1",
+	"objType": "box1",
 	"atlas": "assets0001",
 	"bodyType": "DYNAMIC",
 	"livesFrames": ["box1_3","box1_2","box1"],
 	"shape": "POLYGON",
 	"shapeName": "box1shape",
-	"lives": 3,
+	"lives": 1,
 	"bodyMass": 1,
 	"minHitImpulse": 1000,
 	"hitSound": "hit_block",
@@ -21,23 +22,10 @@
 			"ly": 0,
 			"vx": 0,
 			"vy": 0,
-			"sx": 1,
-			"sy": 1,
+			"sx": 2,
+			"sy": 2,
 			"ox": 1760,
 			"oy": 740
-		},
-		{
-			"name": "extra_ball_name",
-			"template": "extra_ball_name",
-			"lockToObject": 
-				{
-					"name": "ball_big1_prepare",
-					"offset": {"x": 0, "y": -50},
-					"angle": 0
-				},
-			"timeToLive": 5,
-			"fixedRotation": true,
-			"layer": 5
 		},
 		{
 			"name": "bd1",

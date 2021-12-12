@@ -1,84 +1,155 @@
 {
+	"objType": "pusher1",
 	"atlas": "assets0001",
 	"frame": "pusher1_base",
 	"bodyType": "STATIC",
 	"isBallIgnore": true,
 	"isPusherBase": true,
-	"forceDraggableDisabled": true,
-	"fixedRotation": true,
+	"forceDraggableDisabled": false,
+	"fixedRotation": false,
+	"minAngle": -80,
+	"maxAngle": 20,
 	"lives": -1,
+	"collisionGroup": 99,
+	"clanId": 99,
 
 	"lockedObjects": [
 		{
-			"name": "spring",
-			"shape": "POLYGON",
-			"shapeName": "pusher1shape",
-			"atlas": "assets0001",
-			"frame": "pusher1",
-			"bodyType": "DYNAMIC",
-			"bodyMass": 10000,
-
-			"isSpring": true,
-			"pStiffness": 3000000,
-			"pPrismaticConstraintAnchorB": 180,
-			"pFixedX": true,
-			"dragOffsetY": 100,
-
-			"fixedRotation": true,
-			"isBallIgnore": true,
-			"isPusher": true,
-			"effectSound": "spring",
-			"lives": -1,
-			"isDraggable": true,
-
+			"id": "pusher1_head_xxx",
+			"name": "pusher1_head",
+			"template": "pusher1_head",
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
+			"sy": 1.2,
 			"lockToObject": 
 				{
-					"offset": {"x": 0, "y": 0}
+					"offset": {"x": 0, "y": 90}
 				}
 		},
 		{
+			"id": "pusher1_damaged",
+			"name": "pusher1_damaged",
+			"objType": "pusher1_damaged",
+			"bodyType": "DYNAMIC",
+			"atlas": "assets0001",
+			"frame": "pusher1_damaged",
+			"isDecor": true,
+			"forceDraggableDisabled": true,
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": 90}
+				}
+		},
+
+		{
+			"id": "pusher1_lb_xxx",
 			"name": "pusher1_lb",
 			"template": "pusher1_lb",
-			"collisionGroup": 3,
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
 			"lockToObject": 
 				{
 					"offset": {"x": -94, "y": 90}
 				}
 		},
 		{
+			"id": "pusher1_rb_xxx",
 			"name": "pusher1_rb",
 			"template": "pusher1_rb",
-			"collisionGroup": 3,
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
 			"lockToObject": 
 				{
 					"offset": {"x": 89, "y": 90}
 				}
 		},
 		{
+			"id": "pusher1_lt_xxx",
 			"name": "pusher1_lt",
 			"template": "pusher1_lt",
-			"collisionGroup": 3,
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
 			"lockToObject": 
 				{
 					"offset": {"x": -80, "y": -145}
 				}
 		},
 		{
+			"id": "pusher1_rt_xxx",
 			"name": "pusher1_rt",
 			"template": "pusher1_rt",
-			"collisionGroup": 3,
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
 			"lockToObject": 
 				{
 					"offset": {"x": 77, "y": -145}
 				}
 		},
 		{
-			"name": "pusher1_head",
-			"template": "pusher1_head",
-			"collisionGroup": 3,
+			"name": "pusher1_ball_generator",
+			"template": "pusher1_ball_generator",
+			"collisionGroup": 99,
+			"sleepSpeedLimit": 0,
 			"lockToObject": 
 				{
-					"offset": {"x": 90, "y": -717}
+					"offset": {"x": 0, "y": -200}
+				}
+		},
+		{
+			"name": "meter",
+			"atlas": "assets0001",
+			"frame": "pusher1_meter",
+			"isDecor": true,
+			"sleepSpeedLimit": 0,
+			"lockToObject": 
+				{
+					"offset": {"x": -2, "y": 95}
+				}
+		},
+
+		{
+			"collisionGroup": 99,
+			"name": "spring",
+			"shape": "BOX",
+			"shapeParams": {"w":150,"h":200,"ofsX":0,"ofsY":0, "r":0},
+			"atlas": "assets0001",
+			"frame": "pusher1",
+			"bodyType": "DYNAMIC",
+			"bodyMass": 10000,
+			"minHitImpulse": 1000,
+
+			"isSpring": true,
+			"pStiffness": 2700000,
+			"pPrismaticConstraintAnchorB": 180,
+			"dragOffsetY": 100,
+
+			"fixedRotation": false,
+			"isBallIgnore": true,
+			"isPusher": true,
+			"effectSound": "spring",
+			"lives": 3,
+			"isDraggable": true,
+
+			"debrises": [
+				{
+					"name": "d1ed4",
+					"template": "explosion2",
+					"isMainFail": true,
+					"lx": 0,
+					"ly": 0,
+					"vx": 0,
+					"vy": -200,
+					"sx": 2,
+					"sy": 2,
+					"useOwnAngle": true
+				}
+			],
+			"sleepSpeedLimit": 0,
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": 0}
 				}
 		}
 	]

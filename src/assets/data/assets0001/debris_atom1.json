@@ -1,14 +1,16 @@
 {
+	"name": "debris_atom1",
 	"shape": "POLYGON",
 	"shapeName": "debris_atom1shape",
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"frame": "debris_atom1",
 	"bodyMass": 2,
-	"minHitImpulse": 1000,
+	"minHitImpulse": 100,
 	"lives": 1,
-	"hitSound": "hit_block",
 	"hasDust": true,
+	"timeToLive": 2,
+	"fadeOutOnRemove": true,
 	"debrises": [
 	]
 }

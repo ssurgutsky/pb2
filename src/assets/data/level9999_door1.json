@@ -1,0 +1,122 @@
+{
+	"preload": {
+		"ATLAS_JSON_ARRAYS": [
+			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
+		],
+		"IMAGES": [
+			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+		],
+		"AUDIO": [
+			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
+		],
+		"JSON": [
+
+			{ "key": "spot", "url": "src/assets/data/assets0001/spot.json" },
+			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
+
+			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "key_golden", "url": "src/assets/data/assets0001/key_golden.json" },
+			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
+			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
+			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
+			{ "key": "pusher1_lb", "url": "src/assets/data/assets0001/pusher1_lb.json" },
+			{ "key": "pusher1_rb", "url": "src/assets/data/assets0001/pusher1_rb.json" },
+			{ "key": "pusher1_head", "url": "src/assets/data/assets0001/pusher1_head.json" },
+			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
+			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
+
+
+
+			{ "key": "hint1", "url": "src/assets/data/hint1.json" },
+
+			{ "key": "sensor_success1", "url": "src/assets/data/assets0001/sensor_success1.json" },
+			{ "key": "sensor_teleport1", "url": "src/assets/data/assets0001/sensor_teleport1.json" },
+
+			{ "key": "jewel1", "url": "src/assets/data/jewel1.json" },
+			{ "key": "jewel2", "url": "src/assets/data/jewel2.json" },
+			{ "key": "jewel3", "url": "src/assets/data/jewel3.json" },
+			{ "key": "jewel4", "url": "src/assets/data/jewel4.json" },
+			{ "key": "jewel5", "url": "src/assets/data/jewel5.json" },
+			{ "key": "jewel6", "url": "src/assets/data/jewel6.json" },
+
+			{ "key": "debris_atom1", "url": "src/assets/data/assets0001/debris_atom1.json" },
+
+			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
+			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
+			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
+			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "beam1", "url": "src/assets/data/assets0001/beam1.json" },
+
+
+			{ "key": "door1", "url": "src/assets/data/assets0001/door1.json" },
+			{ "key": "keyhole1", "url": "src/assets/data/assets0001/keyhole1.json" }
+		],
+		"PHYSICS": [
+			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
+		]
+	}, 
+	"bg": "bg",
+	"balls": 10,
+	"tasks": 1,
+	"fails": 1,
+	"objects": [
+
+		{
+			"template": "game_ground"
+		},
+
+		{
+			"name": "Pusher1",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 850
+		},
+
+
+
+		{
+			"name": "h1",
+			"template": "hint1",
+			"x": 1720,
+			"y": 700,
+			"layer": 3
+		},
+
+		{
+			"name": "Door1",
+			"template": "door1",
+			"x": 250,
+			"y": 520,
+			"sx": 2,
+			"sy": 2
+		},
+		{
+			"name": "Keyhole1",
+			"template": "keyhole1",
+			"x": 340,
+			"y": 550
+		},
+
+		{
+			"name": "Beam1",
+			"template": "beam1",
+			"lives": 19,
+			"layer": 3
+		},
+		{
+			"name": "Key1",
+			"template": "key_golden",
+			"impulseMultiplier": 3,
+			"isBall": true,
+			"isRespawnable": true,
+			"respawnSound": "respawn",
+			"x": 1719,
+			"y": 660,
+			"angle": -90,
+			"layer": 4
+		}
+	]
+}

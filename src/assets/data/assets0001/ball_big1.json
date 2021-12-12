@@ -1,12 +1,30 @@
 {
+	"name": "ball_big1",
+	"objType": "ball",
 	"shape": "CIRCLE",
-	"shapeName": "",
+	"shapeRadius": "25",
 	"atlas": "assets0001",
 	"frame": "ball_big",
+	"bodyType": "DYNAMIC",
 	"bodyMass": 1,
-	"lives": -1,
+	"lives": 1,
+	"timeToLive": 30,
+	"destroyOnHit": false,
+	"destroyOnHitSelf": true,
 	"impulseMultiplier": 3,
 	"isBall": true,
-	"isRespawnable": true,
-	"respawnSound": "respawn"
+	"debrises": [
+		{
+			"name": "bde1",
+			"template": "explosion3",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1,
+			"sy": 1,
+			"useOwnAngle": true,
+			"layer": 4
+		}
+	]
 }

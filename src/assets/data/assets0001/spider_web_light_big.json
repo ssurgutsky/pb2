@@ -39,7 +39,8 @@
 			"vy": 0,
 			"sx": 1.5,
 			"sy": 1.5,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "swd2",
@@ -50,7 +51,8 @@
 			"vy": 0,
 			"sx": 1.5,
 			"sy": 1.5,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "swd3",
@@ -61,7 +63,8 @@
 			"vy": 0,
 			"sx": 1.5,
 			"sy": 1.5,
-			"isDecor": true
+			"isDecor": true,
+			"fadeOutOnRemove": true
 		}
 	],
 	"respawnOnHit": true,

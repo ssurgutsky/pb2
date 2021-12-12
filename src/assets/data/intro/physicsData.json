@@ -8,7 +8,13 @@
 	"rocket1shape": [
 		{
 			"filter": { "categoryBits": 1, "maskBits": 65535 },
-			"shape": [40,180, 40,46, 80,46, 80,180]
+			"shape": [33,180, 33,46, 80,46, 80,180]
+		}
+	],
+	"box1shape": [
+		{
+			"filter": { "categoryBits": 1, "maskBits": 65535 },
+			"shape": [35,140, 35,25, 160,25, 160,140]
 		}
 	]
 }

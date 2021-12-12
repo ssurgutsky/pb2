@@ -1,4 +1,5 @@
 {
+	"objType": "ball",
 	"shape": "CIRCLE",
 	"shapeName": "",
 	"atlas": "assets0001",
@@ -7,19 +8,38 @@
 	"impulseMultiplier": 3,
 	"minHitImpulse": 100000,
 	"lives": 1,
-	"timeToLive": 5,
+	"timeToLive": 3,
+	"fadeOutOnRemove": true,
+
+	"lockedObjects": [
+		{
+			"template": "extra_ball_name",
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": -50},
+					"angle": 0,
+					"isDestroyWithLockedObject": true
+				},
+			"useOwnAngle": true,
+			"fixedRotation": true,
+			"layer": 5
+		}
+	],
+
 	"debrises": [
 		{
-			"name": "b1",
-			"template": "ball_big1",
-			"lx": 0,
-			"ly": 0,
-			"vx": 0,
-			"vy": 0,
-			"sx": 1,
-			"sy": 1,
-			"ox": 1760,
-			"oy": 740
+			"name": "ball_injector1",
+			"injectToObject": 
+				{
+					"name": "pusher1_ball_generator",
+					"data": 
+						{
+							"AI": {
+								"parallelObjects": 1,
+								"parallelObjects_rule": "inc"
+							}
+						}
+				}
 		}
 	]
 }
