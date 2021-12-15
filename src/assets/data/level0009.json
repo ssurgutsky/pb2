@@ -74,7 +74,7 @@
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 1,
-	"fails": 3,
+	"fails": 1,
 	"objects": [
 
 		{
@@ -95,7 +95,7 @@
 			"y": 500,
 			"enemyIds": ["pusher1_rb_xxx","pusher1_head_xxx","pusher1_rt_xxx","pusher1_lb_xxx","pusher1_lt_xxx"],
 			"AI": {
-				"produceProbability": 0.3,
+				"produceProbability": 0.8,
 				"changeEnemy": false
 			}
 		},

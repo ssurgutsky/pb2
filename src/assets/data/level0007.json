@@ -178,7 +178,7 @@
 			"x": 1500,
 			"y": 300,
 			"AI": {
-				"produceProbability": 0.4
+				"produceProbability": 0.9
 			},
 			"layer": 2
 		},

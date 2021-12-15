@@ -1,0 +1,13 @@
+{
+	"name": "text_protect_fortress_props",
+	"bodyType": "KINEMATIC",
+	"isDecor": true,
+	"texts": [
+		{
+		 	"text": "protect_fortress_props",
+			"fontSize": 100,
+			"x": 0,
+			"y": 0
+		}
+	]
+}

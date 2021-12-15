@@ -9,7 +9,7 @@
 	"minHitImpulse": 100,
 	"impulseMultiplier": 10,
 	"lives": 1,
-	"hasElectro": true,
+	"hasElectro": false,
 	"hitSound": "hit_block",
 
 	"animations": {

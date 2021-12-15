@@ -7,7 +7,14 @@
 		"type": "drone",
 		"rotateLockedObjects": true,
 		"updateDelay": 500,
+
 		"vf": 0.5,
+
+		"distanceX": 300,
+		"minDistanceX": 100,
+		"distanceY": 300,
+		"minDistanceY": 100,
+
 		"changeEnemy": false,
 		"changeEnemyInterval": 30,
 

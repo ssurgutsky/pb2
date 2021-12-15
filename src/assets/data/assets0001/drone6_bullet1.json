@@ -1,0 +1,27 @@
+{
+	"objType": "drone6_bullet1",
+	"shape": "CIRCLE",
+	"shapeRadius": "20",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "lazer00",
+	"bodyMass": 1,
+	"minHitImpulse": 100,
+	"impulseMultiplier": 10,
+	"lives": 1,
+	"hasDestroy": true,
+	"hitSound": "hit_block",
+
+	"animations": {
+		"idle": {
+			"frameName": "lazer0",
+			"framesCount": 7,
+			"frameRate": 12, 
+			"isStart": true,
+			"isLoop": true
+		}
+	},
+
+	"debrises": [
+	]
+}

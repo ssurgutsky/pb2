@@ -51,7 +51,11 @@
 
 			{ "key": "pharao_medium", "url": "src/assets/data/assets0001/pharao_medium.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" }
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -60,7 +64,7 @@
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 2,
-	"fails": 1,
+	"fails": 3,
 	"objects": [
 
 		{
@@ -126,6 +130,22 @@
 		},
 
 		{
+			"name": "monkey1",
+			"template": "monkey002_light",
+			"lives": 5,
+			"x": 500,
+			"y": 900
+		},
+
+		{
+			"name": "monkey2",
+			"template": "monkey003_light",
+			"lives": 5,
+			"x": 900,
+			"y": 900
+		},
+
+		{
 			"name": "pharao1",
 			"template": "pharao_medium",
 			"x": 668,
@@ -161,10 +181,11 @@
 			"AI": {
 				"distanceX": 250,
 				"distanceY": 250,
-				"produceProbability": 0.1,
-
+				"produceProbability": 0.5,
+				"livesEnemyPriorities": null,
 				"enemyPriorities": [
-					["spot"]
+					["pharao"],
+					["monkey"]
 				]
 			},
 			"layer": 2
@@ -177,11 +198,11 @@
 			"AI": {
 				"distanceX": 250,
 				"distanceY": 250,
-				"produceProbability": 0.1,
-
+				"produceProbability": 0.5,
 				"livesEnemyPriorities": null,
 				"enemyPriorities": [
-					["spot"]
+					["pharao"],
+					["monkey"]
 				]
 			},
 			"layer": 2

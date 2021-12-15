@@ -353,8 +353,13 @@
 	],
 
 	"hit_drone": [
-		"Hit the drone!",
-		"Сбей дрон!"
+		"Hit enemy's drone!",
+		"Сбей вражеский дрон!"
+	],
+
+	"protect_fortress_props": [
+		"Protect Fortress properties!",
+		"Защити имущество Крепости!"
 	],
 
 	"hit_brick": [

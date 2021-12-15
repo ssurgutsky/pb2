@@ -42,6 +42,19 @@
 			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
+			{ "key": "drone6", "url": "src/assets/data/assets0001/drone6.json" },
+			{ "key": "debris_drone6_1", "url": "src/assets/data/assets0001/debris_drone6_1.json" },
+			{ "key": "debris_drone6_2", "url": "src/assets/data/assets0001/debris_drone6_2.json" },
+			{ "key": "debris_drone6_3", "url": "src/assets/data/assets0001/debris_drone6_3.json" },
+			{ "key": "debris_drone6_atom1", "url": "src/assets/data/assets0001/debris_drone6_atom1.json" },
+			{ "key": "drone6_bullet1", "url": "src/assets/data/assets0001/drone6_bullet1.json" },
+
+			{ "key": "debris_drone2_atom1", "url": "src/assets/data/assets0001/debris_drone2_atom1.json" },
+			{ "key": "drone2_engine", "url": "src/assets/data/assets0001/drone2_engine.json" },
+			{ "key": "debris_drone2_engine1_1", "url": "src/assets/data/assets0001/debris_drone2_engine1_1.json" },
+			{ "key": "debris_drone2_engine1_2", "url": "src/assets/data/assets0001/debris_drone2_engine1_2.json" },
+			{ "key": "debris_drone2_engine1_3", "url": "src/assets/data/assets0001/debris_drone2_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
 			{ "key": "explosion3", "url": "src/assets/data/assets0001/explosion3.json" },
@@ -51,7 +64,12 @@
 			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
 			{ "key": "pharao_intro", "url": "src/assets/data/assets0001/pharao_intro.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" }
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" }
+
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -127,6 +145,15 @@
 			"angle": 180,
 			"layer": 2
 		},
+
+		{
+			"name": "monkey1",
+			"template": "monkey002_light",
+			"lives": 5,
+			"x": 900,
+			"y": 900
+		},
+
 		{
 			"name": "pharao1",
 			"template": "pharao_intro",
@@ -206,16 +233,16 @@
 			"layer": 2
 		},
 		{
-			"name": "drone2",
-			"template": "drone1",
-			"x": 1300,
-			"y": 152,
+			"name": "drone6",
+			"template": "drone6",
+			"x": 500,
+			"y": 200,
 			"AI": {
 				"distanceX": 250,
 				"minDistanceY": 100,
 				"distanceX": 250,
 				"minDistanceY": 100,
-				"produceProbability": 0.2,
+				"produceProbability": 1,
 				"changeEnemy": true,
 				"changeEnemyInterval": 10
 			},

@@ -50,7 +50,9 @@
 			{ "key": "pharao_intro", "url": "src/assets/data/assets0001/pharao_intro.json" },
 			{ "key": "pharao_light", "url": "src/assets/data/assets0001/pharao_light.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" }
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "text_protect_fortress_props", "url": "src/assets/data/assets0001/text_protect_fortress_props.json" }
 
 		],
 		"PHYSICS": [
@@ -139,12 +141,23 @@
 			"x": 1500,
 			"y": 200,
 			"livesEmitters": null,
+			"dispatchEventsHit": ["drone1_hit"],
 			"AI": {
 				"distanceX": 270,
 				"distanceY": 270,
 				"produceProbability": 0.2
 			},
 			"layer": 2
+		},
+
+		{
+			"name": "text_protect_fortress_props",
+			"template": "text_protect_fortress_props",
+			"x": 960,
+			"y": 900,
+			"layer": 5,
+			"listenEventsHit": ["drone1_hit"],
+			"fadeOutOnRemove": true
 		}
 	]
 }

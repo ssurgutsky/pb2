@@ -28,7 +28,7 @@
 		"distanceY": 500,
 		"minDistanceY": 300,
 
-		"produceProbability": 0.5,
+		"produceProbability": 0.9,
 		"produceOverParent": false,
 		"produce": [
 			{
