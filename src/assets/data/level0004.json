@@ -42,14 +42,12 @@
 			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
-			{ "key": "drone6", "url": "src/assets/data/assets0001/drone6.json" },
-			{ "key": "debris_drone6_1", "url": "src/assets/data/assets0001/debris_drone6_1.json" },
-			{ "key": "debris_drone6_2", "url": "src/assets/data/assets0001/debris_drone6_2.json" },
-			{ "key": "debris_drone6_3", "url": "src/assets/data/assets0001/debris_drone6_3.json" },
-			{ "key": "debris_drone6_atom1", "url": "src/assets/data/assets0001/debris_drone6_atom1.json" },
-			{ "key": "drone6_bullet1", "url": "src/assets/data/assets0001/drone6_bullet1.json" },
-
+			{ "key": "drone2", "url": "src/assets/data/assets0001/drone2.json" },
+			{ "key": "debris_drone2_1", "url": "src/assets/data/assets0001/debris_drone2_1.json" },
+			{ "key": "debris_drone2_2", "url": "src/assets/data/assets0001/debris_drone2_2.json" },
+			{ "key": "debris_drone2_3", "url": "src/assets/data/assets0001/debris_drone2_3.json" },
 			{ "key": "debris_drone2_atom1", "url": "src/assets/data/assets0001/debris_drone2_atom1.json" },
+			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
 			{ "key": "drone2_engine", "url": "src/assets/data/assets0001/drone2_engine.json" },
 			{ "key": "debris_drone2_engine1_1", "url": "src/assets/data/assets0001/debris_drone2_engine1_1.json" },
 			{ "key": "debris_drone2_engine1_2", "url": "src/assets/data/assets0001/debris_drone2_engine1_2.json" },
@@ -83,13 +81,6 @@
 
 		{
 			"template": "game_ground"
-		},
-
-		{
-			"name": "Pusher1",
-			"template": "pusher1",
-			"x": 1720,
-			"y": 850
 		},
 
 		{
@@ -132,7 +123,7 @@
 			"y": 310,
 			"sx": 1.5,
 			"sy": 1.5,
-			"layer": 2
+			"layer": 1
 		},
 		{
 			"name": "fire1",
@@ -143,7 +134,7 @@
 			"sx": 0.5,
 			"sy": 0.5,
 			"angle": 180,
-			"layer": 2
+			"layer": 1
 		},
 
 		{
@@ -161,49 +152,6 @@
 			"y": 400,
 			"layer": 3
 		},
-		{
-			"name": "drone1",
-			"template": "drone1",
-			"x": 500,
-			"y": -500,
-			"AI": {
-				"distanceX": 250,
-				"minDistanceY": 100,
-				"distanceX": 250,
-				"minDistanceY": 100,
-				"produceProbability": 0.2,
-				"changeEnemy": true,
-				"changeEnemyInterval": 10,
-
-				"livesEnemyPriorities": null,
-				"enemyPriorities": [
-					["spot"]
-				]
-			},
-			"layer": 3
-		},
-
-		{
-			"name": "spot1",
-			"template": "spot",
-			"x": 312,
-			"y": 400,
-			"layer": 2
-		},
-		{
-			"name": "spot2",
-			"template": "spot",
-			"x": 1036,
-			"y": 180,
-			"layer": 2
-		},
-		{
-			"name": "spot3",
-			"template": "spot",
-			"x": 1300,
-			"y": 450,
-			"layer": 2
-		},
 
 		{
 			"name": "pharao2",
@@ -219,7 +167,7 @@
 			"y": 180,
 			"sx": 1.5,
 			"sy": 1.5,
-			"layer": 2
+			"layer": 1
 		},
 		{
 			"name": "fire2",
@@ -230,19 +178,32 @@
 			"sx": 0.5,
 			"sy": 0.5,
 			"angle": 180,
-			"layer": 2
+			"layer": 1
+		},
+
+		{
+			"name": "Pusher1",
+			"template": "pusher1",
+			"x": 1720,
+			"y": 850
+		},
+
+		{
+			"name": "drone2",
+			"template": "drone2",
+			"x": 1900,
+			"y": 0,
+			"AI": {
+				"produceProbability": 0.7
+			},
+			"layer": 3
 		},
 		{
-			"name": "drone6",
-			"template": "drone6",
+			"name": "drone1",
+			"template": "drone1",
 			"x": 500,
-			"y": 200,
+			"y": -500,
 			"AI": {
-				"distanceX": 250,
-				"minDistanceY": 100,
-				"distanceX": 250,
-				"minDistanceY": 100,
-				"produceProbability": 1,
 				"changeEnemy": true,
 				"changeEnemyInterval": 10
 			},

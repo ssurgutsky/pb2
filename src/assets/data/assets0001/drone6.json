@@ -20,15 +20,17 @@
 
 	"AI": {
 		"type": "drone",
-		"updateDelay": 500,
-		"vf": 0.5,
-		"maxV": 100,
-		"distanceX": 350,
-		"minDistanceX": 200,
-		"distanceY": 350,
-		"minDistanceY": 200,
+		"updateDelay": 50,
+		"vf": 0.9,
+		"maxV": 300,
+		"distanceX": 500,
+		"minDistanceX": 300,
+		"distanceY": 500,
+		"minDistanceY": 300,
+		"changeEnemy": true,
+		"changeEnemyInterval": 10,
 
-		"produceProbability": 0.5,
+		"produceProbability": 1,
 		"produceOverParent": true,
 		"produce": [
 			{

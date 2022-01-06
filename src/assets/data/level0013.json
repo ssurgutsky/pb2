@@ -35,16 +35,16 @@
 			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
-			{ "key": "drone2", "url": "src/assets/data/assets0001/drone2.json" },
-			{ "key": "debris_drone2_1", "url": "src/assets/data/assets0001/debris_drone2_1.json" },
-			{ "key": "debris_drone2_2", "url": "src/assets/data/assets0001/debris_drone2_2.json" },
-			{ "key": "debris_drone2_3", "url": "src/assets/data/assets0001/debris_drone2_3.json" },
-			{ "key": "debris_drone2_atom1", "url": "src/assets/data/assets0001/debris_drone2_atom1.json" },
+			{ "key": "drone6", "url": "src/assets/data/assets0001/drone6.json" },
+			{ "key": "debris_drone6_1", "url": "src/assets/data/assets0001/debris_drone6_1.json" },
+			{ "key": "debris_drone6_2", "url": "src/assets/data/assets0001/debris_drone6_2.json" },
+			{ "key": "debris_drone6_3", "url": "src/assets/data/assets0001/debris_drone6_3.json" },
+			{ "key": "debris_drone6_atom1", "url": "src/assets/data/assets0001/debris_drone6_atom1.json" },
 			{ "key": "drone2_engine", "url": "src/assets/data/assets0001/drone2_engine.json" },
 			{ "key": "debris_drone2_engine1_1", "url": "src/assets/data/assets0001/debris_drone2_engine1_1.json" },
 			{ "key": "debris_drone2_engine1_2", "url": "src/assets/data/assets0001/debris_drone2_engine1_2.json" },
 			{ "key": "debris_drone2_engine1_3", "url": "src/assets/data/assets0001/debris_drone2_engine1_3.json" },
-			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
+			{ "key": "drone6_bullet1", "url": "src/assets/data/assets0001/drone6_bullet1.json" },
 
 			{ "key": "debris_fire", "url": "src/assets/data/assets0001/debris_fire.json" },
 
@@ -162,9 +162,21 @@
 		},
 
 		{
-			"name": "drone2",
-			"template": "drone2",
-			"enemyIds": ["pusher1_rb_xxx","pusher1_head_xxx","pusher1_lb_xxx","pusher1_rt_xxx","pusher1_lt_xxx"],
+			"name": "drone6",
+			"template": "drone6",
+			"AI": {
+				"livesEnemyPriorities": null,
+				"enemyPriorities": [
+					["pusher1_rb","pusher1_head","pusher1_lb","pusher1_rt","pusher1_lt"],
+					["monkey"],
+					["pharao"],
+					["brick1_3_sdd","brick1_3_sssd","brick1_3"],
+					["spot"]				
+				]
+			},
+
+			"#enemyIds": ["pusher1_rb_xxx","pusher1_head_xxx","pusher1_lb_xxx","pusher1_rt_xxx","pusher1_lt_xxx"],
+
 			"x": -500,
 			"y": 300,
 			"layer": 2

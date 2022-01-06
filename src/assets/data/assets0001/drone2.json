@@ -27,6 +27,8 @@
 		"minDistanceX": 300,
 		"distanceY": 500,
 		"minDistanceY": 300,
+		"changeEnemy": true,
+		"changeEnemyInterval": 10,
 
 		"produceProbability": 0.9,
 		"produceOverParent": false,

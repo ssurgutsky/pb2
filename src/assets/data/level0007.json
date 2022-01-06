@@ -76,7 +76,7 @@
 	"bg": "bg",
 	"balls": 20,
 	"tasks": 1,
-	"fails": 4,
+	"fails": 1,
 	"objects": [
 
 		{
@@ -175,11 +175,41 @@
 		{
 			"name": "drone1",
 			"template": "drone1",
-			"x": 1500,
-			"y": 300,
+			"x": 1000,
+			"y": 500,
 			"AI": {
 				"produceProbability": 0.9
 			},
+			"layer": 2
+		},
+
+		{
+			"name": "brick11",
+			"template": "brick1_3",
+			"x": 1200,
+			"y": 969,
+			"layer": 2
+		},
+		{
+			"name": "brick12",
+			"template": "brick1_3",
+			"x": 1200,
+			"y": 858,
+			"layer": 2,
+			"isDisabled": false
+		},
+		{
+			"name": "brick13",
+			"template": "brick1_3",
+			"x": 1200,
+			"y": 746,
+			"layer": 2
+		},
+		{
+			"name": "brick14",
+			"template": "brick1_3",
+			"x": 1200,
+			"y": 634,
 			"layer": 2
 		},
 

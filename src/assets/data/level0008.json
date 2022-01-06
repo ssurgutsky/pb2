@@ -128,7 +128,7 @@
 			"name": "drone1",
 			"template": "drone1",
 			"AI": {
-				"produceProbability": 0.2
+				"produceProbability": 0.8
 			},
 			"x": 1200,
 			"y": 300,
@@ -138,7 +138,7 @@
 			"name": "drone2",
 			"template": "drone1",
 			"AI": {
-				"produceProbability": 0.2
+				"produceProbability": 0.8
 			},
 			"x": 200,
 			"y": 200,

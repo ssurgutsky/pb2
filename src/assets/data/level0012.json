@@ -50,6 +50,17 @@
 			{ "key": "debris_drone1_engine1_2", "url": "src/assets/data/assets0001/debris_drone1_engine1_2.json" },
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
+			{ "key": "drone2", "url": "src/assets/data/assets0001/drone2.json" },
+			{ "key": "debris_drone2_1", "url": "src/assets/data/assets0001/debris_drone2_1.json" },
+			{ "key": "debris_drone2_2", "url": "src/assets/data/assets0001/debris_drone2_2.json" },
+			{ "key": "debris_drone2_3", "url": "src/assets/data/assets0001/debris_drone2_3.json" },
+			{ "key": "debris_drone2_atom1", "url": "src/assets/data/assets0001/debris_drone2_atom1.json" },
+			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
+			{ "key": "drone2_engine", "url": "src/assets/data/assets0001/drone2_engine.json" },
+			{ "key": "debris_drone2_engine1_1", "url": "src/assets/data/assets0001/debris_drone2_engine1_1.json" },
+			{ "key": "debris_drone2_engine1_2", "url": "src/assets/data/assets0001/debris_drone2_engine1_2.json" },
+			{ "key": "debris_drone2_engine1_3", "url": "src/assets/data/assets0001/debris_drone2_engine1_3.json" },
+
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
 			{ "key": "explosion2", "url": "src/assets/data/assets0001/explosion2.json" },
@@ -70,7 +81,7 @@
 	}, 
 	"bg": "bg",
 	"balls": 40,
-	"tasks": 6,
+	"tasks": 8,
 	"fails": 3,
 	"objects": [
 
@@ -108,7 +119,7 @@
 			"timeToLive": 60,
 			"AI": {
 				"idleDuration": 5000,
-				"maxObjects": 5
+				"maxObjects": 7
 			},
 			"x": -500,
 			"y": -500

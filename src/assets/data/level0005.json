@@ -53,7 +53,7 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
-			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
+			{ "key": "monkey001_light", "url": "src/assets/data/assets0001/monkey001_light.json" },
 			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
 			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" }
 		],
@@ -122,16 +122,8 @@
 		},
 
 		{
-			"name": "spot1",
-			"template": "spot",
-			"x": 668,
-			"y": 311,
-			"layer": 2
-		},
-
-		{
 			"name": "monkey1",
-			"template": "monkey002_light",
+			"template": "monkey001_light",
 			"lives": 5,
 			"x": 500,
 			"y": 900
@@ -181,29 +173,19 @@
 			"AI": {
 				"distanceX": 250,
 				"distanceY": 250,
-				"produceProbability": 0.5,
-				"livesEnemyPriorities": null,
-				"enemyPriorities": [
-					["pharao"],
-					["monkey"]
-				]
+				"produceProbability": 0.7
 			},
 			"layer": 2
 		},
 		{
-			"name": "drone2",
+			"name": "drone1_2",
 			"template": "drone1",
 			"x": 1500,
 			"y": 150,
 			"AI": {
 				"distanceX": 250,
 				"distanceY": 250,
-				"produceProbability": 0.5,
-				"livesEnemyPriorities": null,
-				"enemyPriorities": [
-					["pharao"],
-					["monkey"]
-				]
+				"produceProbability": 0.7
 			},
 			"layer": 2
 		}

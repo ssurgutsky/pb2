@@ -11,7 +11,6 @@
 		{
 			"name": "brick1_3_2",
 			"template": "brick1_3_2",
-			"isFail": true,
 			"lx": 80,
 			"ly": -20,
 			"vx": 0,
