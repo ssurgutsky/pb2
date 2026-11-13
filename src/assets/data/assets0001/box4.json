@@ -1,0 +1,97 @@
+{
+	"shape": "BOX",
+	"shapeParams": {"w":140,"h":120,"ofsX":0,"ofsY":0, "r":0},
+
+	"name": "Box4",
+	"objType": "box",
+	"atlas": "assets0001",
+	"bodyType": "DYNAMIC",
+	"livesFrames": ["box4","box4","box4"],
+	"lives": 1,
+	"bodyMass": 1,
+	"minHitImpulse": 1000,
+	"hitSound": "hit_block",
+	"angle": 0,
+
+	"debrises": [
+		{
+			"name": "bullet2_prepare",
+			"isTask": true,
+			"template": "bullet2_prepare",
+			"fixedRotation": true,
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 2.5,
+			"sy": 2.5,
+			"ox": 1760,
+			"oy": 740
+		},
+		{
+			"name": "bd1",
+			"template": "debris_box1_1",
+			"timeToLive": 2,
+			"lx": -50,
+			"ly": -40,
+			"vx": -100,
+			"vy": -100,
+			"sx": 0,
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "bd2",
+			"template": "debris_box1_2",
+			"timeToLive": 2,
+			"lx": 50,
+			"ly": -40,
+			"vx": 100,
+			"vy": -100,
+			"sx": 0,
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "bd3",
+			"template": "debris_box1_3",
+			"timeToLive": 2,
+			"lx": -50,
+			"ly": 40,
+			"vx": -100,
+			"vy": 100,
+			"sx": 0,
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "bd4",
+			"template": "debris_box1_4",
+			"timeToLive": 2,
+			"lx": 50,
+			"ly": 40,
+			"vx": 100,
+			"vy": 100,
+			"sx": 0,
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "bd4",
+			"template": "debris_box1_5",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -80,
+			"vx": 0,
+			"vy": -500,
+			"sx": 0,
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		}
+	]
+}

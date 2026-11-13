@@ -4,10 +4,10 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/bg0001.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "music", "url": "src/assets/audio/music/boss1.mp3" },
 			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
@@ -40,25 +40,20 @@
 			{ "key": "debris_drone6_2", "url": "src/assets/data/assets0001/debris_drone6_2.json" },
 			{ "key": "debris_drone6_3", "url": "src/assets/data/assets0001/debris_drone6_3.json" },
 			{ "key": "debris_drone6_atom1", "url": "src/assets/data/assets0001/debris_drone6_atom1.json" },
+
 			{ "key": "drone2_engine", "url": "src/assets/data/assets0001/drone2_engine.json" },
 			{ "key": "debris_drone2_engine1_1", "url": "src/assets/data/assets0001/debris_drone2_engine1_1.json" },
 			{ "key": "debris_drone2_engine1_2", "url": "src/assets/data/assets0001/debris_drone2_engine1_2.json" },
 			{ "key": "debris_drone2_engine1_3", "url": "src/assets/data/assets0001/debris_drone2_engine1_3.json" },
-			{ "key": "drone6_bullet1", "url": "src/assets/data/assets0001/drone6_bullet1.json" },
+
+			{ "key": "drone5_engine", "url": "src/assets/data/assets0001/drone5_engine.json" },
+			{ "key": "debris_drone5_engine1_1", "url": "src/assets/data/assets0001/debris_drone5_engine1_1.json" },
+			{ "key": "debris_drone5_engine1_2", "url": "src/assets/data/assets0001/debris_drone5_engine1_2.json" },
+			{ "key": "debris_drone5_engine1_3", "url": "src/assets/data/assets0001/debris_drone5_engine1_3.json" },
+
+			{ "key": "bullet1", "url": "src/assets/data/assets0001/bullet1.json" },
 
 			{ "key": "debris_fire", "url": "src/assets/data/assets0001/debris_fire.json" },
-
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
-			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
-			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
-			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
-			{ "key": "debris_chest10_2", "url": "src/assets/data/assets0001/debris_chest10_2.json" },
-			{ "key": "debris_chest11", "url": "src/assets/data/assets0001/debris_chest11.json" },
-			{ "key": "debris_chest12", "url": "src/assets/data/assets0001/debris_chest12.json" },
-			{ "key": "debris_chest13", "url": "src/assets/data/assets0001/debris_chest13.json" },
-			{ "key": "debris_chest14", "url": "src/assets/data/assets0001/debris_chest14.json" },
-			{ "key": "debris_chest1_atom", "url": "src/assets/data/assets0001/debris_chest1_atom.json" },
-			{ "key": "key_golden", "url": "src/assets/data/assets0001/key_golden.json" },
 
 			{ "key": "fire", "url": "src/assets/data/assets0001/fire.json" },
 			{ "key": "explosion", "url": "src/assets/data/assets0001/explosion.json" },
@@ -82,7 +77,9 @@
 
 			{ "key": "pharao_dynamic", "url": "src/assets/data/assets0001/pharao_dynamic.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
-			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" }
+			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "text", "url": "src/assets/data/assets0001/text.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -90,8 +87,8 @@
 	},
 	"bg": "bg",
 	"balls": 20,
-	"tasks": 2,
-	"fails": 3,
+	"tasks": 1,
+	"fails": 1,
 	"objects": [
 
 		{
@@ -112,13 +109,6 @@
 			"y": 858,
 			"layer": 2,
 			"isDisabled": false
-		},
-		{
-			"name": "brick13",
-			"template": "brick1_3",
-			"x": 800,
-			"y": 746,
-			"layer": 2
 		},
 
 		{
@@ -147,18 +137,8 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
-		},
-
-
-
-		{
-			"name": "pharao3",
-			"template": "pharao_dynamic",
-			"x": 542,
-			"y": 935,
-			"layer": 2
 		},
 
 		{
@@ -176,26 +156,36 @@
 			},
 
 			"#enemyIds": ["pusher1_rb_xxx","pusher1_head_xxx","pusher1_lb_xxx","pusher1_rt_xxx","pusher1_lt_xxx"],
-
+			"dispatchEventsHit": ["drone6_hit"],
 			"x": -500,
 			"y": 300,
 			"layer": 2
 		},
 
 		{
-			"name": "drone2_engine",
-			"template": "drone2_engine",
-			"x": 300,
-			"y": 600,
+			"name": "drone5_engine",
+			"template": "drone5_engine",
+			"x": 800,
+			"y": 760,
 			"layer": 2
 		},
 
 		{
-			"name": "chest1",
-			"template": "chest1",
-			"x": 1100,
-			"y": 947,
-			"layer": 2
+			"name": "text1",
+			"template": "text",
+			"texts": [
+				{
+				 	"text": "kill_hunter",
+					"fontSize": 100,
+					"x": 0,
+					"y": 0
+				}
+			],
+			"x": 960,
+			"y": 900,
+			"layer": 5,
+			"listenEventsHit": ["drone6_hit"],
+			"fadeOutOnRemove": true
 		}
 	]
 }

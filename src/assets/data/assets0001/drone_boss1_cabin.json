@@ -62,6 +62,7 @@
 				"enemyPriorities": [
 					["pusher1_lt","pusher1_rt","pusher1_lb","pusher1_head","pusher1_rb"],
 					["monkey"],
+					["dude1"],
 					["pharao"],
 					["brick1_3_sdd","brick1_3_sssd","brick1_3"],
 					["spot"]

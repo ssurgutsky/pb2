@@ -1,0 +1,27 @@
+{
+	"name": "drone1_bg",
+	"objType": "drone1_bg",
+	"template": "drone1",
+	"isDecor": true,
+	"AI": {
+		"changeEnemy": true,
+		"changeEnemyInterval": 5,
+		"produceOverParent": false,
+		"produce": [
+			{
+				"name": "fire",
+				"template": "fire",
+				"angle": 180,
+				"timeToLive": 0.5,
+				"gravityScale": 0,
+				"lx": -200,
+				"ly": 0
+			}
+		],
+
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["spot_bg"]
+		]
+	}
+}

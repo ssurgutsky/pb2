@@ -1,0 +1,31 @@
+{
+	"shape": "BOX",
+	"shapeParams": {"w":40,"h":50,"ofsX":0,"ofsY":0, "r":0},
+
+	"objType": "bullet1",
+	"bodyType": "DYNAMIC",
+	"atlas": "assets0001",
+	"frame": "bullet1",
+	"bodyMass": 10,
+	"minHitImpulse": 100,
+	"impulseMultiplier": 10,
+	"lives": 1,
+	"hasDestroy": true,
+	"destroyOnHitSelf": true,
+	"destroyOnHit": true,
+	"hitSound": "hit_block",
+
+	"debrises": [
+		{
+			"name": "df1d1",
+			"template": "explosion2",
+			"lx": 0,
+			"ly": 0,
+			"vx": 0,
+			"vy": 0,
+			"sx": 1.5,
+			"sy": 1.5,
+			"useOwnAngle": true
+		}
+	]
+}

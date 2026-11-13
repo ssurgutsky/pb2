@@ -1,0 +1,28 @@
+{
+	"name": "target1",
+	"bodyType": "DYNAMIC",
+	"atlas": "tutorials",
+	"frame": "target00",
+	"gravityScale": 0,
+	"sleepSpeedLimit": 0,
+
+	"animations": {
+		"idle": {
+			"frameName": "hint0", 
+			"framesCount": 1, 
+			"frameRate": 1, 
+			"isStart": true
+		},
+		"blink": {
+			"delay": 10,
+			"randomDelay": [2,3],
+			"firstDelay": 1,
+
+			"frameName": "target0", 
+			"framesCount": 8, 
+			"frameRate": 24, 
+			"isLoop": false
+		}
+	},
+	"isDecor": true
+}

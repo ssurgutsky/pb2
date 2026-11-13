@@ -19,6 +19,8 @@
 			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "bullet1", "url": "src/assets/data/assets0001/bullet1.json" },
+
 			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
 			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
 			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
@@ -114,8 +116,6 @@
 			{ "key": "debris_drone_boss1_atom1", "url": "src/assets/data/assets0001/debris_drone_boss1_atom1.json" },
 			{ "key": "debris_drone_boss1_atom2", "url": "src/assets/data/assets0001/debris_drone_boss1_atom2.json" },
 
-
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
 			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
 			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
 			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
@@ -150,6 +150,21 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
+			{ "key": "box2", "url": "src/assets/data/assets0001/box2.json" },
+			{ "key": "box3", "url": "src/assets/data/assets0001/box3.json" },
+			{ "key": "box4", "url": "src/assets/data/assets0001/box4.json" },
+			{ "key": "bullet1_prepare", "url": "src/assets/data/assets0001/bullet1_prepare.json" },
+			{ "key": "bullet2_prepare", "url": "src/assets/data/assets0001/bullet2_prepare.json" },
+			{ "key": "bullet2x_prepare", "url": "src/assets/data/assets0001/bullet2x_prepare.json" },
+			{ "key": "bullet1_name", "url": "src/assets/data/assets0001/bullet1_name.json" },
+			{ "key": "bullet2_name", "url": "src/assets/data/assets0001/bullet2_name.json" },
+			{ "key": "bullet2x_name", "url": "src/assets/data/assets0001/bullet2x_name.json" },
+			{ "key": "debris_box1_1", "url": "src/assets/data/assets0001/debris_box1_1.json" },
+			{ "key": "debris_box1_2", "url": "src/assets/data/assets0001/debris_box1_2.json" },
+			{ "key": "debris_box1_3", "url": "src/assets/data/assets0001/debris_box1_3.json" },
+			{ "key": "debris_box1_4", "url": "src/assets/data/assets0001/debris_box1_4.json" },
+			{ "key": "debris_box1_5", "url": "src/assets/data/assets0001/debris_box1_5.json" },
+
 			{ "key": "bomb1", "url": "src/assets/data/assets0001/bomb1.json" },
 
 			{ "key": "drone_regenerator1", "url": "src/assets/data/assets0001/drone_regenerator1.json" },
@@ -167,6 +182,27 @@
 
 		{
 			"template": "game_ground"
+		},
+
+		{
+			"name": "box2",
+			"template": "box2",
+			"x": 900,
+			"y": 900
+		},
+
+		{
+			"name": "box3",
+			"template": "box3",
+			"x": 1200,
+			"y": 900
+		},
+
+		{
+			"name": "box4",
+			"template": "box4",
+			"x": 1500,
+			"y": 900
 		},
 
 		{
@@ -206,7 +242,7 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 

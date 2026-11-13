@@ -2,10 +2,11 @@
 	"objType": "pusher1",
 	"atlas": "assets0001",
 	"frame": "pusher1_base",
+	"ownAlpha": 1,
 	"bodyType": "STATIC",
 	"isBallIgnore": true,
 	"isPusherBase": true,
-	"forceDraggableDisabled": false,
+	"forceDraggableDisabled": true,
 	"fixedRotation": false,
 	"minAngle": -80,
 	"maxAngle": 20,
@@ -21,11 +22,94 @@
 			"collisionGroup": 99,
 			"sleepSpeedLimit": 0,
 			"sy": 1.2,
+			"childIndex": 0,
 			"lockToObject": 
 				{
 					"offset": {"x": 0, "y": 90}
 				}
 		},
+		{
+			"name": "pusher1_back_top",
+			"atlas": "assets0001",
+			"frame": "pusher1_back",
+			"isDecor": true,
+			"sleepSpeedLimit": 0,
+			"childIndex": 1,
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": -130}
+				}
+		},
+		{
+			"name": "pusher1_back_bottom",
+			"atlas": "assets0001",
+			"frame": "pusher1_back",
+			"isDecor": true,
+			"sleepSpeedLimit": 0,
+			"childIndex": 2,
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": 70}
+				}
+		},
+
+		{
+			"name": "meter",
+			"atlas": "assets0001",
+			"frame": "pusher1_meter",
+			"isDecor": true,
+			"sleepSpeedLimit": 0,
+			"childIndex": 3,
+			"lockToObject": 
+				{
+					"offset": {"x": -2, "y": 95}
+				}
+		},
+
+		{
+			"collisionGroup": 99,
+			"name": "spring",
+			"shape": "BOX",
+			"shapeParams": {"w":150,"h":200,"ofsX":0,"ofsY":0, "r":0},
+			"atlas": "assets0001",
+			"frame": "pusher1",
+			"bodyType": "DYNAMIC",
+			"bodyMass": 10000,
+			"minHitImpulse": 1000,
+
+			"isSpring": true,
+			"pStiffness": 2700000,
+			"pPrismaticConstraintAnchorB": 180,
+			"dragOffsetY": 100,
+
+			"fixedRotation": false,
+			"isBallIgnore": true,
+			"isPusher": true,
+			"effectSound": "spring",
+			"lives": 3,
+			"isDraggable": true,
+
+			"debrises": [
+				{
+					"name": "d1ed4",
+					"template": "explosion2",
+					"isMainFail": true,
+					"lx": 0,
+					"ly": 0,
+					"vx": 0,
+					"vy": -200,
+					"sx": 2,
+					"sy": 2,
+					"useOwnAngle": true
+				}
+			],
+			"sleepSpeedLimit": 0,
+			"lockToObject": 
+				{
+					"offset": {"x": 0, "y": 0}
+				}
+		},
+
 		{
 			"id": "pusher1_damaged",
 			"name": "pusher1_damaged",
@@ -95,61 +179,6 @@
 			"lockToObject": 
 				{
 					"offset": {"x": 0, "y": -200}
-				}
-		},
-		{
-			"name": "meter",
-			"atlas": "assets0001",
-			"frame": "pusher1_meter",
-			"isDecor": true,
-			"sleepSpeedLimit": 0,
-			"lockToObject": 
-				{
-					"offset": {"x": -2, "y": 95}
-				}
-		},
-
-		{
-			"collisionGroup": 99,
-			"name": "spring",
-			"shape": "BOX",
-			"shapeParams": {"w":150,"h":200,"ofsX":0,"ofsY":0, "r":0},
-			"atlas": "assets0001",
-			"frame": "pusher1",
-			"bodyType": "DYNAMIC",
-			"bodyMass": 10000,
-			"minHitImpulse": 1000,
-
-			"isSpring": true,
-			"pStiffness": 2700000,
-			"pPrismaticConstraintAnchorB": 180,
-			"dragOffsetY": 100,
-
-			"fixedRotation": false,
-			"isBallIgnore": true,
-			"isPusher": true,
-			"effectSound": "spring",
-			"lives": 3,
-			"isDraggable": true,
-
-			"debrises": [
-				{
-					"name": "d1ed4",
-					"template": "explosion2",
-					"isMainFail": true,
-					"lx": 0,
-					"ly": 0,
-					"vx": 0,
-					"vy": -200,
-					"sx": 2,
-					"sy": 2,
-					"useOwnAngle": true
-				}
-			],
-			"sleepSpeedLimit": 0,
-			"lockToObject": 
-				{
-					"offset": {"x": 0, "y": 0}
 				}
 		}
 	]

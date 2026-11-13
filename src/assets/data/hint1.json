@@ -1,8 +1,11 @@
 {
 	"name": "hint1",
-	"bodyType": "STATIC",
+	"bodyType": "DYNAMIC",
 	"atlas": "tutorials",
 	"frame": "hint00",
+	"gravityScale": 0,
+	"sleepSpeedLimit": 0,
+
 	"animations": {
 		"idle": {
 			"frameName": "hint0", 
@@ -12,7 +15,7 @@
 		},
 		"blink": {
 			"delay": 10,
-			"randomDelay": [3,5],
+			"randomDelay": [2,3],
 			"firstDelay": 1,
 
 			"frameName": "hint0", 

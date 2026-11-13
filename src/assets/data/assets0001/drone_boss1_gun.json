@@ -89,5 +89,103 @@
 			"vy": -200,
 			"useOwnAngle": true
 		}
+	],
+
+	"livesEmitters": [
+		[
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 250,
+				"speedX":[-20, 20],
+				"speedY":[-200, -300],
+				"lifespan": 1500,
+				"frequency": 300,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
+		],
+		[
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 250,
+				"speedX":[-20, 20],
+				"speedY":[-200, -300],
+				"lifespan": 1500,
+				"frequency": 300,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
+		],
+		[
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 5,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 1500,
+				"speedX":[-20, 20],
+				"speedY":[-150, -250],
+				"lifespan": 1500,
+				"frequency": 500,
+				"quantity": 5,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 1,
+				"maxScaleX": 2,
+				"minScaleY": 1,
+				"maxScaleY": 2
+			}
+		],
+		[
+			{
+				"frames": ["emitter_smoke"],
+				"maxParticles": 3,
+				"x": 0,
+				"y": 0,
+				"explode": true,
+				"updateTime": 1500,
+				"speedX":[-20, 20],
+				"speedY":[-100, -150],
+				"lifespan": 1000,
+				"frequency": 1000,
+				"quantity": 3,
+				"minAlpha": 1,
+				"maxAlpha": 0.1,
+				"minRotation": 0,
+				"maxRotation": 45,
+				"minScaleX": 0.5,
+				"maxScaleX": 1,
+				"minScaleY": 0.5,
+				"maxScaleY": 1
+			}
+		],
+		[]
+
 	]
+
 }

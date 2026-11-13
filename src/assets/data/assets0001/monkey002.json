@@ -1,8 +1,8 @@
 {
 	"name": "monkey002",
 	"objType": "monkey",
-	"shape": "POLYGON",
-	"shapeName": "monkey002shape",
+	"shape": "BOX",
+	"shapeParams": {"w":90,"h":280,"ofsX":0,"ofsY":0, "r":0},
 	"atlas": "assets0001",
 	"lives": 3,
 	"livesFrames": ["monkey002","monkey002","monkey002"],

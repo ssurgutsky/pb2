@@ -92,7 +92,7 @@
 			{ "key": "spider_web_debris3", "url": "src/assets/data/assets0001/spider_web_debris3.json" },
 
         
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
+			{ "key": "bullet2x_prepare", "url": "src/assets/data/assets0001/bullet2x_prepare.json" },
 			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
 			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
 			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
@@ -168,7 +168,7 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 

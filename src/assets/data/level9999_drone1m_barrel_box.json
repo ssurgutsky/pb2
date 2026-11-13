@@ -45,7 +45,7 @@
 			{ "key": "debris_drone1_engine1_3", "url": "src/assets/data/assets0001/debris_drone1_engine1_3.json" },
 
 			{ "key": "box1", "url": "src/assets/data/assets0001/box1.json" },
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
+			{ "key": "bullet2x_prepare", "url": "src/assets/data/assets0001/bullet2x_prepare.json" },
 			{ "key": "extra_ball_name", "url": "src/assets/data/assets0001/extra_ball_name.json" },
 			{ "key": "debris_box1_1", "url": "src/assets/data/assets0001/debris_box1_1.json" },
 			{ "key": "debris_box1_2", "url": "src/assets/data/assets0001/debris_box1_2.json" },

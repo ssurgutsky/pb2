@@ -12,7 +12,7 @@
 	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao"],
 	"livesTimeToLive": [99999,99999,99999],
 	"livesEffect": true,
-	"bodyMass": 1.5,
+	"bodyMass": 5,
 	"minHitImpulse": 1000,
 	"impulseMultiplier": 10,
 	"fixedRotation": true,

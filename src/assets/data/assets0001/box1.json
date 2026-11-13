@@ -1,11 +1,12 @@
 {
+	"shape": "BOX",
+	"shapeParams": {"w":200,"h":160,"ofsX":0,"ofsY":0, "r":0},
+
 	"name": "Box1",
-	"objType": "box1",
+	"objType": "box",
 	"atlas": "assets0001",
 	"bodyType": "DYNAMIC",
 	"livesFrames": ["box1_3","box1_2","box1"],
-	"shape": "POLYGON",
-	"shapeName": "box1shape",
 	"lives": 1,
 	"bodyMass": 1,
 	"minHitImpulse": 1000,
@@ -14,58 +15,83 @@
 
 	"debrises": [
 		{
-			"name": "ball_big1_prepare",
+			"name": "bullet2x_prepare1",
 			"isTask": true,
-			"template": "ball_big1_prepare",
+			"template": "bullet2x_prepare",
 			"fixedRotation": true,
 			"lx": 0,
 			"ly": 0,
 			"vx": 0,
 			"vy": 0,
-			"sx": 2,
-			"sy": 2,
+			"sx": 1.5,
+			"sy": 1.5,
 			"ox": 1760,
 			"oy": 740
 		},
 		{
 			"name": "bd1",
 			"template": "debris_box1_1",
-			"lx": 0,
-			"ly": -200,
-			"vx": 0,
-			"vy": -1000,
+			"timeToLive": 2,
+			"lx": -50,
+			"ly": -40,
+			"vx": -100,
+			"vy": -100,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
 		},
 		{
 			"name": "bd2",
 			"template": "debris_box1_2",
-			"lx": 0,
-			"ly": -50,
-			"vx": 0,
+			"timeToLive": 2,
+			"lx": 50,
+			"ly": -40,
+			"vx": 100,
 			"vy": -100,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
 		},
 		{
 			"name": "bd3",
 			"template": "debris_box1_3",
-			"lx": -100,
-			"ly": 0,
+			"timeToLive": 2,
+			"lx": -50,
+			"ly": 40,
 			"vx": -100,
-			"vy": 0,
+			"vy": 100,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
 		},
 		{
 			"name": "bd4",
 			"template": "debris_box1_4",
-			"lx": 0,
-			"ly": 0,
-			"vx": 0,
-			"vy": 0,
+			"timeToLive": 2,
+			"lx": 50,
+			"ly": 40,
+			"vx": 100,
+			"vy": 100,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
+		},
+		{
+			"name": "bd4",
+			"template": "debris_box1_5",
+			"timeToLive": 2,
+			"lx": 0,
+			"ly": -80,
+			"vx": 0,
+			"vy": -500,
+			"sx": 0,
+			"sy": 0,
+			"fadeOutOnRemove": true,
+			"sleepSpeedLimit": 0
 		}
 	]
 }

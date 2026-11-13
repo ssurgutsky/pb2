@@ -1,0 +1,13 @@
+{
+	"name": "text",
+	"bodyType": "KINEMATIC",
+	"isDecor": true,
+	"texts": [
+		{
+		 	"text": " ",
+			"fontSize": 100,
+			"x": 0,
+			"y": 0
+		}
+	]
+}

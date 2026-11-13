@@ -7,7 +7,7 @@
 			{ "key": "bg", "url": "src/assets/images/bg/e01bg0005.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "music", "url": "src/assets/audio/music/music3.mp3" },
 			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
@@ -61,6 +61,7 @@
 
 			{ "key": "brick1_3_sdd", "url": "src/assets/data/assets0001/brick1_3_sdd.json" },
 			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
+			{ "key": "brick1_3_nt", "url": "src/assets/data/assets0001/brick1_3_nt.json" },
 			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
 			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
 			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
@@ -75,6 +76,10 @@
 			{ "key": "pharao", "url": "src/assets/data/assets0001/pharao.json" },
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
+
+			{ "key": "barrel1", "url": "src/assets/data/assets0001/barrel1.json" },
+			{ "key": "debris_barrel1_1", "url": "src/assets/data/assets0001/debris_barrel1_1.json" },
+			{ "key": "debris_barrel1_2", "url": "src/assets/data/assets0001/debris_barrel1_2.json" },
 
 			{ "key": "objects_drone1_generator1", "url": "src/assets/data/assets0001/objects_drone1_generator1.json" }
 		],
@@ -95,8 +100,24 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
+		},
+
+		{
+			"name": "brick1",
+			"template": "brick1_3_nt",
+			"x": 600,
+			"y": 980,
+			"layer": 2
+		},
+
+		{
+			"name": "barrel1",
+			"template": "barrel1",
+			"x": 600,
+			"y": 790,
+			"layer": 2
 		},
 
 		{

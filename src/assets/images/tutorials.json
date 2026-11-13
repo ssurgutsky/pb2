@@ -1,8 +1,16 @@
 {"frames": [
 
 {
+	"filename": "aim",
+	"frame": {"x":724,"y":993,"w":150,"h":150},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":150,"h":150},
+	"sourceSize": {"w":150,"h":150}
+},
+{
 	"filename": "hint00",
-	"frame": {"x":806,"y":732,"w":1,"h":1},
+	"frame": {"x":943,"y":1,"w":1,"h":1},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
@@ -18,7 +26,7 @@
 },
 {
 	"filename": "hint02",
-	"frame": {"x":1,"y":315,"w":312,"h":312},
+	"frame": {"x":315,"y":1,"w":312,"h":312},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
@@ -26,7 +34,7 @@
 },
 {
 	"filename": "hint03",
-	"frame": {"x":1,"y":629,"w":312,"h":312},
+	"frame": {"x":629,"y":1,"w":312,"h":312},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
@@ -34,7 +42,7 @@
 },
 {
 	"filename": "hint04",
-	"frame": {"x":315,"y":1,"w":312,"h":312},
+	"frame": {"x":1,"y":315,"w":312,"h":312},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
@@ -50,22 +58,6 @@
 },
 {
 	"filename": "hint06",
-	"frame": {"x":315,"y":629,"w":312,"h":312},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
-	"sourceSize": {"w":312,"h":312}
-},
-{
-	"filename": "hint07",
-	"frame": {"x":629,"y":1,"w":312,"h":312},
-	"rotated": false,
-	"trimmed": false,
-	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
-	"sourceSize": {"w":312,"h":312}
-},
-{
-	"filename": "hint08",
 	"frame": {"x":629,"y":315,"w":312,"h":312},
 	"rotated": false,
 	"trimmed": false,
@@ -73,28 +65,100 @@
 	"sourceSize": {"w":312,"h":312}
 },
 {
+	"filename": "hint07",
+	"frame": {"x":1,"y":629,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
+	"filename": "hint08",
+	"frame": {"x":315,"y":629,"w":312,"h":312},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":312,"h":312},
+	"sourceSize": {"w":312,"h":312}
+},
+{
 	"filename": "red_cross",
-	"frame": {"x":806,"y":629,"w":100,"h":101},
+	"frame": {"x":876,"y":993,"w":100,"h":101},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":100,"h":101},
 	"sourceSize": {"w":100,"h":101}
 },
 {
+	"filename": "target00",
+	"frame": {"x":629,"y":629,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "target01",
+	"frame": {"x":811,"y":629,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "target02",
+	"frame": {"x":629,"y":811,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "target03",
+	"frame": {"x":811,"y":811,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "target04",
+	"frame": {"x":1,"y":943,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "target05",
+	"frame": {"x":183,"y":943,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
+	"filename": "target06",
+	"frame": {"x":365,"y":943,"w":180,"h":180},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":180,"h":180},
+	"sourceSize": {"w":180,"h":180}
+},
+{
 	"filename": "tutorial-hand",
-	"frame": {"x":629,"y":629,"w":175,"h":158},
+	"frame": {"x":547,"y":993,"w":175,"h":158},
 	"rotated": false,
 	"trimmed": false,
 	"spriteSourceSize": {"x":0,"y":0,"w":175,"h":158},
 	"sourceSize": {"w":175,"h":158}
 }],
 "meta": {
-	"app": "http://www.codeandweb.com/texturepacker",
+	"app": "https://www.codeandweb.com/texturepacker",
 	"version": "1.0",
 	"image": "tutorials.png",
 	"format": "RGBA8888",
-	"size": {"w":942,"h":942},
+	"size": {"w":992,"h":1152},
 	"scale": "1",
-	"smartupdate": "$TexturePacker:SmartUpdate:c9599d10f0bba41fe27572bec4ebf63a:a326ed06c5bf308a3059031752db84f9:c891b3ceaca1298c0ce460f701f483fd$"
+	"smartupdate": "$TexturePacker:SmartUpdate:5ab416b735b3eba80a50dad1d6894fff:d40acb3115ad64083b413ffebdf41015:c891b3ceaca1298c0ce460f701f483fd$"
 }
 }

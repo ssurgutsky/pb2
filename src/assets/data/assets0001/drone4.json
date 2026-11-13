@@ -12,9 +12,9 @@
 	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao"],
 	"livesTimeToLive": [99999,99999,99999,99999],
 	"livesEffect": true,
-	"bodyMass": 3,
+	"bodyMass": 5,
 	"minHitImpulse": 1000,
-	"impulseMultiplier": 10,
+	"impulseMultiplier": 1,
 	"fixedRotation": true,
 	"gravityScale": 0,
 
@@ -30,6 +30,7 @@
 
 		"livesEnemyPriorities": null,
 		"enemyPriorities": [
+			["dude1"],
 			["monkey"],
 			["pharao"],
 			["brick1_3_sdd","brick1_3_sssd","brick1_3"],
@@ -39,6 +40,15 @@
 
 		"produceProbability": 0.5,
 		"produceOverParent": true,
+
+		"livesProduce": [
+			"useProp_produce",
+			"useProp_produce",
+			"useProp_produce",
+			"useProp_produce",
+			"useProp_produce"
+		],
+
 		"produce": [
 			{
 				"name": "drone_energy_ball1",

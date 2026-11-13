@@ -1,0 +1,17 @@
+{
+	"name": "drone1m_bg",
+	"objType": "drone1m_bg",
+	"template": "drone1m",
+	"AI": {
+		"changeEnemy": true,
+		"changeEnemyInterval": 5,
+
+		"produceProbability": 0,
+		"produce": [
+		],
+		"livesEnemyPriorities": null,
+		"enemyPriorities": [
+			["spot_bg"]
+		]
+	}
+}

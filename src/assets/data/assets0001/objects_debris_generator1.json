@@ -17,6 +17,7 @@
 				"name": "d1",
 				"objType": "debris",
 				"template": "debris_pharao2",
+				"bodyRotation": [-50,50],
 				"lx": [-100,100],
 				"ly": 0,
 				"vx": [-300,300]
@@ -25,6 +26,7 @@
 				"name": "d2",
 				"objType": "debris",
 				"template": "debris_pharao3",
+				"bodyRotation": [-50,50],
 				"lx": [-100,100],
 				"ly": 0,
 				"vx": [-300,300]

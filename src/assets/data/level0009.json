@@ -7,7 +7,7 @@
 			{ "key": "bg", "url": "src/assets/images/bg/e01bg0005.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "music", "url": "src/assets/audio/music/music3.mp3" },
 			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
@@ -25,6 +25,7 @@
 			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
 			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
 
+			{ "key": "objects_debris_decor_generator1", "url": "src/assets/data/assets0001/objects_debris_decor_generator1.json" },
 
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
 			{ "key": "drone1m", "url": "src/assets/data/assets0001/drone1m.json" },
@@ -84,7 +85,7 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 
@@ -116,6 +117,17 @@
 			"timeToLive": 10,
 			"x": 900,
 			"y": -100
+		},
+
+		{
+			"name": "oddg1",
+			"template": "objects_debris_decor_generator1",
+			"lives": 1,
+			"AI": {
+				"updateDelay": 500
+			},
+			"x": 700,
+			"y": -300
 		}
 	]
 }

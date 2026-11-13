@@ -4,10 +4,10 @@
 			{ "key": "assets0001", "url": "src/assets/images/assets0001" }
 		],
 		"IMAGES": [
-			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
+			{ "key": "bg", "url": "src/assets/images/bg/e01bg0006.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "music", "url": "src/assets/audio/music/music5.mp3" },
 			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" },
 			{ "key": "move_energy", "url": "src/assets/audio/sound/move_energy.mp3" },
 			{ "key": "hit_spider_web", "url": "src/assets/audio/sound/hit_spider_web.mp3" }
@@ -18,6 +18,8 @@
 			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
+			{ "key": "bullet1", "url": "src/assets/data/assets0001/bullet1.json" },
+
 			{ "key": "pusher1", "url": "src/assets/data/assets0001/pusher1.json" },
 			{ "key": "pusher1_lt", "url": "src/assets/data/assets0001/pusher1_lt.json" },
 			{ "key": "pusher1_rt", "url": "src/assets/data/assets0001/pusher1_rt.json" },
@@ -104,7 +106,7 @@
 			{ "key": "debris_drone_boss1_atom2", "url": "src/assets/data/assets0001/debris_drone_boss1_atom2.json" },
 
         
-			{ "key": "ball_big1_prepare", "url": "src/assets/data/assets0001/ball_big1_prepare.json" },
+			{ "key": "bullet2x_prepare", "url": "src/assets/data/assets0001/bullet2x_prepare.json" },
 			{ "key": "chest1", "url": "src/assets/data/assets0001/chest1.json" },
 			{ "key": "debris_chest10", "url": "src/assets/data/assets0001/debris_chest10.json" },
 			{ "key": "debris_chest10_1", "url": "src/assets/data/assets0001/debris_chest10_1.json" },
@@ -182,8 +184,6 @@
 			"template": "drone_boss1",
 			"x": 90,
 			"y": -200,
-			"lives": 4,
-			"livesTimeToLive": [99999,99999,99999,99999],
 			"isDisabled": false
 		},
 
@@ -202,7 +202,7 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 
@@ -223,7 +223,7 @@
 		{
 			"name": "spot3",
 			"template": "spot",
-			"x": 1300,
+			"x": 1200,
 			"y": 450,
 			"layer": 2
 		}

@@ -5,7 +5,8 @@
 
 	"objType": "drone_b1",
 	"template": "drone1",
-	"bodyMass": 20,
+	"bodyMass": 10,
+	"minHitImpulse": 3000,
 	"lives": 5,
 	"livesFrames": ["drone_b1","drone_b1","drone_b1","drone_b1","drone_b1"],
 	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC"],
@@ -19,17 +20,20 @@
 	"AI": {
 		"type": "drone",
 		"rotateLockedObjects": true,
-		"updateDelay": 100,
+		"updateDelay": 200,
 		"rotationDuration": 500,
 		"rotateToEnemy": false,
 
-		"vf": 0.5,
-		"maxV": 100,
+		"vf": 0.9,
+		"maxV": 200,
 
 		"distanceX": 50,
 		"minDistanceX": 10,
-		"distanceY": 700,
-		"minDistanceY": 600,
+		"distanceY": 500,
+		"minDistanceY": 450,
+
+		"stuckDistance": -1,
+		"stuckTime": 0,
 
 		"spotDistanceX": 50,
 		"spotMinDistanceX": 10,
@@ -41,6 +45,7 @@
 
 		"livesEnemyPriorities": null,
 		"enemyPriorities": [
+			["dude1"],
 			["monkey"],
 			["pharao"],
 			["brick1_3_sdd","brick1_3_sssd","brick1_3"],
@@ -60,7 +65,7 @@
 				"useOwnAngle": true,
 				"lx": 0,
 				"ly": 150,
-				"sy": 1,
+				"sx": 1,
 				"sy": 1
 			}
 		]

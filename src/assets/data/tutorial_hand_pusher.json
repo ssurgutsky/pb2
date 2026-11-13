@@ -6,11 +6,11 @@
 	"tweens": {
 		"blink": {
 			"delay": 10,
-			"randomDelay": [5,8],
-			"firstDelay": 0.1,
+			"randomDelay": [4,6],
+			"firstDelay": 2,
 			"timeline": [
-				{"to": {"alpha": 1}, "initY": 950, "duration": 1000},
-				{"toBody": {"y": "+150"}, "duration": 500},
+				{"to": {"alpha": 1}, "initX": 1730, "initY": 900, "duration": 1000},
+				{"toBody": {"x": "+100", "y": "+150"}, "duration": 500},
 				{"to": {"alpha": 0}, "duration": 1000, "delay":500}
 			]
 		}

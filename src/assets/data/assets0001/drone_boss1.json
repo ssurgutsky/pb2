@@ -5,12 +5,12 @@
 	"shape": "POLYGON",
 	"shapeName": "drone_boss1_shape",
 	"atlas": "assets0001",
-	"lives": 4,
-	"livesFrames": ["drone_boss1_body","drone_boss1_body","drone_boss1_body","drone_boss1_body"],
-	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC"],
-	"livesCoins": [0,0,0,0],
-	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao"],
-	"livesTimeToLive": [99999,99999,99999,99999],
+	"lives": 6,
+	"livesFrames": ["drone_boss1_body","drone_boss1_body","drone_boss1_body","drone_boss1_body","drone_boss1_body","drone_boss1_body"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0,0,0,0],
+	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao","hit_pharao","hit_pharao"],
+	"livesTimeToLive": [99999,99999,99999,99999,99999,99999],
 	"livesEffect": true,
 	"bodyMass": 3,
 	"minHitImpulse": 1000,
@@ -229,19 +229,34 @@
 	],
 
 	"lockedObjects": [
+			{
+			"name": "drone_fire",
+			"template": "fire",
+			"collisionGroup": 2,
+			"angle": 0,
+			"childIndex": 0,
+			"lockToObject":
+				{
+					"offset": {"x": -260, "y": -115},
+					"angle": 110,
+					"timeToLiveOnDestroyLockedObject": 1000000
+				}
+		},
+
 		{
 			"name": "dboss1gun2b",
 			"template": "drone_boss1_gun",
 			"collisionGroup": 2,
-			"childIndex": 0,
+			"childIndex": 1,
 			"lockToObject":
 				{
 					"offset": {"x": 260, "y": 0},
 					"angle": 0,
-					"isDestroyWithLockedObject": false
+					"timeToLiveOnDestroyLockedObject": 1000000
 				},
 			"sx": 1.5,
 			"sy": 1.5,
+			"ignoreParentScale": true,
 			"angle": 0
 		},
 		{
@@ -252,10 +267,11 @@
 				{
 					"offset": {"x": 320, "y": 95},
 					"angle": 0,
-					"isDestroyWithLockedObject": false
+					"timeToLiveOnDestroyLockedObject": 1000000
 				},
 			"sx": 1.5,
 			"sy": 1.5,
+			"ignoreParentScale": true,
 			"angle": 0
 		},
 		{
@@ -266,10 +282,11 @@
 				{
 					"offset": {"x": 130, "y": -110},
 					"angle": 0,
-					"isDestroyWithLockedObject": false
+					"timeToLiveOnDestroyLockedObject": 1000000
 				},
 			"sx": 1.5,
 			"sy": 1.5,
+			"ignoreParentScale": true,
 			"angle": 0
 		},
 		{
@@ -280,10 +297,11 @@
 				{
 					"offset": {"x": 30, "y": 150},
 					"angle": 0,
-					"isDestroyWithLockedObject": false
+					"timeToLiveOnDestroyLockedObject": 1000000
 				},
 			"sx": 2,
 			"sy": 2,
+			"ignoreParentScale": true,
 			"angle": 0
 		}
 

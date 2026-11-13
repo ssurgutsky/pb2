@@ -1,0 +1,62 @@
+{
+	"name": "debris_decor_generator1",
+	"template": "objects_generator",
+	"bodyType": "STATIC",
+
+	"AI": {
+		"subtype": "debris_decor_generator1",
+		"updateDelay": 3000,
+		"scanX": 300,
+		"scanY": 300,
+		"maxObjects": -1,
+		"parallelObjects": 3,
+
+		"produceRandom": true,
+		"produce": [
+			{
+				"name": "d1",
+				"objType": "debris",
+				"template": "debris_pharao2",
+				"isDecor": true,
+				"timeToLive": 2,
+				"lx": [-500,500],
+				"ly": 0,
+				"vx": [-300,300],
+				"sx": [0.3,0.6],
+				"sy": [0.3,0.6],
+				"angle": [0,359],
+				"angularVelocity": [0,2]
+			},
+			{
+				"name": "d2",
+				"objType": "debris",
+				"template": "debris_pharao3",
+				"isDecor": true,
+				"timeToLive": 2,
+				"lx": [-500,500],
+				"ly": 0,
+				"vx": [-300,300],
+				"sx": [0.3,0.6],
+				"sy": [0.3,0.6],
+				"angle": [0,359],
+				"angularVelocity": [0,2]
+			},
+			{
+				"name": "d3",
+				"objType": "debris",
+				"template": "debris_fire",
+				"isDecor": true,
+				"timeToLive": 2,
+				"useOwnAngle": true,
+				"angle": 180,
+				"lx": [-100,100],
+				"ly": 0,
+				"vx": [-300,300],
+				"sx": [0.3,0.4],
+				"sy": [0.3,0.6]
+			}
+
+		]
+
+	}
+}

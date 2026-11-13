@@ -1,0 +1,9 @@
+{
+	"bodyType": "DYNAMIC",
+	"atlas": "tutorials",
+	"frame": "aim",
+	"gravityScale": 0,
+	"sleepSpeedLimit": 0,
+
+	"isDecor": true
+}

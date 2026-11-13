@@ -1,7 +1,7 @@
 {
 	"objType": "brick1_3",
-	"shape": "POLYGON",
-	"shapeName": "brick1_3shape",
+	"shape": "BOX",
+	"shapeParams": {"w":170,"h":112,"ofsX":0,"ofsY":0, "r":0},
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"lives": 3,

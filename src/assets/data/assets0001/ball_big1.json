@@ -2,17 +2,18 @@
 	"name": "ball_big1",
 	"objType": "ball",
 	"shape": "CIRCLE",
-	"shapeRadius": "25",
+	"shapeRadius": "22",
 	"atlas": "assets0001",
-	"frame": "ball_big",
+	"frame": "ball",
 	"bodyType": "DYNAMIC",
 	"bodyMass": 1,
 	"lives": 1,
-	"timeToLive": 30,
+	"timeToLive": 10,
 	"destroyOnHit": false,
 	"destroyOnHitSelf": true,
 	"impulseMultiplier": 3,
 	"isBall": true,
+
 	"debrises": [
 		{
 			"name": "bde1",
@@ -21,8 +22,8 @@
 			"ly": 0,
 			"vx": 0,
 			"vy": 0,
-			"sx": 1,
-			"sy": 1,
+			"sx": 0.5,
+			"sy": 0.5,
 			"useOwnAngle": true,
 			"layer": 4
 		}

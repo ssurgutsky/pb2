@@ -4,6 +4,7 @@
 	"shape": "CIRCLE",
 	"shapeRadius": "100",
 	"atlas": "assets0001",
+	"createDelay": 0,
 	"lives": 3,
 	"livesFrames": ["drone1_3","drone1_2","drone1"],
 	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
@@ -13,9 +14,9 @@
 	"livesEffect": true,
 	"livesHitShake": [true, false, false],
 	"hasElectro": true,
-	"bodyMass": 0.5,
+	"bodyMass": 5,
 	"minHitImpulse": 1000,
-	"impulseMultiplier": 10,
+	"impulseMultiplier": 1,
 	"fixedRotation": true,
 	"gravityScale": 0,
 	"collisionGroup": 1,
@@ -32,7 +33,7 @@
 				"x": 0,
 				"y": 0,
 				"explode": true,
-				"updateTime": 750,
+				"updateTime": 250,
 				"speedX":[-20, 20],
 				"speedY":[-200, -300],
 				"lifespan": 1500,
@@ -106,6 +107,7 @@
 		"livesEnemyPriorities": [
 			[
 				["drone5"],
+				["dude1"],
 				["monkey"],
 				["pharao"],
 				["brick1_3_sdd","brick1_3_sssd","brick1_3"],
@@ -116,6 +118,7 @@
 			"useProp_enemyPriorities"
 		],
 		"enemyPriorities": [
+			["dude1"],
 			["monkey"],
 			["pharao"],
 			["brick1_3_sdd","brick1_3_sssd","brick1_3"],

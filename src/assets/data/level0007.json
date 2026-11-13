@@ -25,6 +25,7 @@
 			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
 			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
 
+			{ "key": "objects_debris_decor_generator1", "url": "src/assets/data/assets0001/objects_debris_decor_generator1.json" },
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
@@ -67,7 +68,7 @@
 
 			{ "key": "tutorial_hand_pusher", "url": "src/assets/data/tutorial_hand_pusher.json" },
 			{ "key": "tutorial_hand_pointing", "url": "src/assets/data/tutorial_hand_pointing.json" },
-			{ "key": "text_hit_brick", "url": "src/assets/data/assets0001/text_hit_brick.json" }
+			{ "key": "text", "url": "src/assets/data/assets0001/text.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -109,21 +110,21 @@
 			"template": "brick1_3_sdd",
 			"x": 1000,
 			"y": 50,
-			"layer": 1
+			"layer": 2
 		},
 		{
 			"name": "brick1sdd2",
 			"template": "brick1_3_sdd",
 			"x": 830,
 			"y": 65,
-			"layer": 1
+			"layer": 2
 		},
 		{
 			"name": "brick1sdd3",
 			"template": "brick1_3_sdd",
 			"x": 660,
 			"y": 80,
-			"layer": 1
+			"layer": 2
 		},
 
 		{
@@ -158,7 +159,7 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 
@@ -169,18 +170,18 @@
 			"lives": 5,
 			"x": 500,
 			"y": 785,
-			"layer": 2
+			"layer": 3
 		},
 
 		{
 			"name": "drone1",
 			"template": "drone1",
-			"x": 1000,
-			"y": 500,
+			"x": 1200,
+			"y": 400,
 			"AI": {
-				"produceProbability": 0.9
+				"produceProbability": 0.1
 			},
-			"layer": 2
+			"layer": 1
 		},
 
 		{
@@ -205,13 +206,6 @@
 			"y": 746,
 			"layer": 2
 		},
-		{
-			"name": "brick14",
-			"template": "brick1_3",
-			"x": 1200,
-			"y": 634,
-			"layer": 2
-		},
 
 		{
 			"name": "thpusher1",
@@ -230,13 +224,42 @@
 			"layer": 3
 		},
 		{
-			"name": "text_hit_brick",
-			"template": "text_hit_brick",
+			"name": "thp1",
+			"ignoreParentScale": true,
+			"template": "tutorial_hand_pointing",
+			"x": 1400,
+			"y": 780,
+			"angle": -25,
+			"layer": 3
+		},
+
+		{
+			"name": "text1",
+			"template": "text",
+			"texts": [
+				{
+				 	"text": "hit_bricks",
+					"fontSize": 100,
+					"x": 0,
+					"y": 0
+				}
+			],
 			"x": 960,
 			"y": 300,
 			"layer": 5,
 			"isDestroyOnPusherDragStart": true,
 			"fadeOutOnRemove": true
+		},
+
+		{
+			"name": "oddg1",
+			"template": "objects_debris_decor_generator1",
+			"lives": 1,
+			"AI": {
+				"updateDelay": 500
+			},
+			"x": 700,
+			"y": -300
 		}
 
 	]

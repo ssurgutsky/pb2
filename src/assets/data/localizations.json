@@ -353,18 +353,28 @@
 	],
 
 	"hit_drone": [
-		"Hit enemy's drone!",
-		"Сбей вражеский дрон!"
+		"Shoot down the drone!",
+		"Сбей дрон!"
 	],
 
-	"protect_fortress_props": [
-		"Protect Fortress properties!",
-		"Защити имущество Крепости!"
+	"destroy_drone": [
+		"Destroy drone!",
+		"Уничтожь дрон!"
 	],
 
-	"hit_brick": [
-		"Hit the brick!",
-		"Сбей кирпич!"
+	"save_ancient_art": [
+		"Save Ancient Art!",
+		"Спаси Древнее Искусство!"
+	],
+
+	"save_monkey": [
+		"Save Monkey Art!",
+		"Спаси обезьяну!"
+	],
+
+	"hit_bricks": [
+		"Hit the bricks!",
+		"Сбей кирпичи!"
 	],
 
 	"intro2_text01": [
@@ -387,10 +397,40 @@
 		"Delivery-TRX-027"
 	],
 
-	"extra_ball_name": [
-		"Extra bullet!",
-		"Еще один снаряд!"
+	"bullet2x_name": [
+		"Shots x2",
+		"Дробь x2"
+	],
+
+	"bullet1_name": [
+		"BulletM ready!",
+		"СнарядМ готов!"
+	],
+
+	"bullet2_name": [
+		"BulletB ready!",
+		"СнарядБ готов!"
+	],
+
+	"kill_hunter": [
+		"Kill Black Hunter!",
+		"Убей Черного Охотника!"
+	],
+
+	"kill_bomber": [
+		"Shoot down Bomber!",
+		"Сбей Бомбардировщик!"
+	],
+
+	"kill_drone_queen": [
+		"Shoot down Drone Queen!",
+		"Уничтожь Дрономатку!"
 	]
+
+
+
+
+
 
 
 

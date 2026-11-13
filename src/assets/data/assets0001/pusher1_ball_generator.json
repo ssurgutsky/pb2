@@ -1,6 +1,8 @@
 {
 	"name": "pusher1_ball_generator",
 	"template": "objects_generator",
+	"atlas": "assets0001",
+	"frame": "white10x10",
 
 	"AI": {
 		"subtype": "ball_generator",
@@ -10,13 +12,16 @@
 		"maxObjects": -1,
 		"parallelObjects": 1,
 
+		"produceFirstDelay": 1,
+		"produceDelay": 0.5,
 		"produce": [
 			{
 				"name": "Ball1",
 				"objType": "ball",
 				"template": "ball_big1",
-				"sx": 2,
-				"sy": 2,
+				"timeToLive": 10,
+				"sx": 2.5,
+				"sy": 2.5,
 				"lx": [-10, 10],
 				"ly": 0
 			},
@@ -50,8 +55,6 @@
 					}
 				]
 			}
-
 		]
-
 	}
 }

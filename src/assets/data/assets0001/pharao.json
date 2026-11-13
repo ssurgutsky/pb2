@@ -10,7 +10,7 @@
 	"livesHitSound": ["hit_block2","hit_pharao","hit_pharao","hit_pharao","hit_pharao"],
 	"livesEffect": true,
 	"hasDust": true,
-	"bodyMass": 5,
+	"bodyMass": 3,
 	"minHitImpulse": 1000,
 
 	"hitDebrises": [

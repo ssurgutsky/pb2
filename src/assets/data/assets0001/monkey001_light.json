@@ -1,9 +1,9 @@
 {
 	"name": "monkey001_light",
 	"objType": "monkey",
-	"shape": "POLYGON",
-	"shapeName": "monkey001shape",
 	"atlas": "assets0001",
+	"shape": "BOX",
+	"shapeParams": {"w":110,"h":280,"ofsX":0,"ofsY":0, "r":0},
 	"lives": 1,
 	"frame": "monkey001",
 	"bodyType": "DYNAMIC",

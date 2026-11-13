@@ -29,7 +29,7 @@
 				"gravityScale": 0,
 				"lx": -240,
 				"ly": 0,
-				"sy": 1,
+				"sx": 1,
 				"sy": 1.5
 			},
 			{
@@ -61,7 +61,8 @@
 					"angle": -90
 				},
 			"angle": -90,
-			"layer": 2
+			"timeToLiveOnDestroyLockedObject": 2,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "da2right",
@@ -70,7 +71,8 @@
 				{
 					"offset": {"x": 150, "y": 0}
 				},
-			"layer": 2
+			"timeToLiveOnDestroyLockedObject": 2,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "da3down",
@@ -81,7 +83,8 @@
 					"angle": 90
 				},
 			"angle": 90,
-			"layer": 2
+			"timeToLiveOnDestroyLockedObject": 2,
+			"fadeOutOnRemove": true
 		},
 		{
 			"name": "da3left",
@@ -92,7 +95,8 @@
 					"angle": 180
 				},
 			"angle": 180,
-			"layer": 2
+			"timeToLiveOnDestroyLockedObject": 2,
+			"fadeOutOnRemove": true
 		}
 	]
 }

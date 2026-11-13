@@ -25,6 +25,7 @@
 			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
 			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
 
+			{ "key": "objects_debris_decor_generator1", "url": "src/assets/data/assets0001/objects_debris_decor_generator1.json" },
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
@@ -64,10 +65,42 @@
 			{ "key": "debris_pharao2", "url": "src/assets/data/assets0001/debris_pharao2.json" },
 			{ "key": "debris_pharao3", "url": "src/assets/data/assets0001/debris_pharao3.json" },
 
+			{ "key": "brick1_3", "url": "src/assets/data/assets0001/brick1_3.json" },
+			{ "key": "brick1_3_sdd", "url": "src/assets/data/assets0001/brick1_3_sdd.json" },
+			{ "key": "brick1_3_1", "url": "src/assets/data/assets0001/brick1_3_1.json" },
+			{ "key": "brick1_3_1_1", "url": "src/assets/data/assets0001/brick1_3_1_1.json" },
+			{ "key": "brick1_3_1_2", "url": "src/assets/data/assets0001/brick1_3_1_2.json" },
+			{ "key": "brick1_3_2", "url": "src/assets/data/assets0001/brick1_3_2.json" },
+			{ "key": "brick1_3_2_1", "url": "src/assets/data/assets0001/brick1_3_2_1.json" },
+			{ "key": "brick1_3_2_2", "url": "src/assets/data/assets0001/brick1_3_2_2.json" },
+
 			{ "key": "monkey002_light", "url": "src/assets/data/assets0001/monkey002_light.json" },
 			{ "key": "monkey003_light", "url": "src/assets/data/assets0001/monkey003_light.json" },
-			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" }
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" },
 
+			{ "key": "soul1", "url": "src/assets/data/assets0001/soul1.json" },
+
+			{ "key": "crystal1", "url": "src/assets/data/assets0001/crystal1.json" },
+			{ "key": "debris_crystal1_1_1", "url": "src/assets/data/assets0001/debris_crystal1_1_1.json" },
+			{ "key": "debris_crystal1_1_2", "url": "src/assets/data/assets0001/debris_crystal1_1_2.json" },
+			{ "key": "debris_crystal1_2_1", "url": "src/assets/data/assets0001/debris_crystal1_2_1.json" },
+			{ "key": "debris_crystal1_2_2", "url": "src/assets/data/assets0001/debris_crystal1_2_2.json" },
+			{ "key": "debris_crystal1_atom1", "url": "src/assets/data/assets0001/debris_crystal1_atom1.json" },
+			{ "key": "debris_crystal1_atom2", "url": "src/assets/data/assets0001/debris_crystal1_atom2.json" },
+			{ "key": "debris_crystal1_atom3", "url": "src/assets/data/assets0001/debris_crystal1_atom3.json" },
+
+			{ "key": "dude1", "url": "src/assets/data/assets0001/dude1.json" },
+			{ "key": "dude1_body002", "url": "src/assets/data/assets0001/dude1_body002.json" },
+			{ "key": "dude1_body002_1", "url": "src/assets/data/assets0001/dude1_body002_1.json" },
+			{ "key": "dude1_body002_2", "url": "src/assets/data/assets0001/dude1_body002_2.json" },
+			{ "key": "dude1_debris1", "url": "src/assets/data/assets0001/dude1_debris1.json" },
+			{ "key": "dude1_debris2", "url": "src/assets/data/assets0001/dude1_debris2.json" },
+			{ "key": "dude1_debris3", "url": "src/assets/data/assets0001/dude1_debris3.json" },
+			{ "key": "dude1_head002", "url": "src/assets/data/assets0001/dude1_head002.json" },
+			{ "key": "dude1_head002_1", "url": "src/assets/data/assets0001/dude1_head002_1.json" },
+			{ "key": "dude1_head002_2", "url": "src/assets/data/assets0001/dude1_head002_2.json" },
+
+			{ "key": "text", "url": "src/assets/data/assets0001/text.json" }
 		],
 		"PHYSICS": [
 			{ "key": "physicsData", "url": "src/assets/data/assets0001/physicsData.json" }
@@ -75,8 +108,8 @@
 	},
 	"bg": "bg",
 	"balls": 20,
-	"tasks": 2,
-	"fails": 2,
+	"tasks": 1,
+	"fails": 4,
 	"objects": [
 
 		{
@@ -138,26 +171,41 @@
 		},
 
 		{
-			"name": "monkey1",
-			"template": "monkey002_light",
-			"lives": 5,
-			"x": 900,
-			"y": 900
+			"name": "brick1",
+			"template": "brick1_3",
+			"x": 700,
+			"y": 980,
+			"layer": 2
+		},
+
+		{
+			"name": "dude1_body",
+			"template": "dude1_body002",
+			"x": 700,
+			"y": 782,
+			"layer": 2
+		},
+		{
+			"name": "dude1_head",
+			"template": "dude1_head002",
+			"x": 700,
+			"y": 562,
+			"layer": 2
 		},
 
 		{
 			"name": "pharao1",
-			"template": "pharao_intro",
-			"x": 312,
-			"y": 400,
-			"layer": 3
+			"template": "pharao_light",
+			"x": 150,
+			"y": 200,
+			"layer": 1
 		},
 
 		{
 			"name": "pharao2",
 			"template": "pharao_light",
-			"x": 1036,
-			"y": 272,
+			"x": 780,
+			"y": 172,
 			"layer": 2
 		},
 		{
@@ -184,30 +232,46 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 
 		{
 			"name": "drone2",
 			"template": "drone2",
-			"x": 1900,
-			"y": 0,
+			"x": 2100,
+			"y": 300,
 			"AI": {
 				"produceProbability": 0.7
 			},
 			"layer": 3
 		},
 		{
-			"name": "drone1",
-			"template": "drone1",
-			"x": 500,
-			"y": -500,
-			"AI": {
-				"changeEnemy": true,
-				"changeEnemyInterval": 10
-			},
+			"name": "oddg1",
+			"template": "objects_debris_decor_generator1",
+			"lives": 1,
+			"x": 700,
+			"y": -300,
 			"layer": 3
+		},
+
+		{
+			"name": "text1",
+			"template": "text",
+			"createDelay": 0,
+			"texts": [
+				{
+				 	"text": "save_ancient_art",
+					"fontSize": 100,
+					"x": 0,
+					"y": 0
+				}
+			],
+			"x": 960,
+			"y": 900,
+			"layer": 5,
+			"isDestroyOnPusherDragStart": true,
+			"fadeOutOnRemove": true
 		}
 	]
 }

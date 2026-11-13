@@ -1,7 +1,7 @@
 {
 	"name": "debris_atom1",
-	"shape": "POLYGON",
-	"shapeName": "debris_atom1shape",
+	"shape": "BOX",
+	"shapeParams": {"w":35,"h":35,"ofsX":0,"ofsY":0, "r":0},
 	"bodyType": "DYNAMIC",
 	"atlas": "assets0001",
 	"frame": "debris_atom1",

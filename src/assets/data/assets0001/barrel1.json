@@ -4,11 +4,11 @@
 	"atlas": "assets0001",
 	"bodyType": "DYNAMIC",
 	"frame": "barrel1",
-	"shape": "POLYGON",
-	"shapeName": "barrel1shape",
+	"shape": "BOX",
+	"shapeParams": {"w":160,"h":260,"ofsX":0,"ofsY":0, "r":0},
 	"lives": 1,
 	"bodyMass": 3,
-	"minHitImpulse": 700,
+	"minHitImpulse": 1500,
 	"hitSound": "hit_block",
 	"angle": 0,
 
@@ -21,7 +21,10 @@
 			"vx": -1000,
 			"vy": 0,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"timeToLive": 2,
+			"fadeOutOnRemove": true,
+			"hitDamageLives": 2
 		},
 		{
 			"name": "bad2",
@@ -31,7 +34,10 @@
 			"vx": -1000,
 			"vy": -1000,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"timeToLive": 2,
+			"fadeOutOnRemove": true,
+			"hitDamageLives": 2
 		},
 		{
 			"name": "bad3",
@@ -39,9 +45,12 @@
 			"lx": 0,
 			"ly": -120,
 			"vx": 0,
-			"vy": -1000,
+			"vy": -1500,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"timeToLive": 2,
+			"fadeOutOnRemove": true,
+			"hitDamageLives": 2
 		},
 		{
 			"name": "bad4",
@@ -51,7 +60,10 @@
 			"vx": 1000,
 			"vy": -1000,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"timeToLive": 2,
+			"fadeOutOnRemove": true,
+			"hitDamageLives": 2
 		},
 		{
 			"name": "bad5",
@@ -61,18 +73,22 @@
 			"vx": 1000,
 			"vy": 0,
 			"sx": 0,
-			"sy": 0
+			"sy": 0,
+			"timeToLive": 2,
+			"fadeOutOnRemove": true,
+			"hitDamageLives": 2
 		},
 
 		{
 			"name": "bad5",
 			"template": "explosion",
 			"lx": 0,
-			"ly": 0,
+			"ly": -100,
 			"vx": 0,
-			"vy": 0,
-			"sx": 2,
-			"sy": 2,
+			"vy": -200,
+			"sx": 2.5,
+			"sy": 2.5,
+			"fadeOutOnRemove": true,
 			"useOwnAngle": true
 		}
 	]

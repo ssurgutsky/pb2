@@ -1,0 +1,14 @@
+{
+	"shape": "BOX",
+	"shapeParams": {"w":40,"h":40,"ofsX":0,"ofsY":0, "r":0},
+	"atlas": "assets0001",
+	"frame": "dude1_debris2",
+	"bodyMass": 1,
+	"minHitImpulse": 1000,
+	"lives": 1,
+	"timeToLive": 1,
+	"fadeOutOnRemove": true,
+	"hasDust": true,
+	"debrises": [
+	]
+}

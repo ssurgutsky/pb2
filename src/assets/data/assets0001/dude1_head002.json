@@ -1,0 +1,37 @@
+{
+	"objType": "dude1",
+	"shape": "BOX",
+	"shapeParams": {"w":100,"h":160,"ofsX":0,"ofsY":0, "r":0},
+	"atlas": "assets0001",
+	"lives": 3,
+	"livesFrames": ["dude1_head002_1","dude1_head002_2","dude1_head002_3"],
+	"livesBodyTypes": ["DYNAMIC","DYNAMIC","DYNAMIC"],
+	"livesCoins": [0,0,0],
+	"livesEffect": true,
+	"hasDust": true,
+	"bodyMass": 3,
+	"minHitImpulse": 1000,
+	"debrises": [
+		{
+			"name": "dude1d1",
+			"isFail": true,
+			"template": "dude1_head002_2",
+			"lx": 0,
+			"ly": 70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		},
+		{
+			"name": "dude1d21",
+			"template": "dude1_head002_1",
+			"lx": 0,
+			"ly": -70,
+			"vx": 0,
+			"vy": 0,
+			"sx": 0,
+			"sy": 0
+		}
+	]
+}

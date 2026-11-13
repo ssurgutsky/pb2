@@ -1,0 +1,35 @@
+{
+	"name": "drone_bomb_generator",
+	"template": "objects_generator",
+	"lives": -1,
+	"isDecor": true,
+	"forceDraggableDisabled": true,
+
+	"AI": {
+		"type": "object_generator",
+		"subtype": "",
+		"updateDelay": 1000,
+		"scanX": 200,
+		"scanY": 200,
+		"maxObjects": -1,
+		"parallelObjects": 1,
+
+		"produceFirstDelay": 1,
+		"produceDelay": 1,
+		"produceProbability": 0.5,
+		"produceOverParent": false,
+		"livesProduce": null,
+
+		"produce": [
+			{
+				"name": "bomb1",
+				"template": "bomb1",
+				"useOwnAngle": true,
+				"lx": 0,
+				"ly": 0,
+				"sy": 1,
+				"sy": 1
+			}
+		]
+	}
+}

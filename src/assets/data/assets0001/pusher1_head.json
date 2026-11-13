@@ -15,7 +15,7 @@
 	"bodyRotation": 0,
 	"#angle": 35,
 
-	"forceDraggableDisabled": false,
+	"forceDraggableDisabled": true,
 
 	"#tweens": {
 		"blink": {

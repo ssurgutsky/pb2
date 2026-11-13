@@ -3,12 +3,12 @@
 	"shape": "POLYGON",
 	"shapeName": "pharao216x200",
 	"atlas": "assets0001",
-	"lives": 99,
+	"lives": 30,
 	"frame": "pharao216x200_3",
 	"bodyType": "KINEMATIC",
 	"hitSound": "hit_pharao",
 	"hasDust": true,
-	"bodyMass": 5,
+	"bodyMass": 3,
 	"minHitImpulse": 1000,
 
 	"hitDebrises": [

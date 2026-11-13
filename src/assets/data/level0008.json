@@ -7,12 +7,13 @@
 			{ "key": "bg", "url": "src/assets/images/bg/bg0002.jpg" }
 		],
 		"AUDIO": [
-			{ "key": "music", "url": "src/assets/audio/music/music1.mp3" },
+			{ "key": "music", "url": "src/assets/audio/music/music2.mp3" },
 			{ "key": "move_drone", "url": "src/assets/audio/sound/move_drone.mp3" }
 		],
 		"JSON": [
 
 			{ "key": "spot", "url": "src/assets/data/assets0001/spot.json" },
+			{ "key": "spot_bg", "url": "src/assets/data/assets0001/spot_bg.json" },
 			{ "key": "game_ground", "url": "src/assets/data/assets0001/game_ground.json" },
 
 			{ "key": "ball_big1", "url": "src/assets/data/assets0001/ball_big1.json" },
@@ -25,12 +26,17 @@
 			{ "key": "objects_generator", "url": "src/assets/data/assets0001/objects_generator.json" },
 			{ "key": "pusher1_ball_generator", "url": "src/assets/data/assets0001/pusher1_ball_generator.json" },
 
+			{ "key": "objects_debris_decor_generator1", "url": "src/assets/data/assets0001/objects_debris_decor_generator1.json" },
 
 			{ "key": "smoke", "url": "src/assets/data/assets0001/smoke.json" },
 
 
 			{ "key": "drone1", "url": "src/assets/data/assets0001/drone1.json" },
 			{ "key": "drone2", "url": "src/assets/data/assets0001/drone2.json" },
+			{ "key": "drone1m", "url": "src/assets/data/assets0001/drone1m.json" },
+			{ "key": "drone1m_bg", "url": "src/assets/data/assets0001/drone1m_bg.json" },
+
+			{ "key": "drone_armour1", "url": "src/assets/data/assets0001/drone_armour1.json" },
 			{ "key": "drone_bullet1", "url": "src/assets/data/assets0001/drone_bullet1.json" },
 			{ "key": "debris_drone1_1", "url": "src/assets/data/assets0001/debris_drone1_1.json" },
 			{ "key": "debris_drone1_2", "url": "src/assets/data/assets0001/debris_drone1_2.json" },
@@ -79,6 +85,24 @@
 		},
 
 		{
+			"name": "drone1m_bg",
+			"template": "drone1m_bg",
+			"timeToLive": 5,
+			"x": 900,
+			"y": -200,
+			"sx": 0.7,
+			"sy": 0.7,
+			"layer": 1
+		},
+		{
+			"name": "spot_bg1",
+			"template": "spot_bg",
+			"x": 1300,
+			"y": 250,
+			"layer": 2
+		},
+
+		{
 			"name": "brick11",
 			"template": "brick1_3",
 			"x": 800,
@@ -104,7 +128,7 @@
 		{
 			"name": "Pusher1",
 			"template": "pusher1",
-			"x": 1720,
+			"x": 1650,
 			"y": 850
 		},
 
@@ -131,7 +155,7 @@
 				"produceProbability": 0.8
 			},
 			"x": 1200,
-			"y": 300,
+			"y": -800,
 			"layer": 2
 		},
 		{
@@ -141,8 +165,9 @@
 				"produceProbability": 0.8
 			},
 			"x": 200,
-			"y": 200,
-			"layer": 2
+			"y": -800,
+			"layer": 2,
+			"isDisabled": true
 		},
 
 		{
@@ -174,6 +199,18 @@
 			"alpha": 1,
 			"angle": 190,
 			"layer": 1
+		},
+
+		{
+			"name": "oddg1",
+			"template": "objects_debris_decor_generator1",
+			"lives": 1,
+			"AI": {
+				"updateDelay": 500
+			},
+			"x": 700,
+			"y": -300
 		}
+
 	]
 }
